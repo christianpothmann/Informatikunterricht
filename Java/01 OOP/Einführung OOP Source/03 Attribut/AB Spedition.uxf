@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>340</x>
+      <y>0</y>
+      <w>290</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Container
+-
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>670</x>
+      <y>0</y>
+      <w>290</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Container
+-
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>550</x>
+      <y>350</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>*Speditionsverwaltung*
+-
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>180</x>
+      <y>170</y>
+      <w>290</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>Kunde
+-
+
+
+valign=top
+fontsize=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>180</x>
+      <y>450</y>
+      <w>290</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Kunde
+-
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>550</x>
+      <y>200</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Containerbuchhaltung
+-
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>300</x>
+      <y>360</y>
+      <w>190</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Kundendatenbank
+-
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>140</y>
+      <w>60</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>140</y>
+      <w>60</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>400</y>
+      <w>80</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>330</y>
+      <w>80</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>260</y>
+      <w>30</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>390</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>820</x>
+      <y>360</y>
+      <w>190</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Flotte
+-
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>850</x>
+      <y>180</y>
+      <w>290</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Schiff
+-
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>560</x>
+      <y>510</y>
+      <w>190</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Fuhrpark
+-
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>750</x>
+      <y>390</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1000</x>
+      <y>400</y>
+      <w>80</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>850</x>
+      <y>450</y>
+      <w>290</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Schiff
+-
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1000</x>
+      <y>330</y>
+      <w>80</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;50.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>430</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>340</x>
+      <y>630</y>
+      <w>290</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>LKW
+-
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>670</x>
+      <y>630</y>
+      <w>290</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>LKW
+-
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>570</y>
+      <w>60</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>570</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>340</x>
+      <y>840</y>
+      <w>290</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>c1: Container
+-
+id = "C12345"
+größe = 16 m³
+inhalt = "Kleidung"
+wert = 12.000 €
+kunde = "Wertheim"
+gewicht = 2,5 t
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>670</x>
+      <y>840</y>
+      <w>290</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>c2: Container
+-
+id = "C453287"
+größe = 16 m³
+inhalt = "Auto"
+wert = 14.500 €
+kunde = "Hennes"
+gewicht = 1,5 t
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>550</x>
+      <y>1190</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>*sv: Speditionsverwaltung*
+-
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>180</x>
+      <y>1010</y>
+      <w>290</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>k1: Kunde
+-
+name = "Wertheim"
+adresse = "Friesenplatz 1, 50678 Köln"
+ansprechp = "Herr Meier"
+telefon = "0221-456679"
+
+valign=top
+fontsize=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>180</x>
+      <y>1290</y>
+      <w>290</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>k2: Kunde
+-
+name = "Hennes"
+adresse = "Venloer Str. 123"
+ansprechp = "Frau Hennes"
+telefon = "0177-7766551"
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>550</x>
+      <y>1040</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>cb: Containerbuchhaltung
+-
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>300</x>
+      <y>1200</y>
+      <w>190</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>kdb: Kundendatenbank
+-
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>980</y>
+      <w>60</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>980</y>
+      <w>60</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>1240</y>
+      <w>80</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>1170</y>
+      <w>80</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>1100</y>
+      <w>30</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>1230</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>820</x>
+      <y>1200</y>
+      <w>190</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>fl: Flotte
+-
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>850</x>
+      <y>1020</y>
+      <w>290</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>s1: Schiff
+-
+name = "Elfriede"
+typ = "Container-3"
+standort = "Bremen"
+ziel = "Rio de Janeiro"
+kapazität = 20.000 t
+ladung = 17.500 t
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>560</x>
+      <y>1350</y>
+      <w>190</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>fp: Fuhrpark
+-
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>750</x>
+      <y>1230</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1000</x>
+      <y>1240</y>
+      <w>80</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>850</x>
+      <y>1290</y>
+      <w>290</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>s2: Schiff
+-
+name = "Getrud"
+typ = "Container-2"
+standort = "Kapstadt"
+ziel = "Hamburg"
+kapazität = 16.000 t
+ladung = 14.800 t
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1000</x>
+      <y>1170</y>
+      <w>80</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;50.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>1270</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>340</x>
+      <y>1470</y>
+      <w>290</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lkw1: LKW
+-
+kennzeichen = "K-FC 123"
+typ = "MAN"
+standort = "Bremen"
+fahrer = "Heinz Müller"
+ladung = "C12345"
+
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>670</x>
+      <y>1470</y>
+      <w>290</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lkw2: LKW
+-
+kennzeichen = "K-AC 456"
+typ = "Scania"
+standort = "Hamburg"
+fahrer = "Karl Bauer"
+ladung = "C33446"
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>1410</y>
+      <w>60</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>1410</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;60.0</additional_attributes>
+  </element>
+</diagram>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>78</x>
+      <y>104</y>
+      <w>130</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Fuhrpark
+-
+
+-
++ Fuhrpark()
++ main()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>325</x>
+      <y>104</y>
+      <w>234</w>
+      <h>247</h>
+    </coordinates>
+    <panel_attributes>Fahrzeug
+-
+- tankGröße: double
+- füllstand: double
+- kmStand: double
+-
++ Fahrzeug(pt: double)
++ tanken(pt: double)
++ fahren(pkm: double)
++ getTankGröße(): double
++ getFüllstand(): double
++ getKmStand(): double
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>195</x>
+      <y>130</y>
+      <w>156</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- f1, - f2</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>

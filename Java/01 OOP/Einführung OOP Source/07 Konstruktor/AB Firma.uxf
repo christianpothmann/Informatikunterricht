@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>65</x>
+      <y>13</y>
+      <w>169</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Firma
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>377</x>
+      <y>13</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Mitarbeiter
+-
+name: String
+position: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>221</x>
+      <y>26</y>
+      <w>182</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1, m2, m3</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>377</x>
+      <y>143</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Abteilung
+-
+bezeichnung: String
+raum: int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>156</x>
+      <y>91</y>
+      <w>247</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+ab1
+ab2</panel_attributes>
+    <additional_attributes>170.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

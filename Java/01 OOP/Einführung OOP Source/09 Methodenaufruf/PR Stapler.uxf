@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <help_text/>
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>325</x>
+      <y>455</y>
+      <w>182</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>StaplerStrg
+-
+höhe, winkel: double
+-
+heben()
+senken()
+neigenVor()
+neigenZurück()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>338</x>
+      <y>286</y>
+      <w>156</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>LagerApp
+-
+
+-
+LagerApp()
+*main()*
+
+f
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>403</x>
+      <y>390</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+st1, st2</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>754</x>
+      <y>468</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>: StaplerStrg
+-
+höhe = 0
+winkel = 0
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>585</x>
+      <y>468</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>: StaplerStrg
+-
+höhe = 0
+winkel = 0
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>663</x>
+      <y>312</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>la: LagerApp
+-
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>390</y>
+      <w>78</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+st1</panel_attributes>
+    <additional_attributes>40.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>390</y>
+      <w>78</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+st2</panel_attributes>
+    <additional_attributes>10.0;60.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>533</x>
+      <y>260</y>
+      <w>39</w>
+      <h>390</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;280.0</additional_attributes>
+  </element>
+</diagram>

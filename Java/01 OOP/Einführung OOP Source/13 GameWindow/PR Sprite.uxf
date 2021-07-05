@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>351</x>
+      <y>741</y>
+      <w>247</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Sprite
+-
+x, y: double
+speed: double
+richtung: double
+-
+*Sprite(pdatei: String)*
+*draw(pwin: GameWindow)*
+setPosition(px, py: double)
+...
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>741</y>
+      <w>130</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Game
+-
+
+-
+Game()
+main()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>767</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+sp1
+sp2</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>585</x>
+      <y>767</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+*image*</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>689</x>
+      <y>741</y>
+      <w>169</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>*GameImage*
+-
+
+-
+GameImage(
+      pdatei: String)
+...
+bg=#cccccc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>455</x>
+      <y>962</y>
+      <w>403</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>*GameWindow*
+-
+
+-
+GameWindow(px, py, pw, ph: double, pt: String)
+clear()
+paintFrame()
+...
+bg=#cccccc
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>182</x>
+      <y>845</y>
+      <w>299</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=*window*</panel_attributes>
+    <additional_attributes>210.0;130.0;10.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>0</y>
+      <w>130</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Game
+-
+
+-
+Game()
+main()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>364</x>
+      <y>0</y>
+      <w>234</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>Sprite
+-
+x, y: double
+speed: double
+richtung: double
+-
+setPosition(px, py: double)
+setSpeed(ps: double)
+setRichtung(pr: double)
+bewege()
+...
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>26</y>
+      <w>143</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+sp1
+sp2</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>351</x>
+      <y>338</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Sprite
+-
+
+-
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>338</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Game
+-
+
+-
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>364</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+sp1
+sp2</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>494</x>
+      <y>364</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+*image*</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>598</x>
+      <y>338</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>*GameImage*
+-
+
+
+
+bg=#cccccc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>598</x>
+      <y>481</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>*GameWindow*
+-
+
+
+
+
+bg=#cccccc
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>169</x>
+      <y>429</y>
+      <w>455</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+*window*</panel_attributes>
+    <additional_attributes>330.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>572</x>
+      <y>286</y>
+      <w>208</w>
+      <h>325</h>
+    </coordinates>
+    <panel_attributes>lt=.
+/pm.gamewindow/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>78</x>
+      <y>286</y>
+      <w>455</w>
+      <h>325</h>
+    </coordinates>
+    <panel_attributes>lt=.
+/dein BlueJ-Projekt/</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

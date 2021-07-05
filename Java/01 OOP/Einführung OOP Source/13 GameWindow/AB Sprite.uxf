@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>286</x>
+      <y>39</y>
+      <w>247</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Sprite
+-
+x, y: double
+speed: double
+richtung: double
+-
+Sprite(pimg: GameImage)
+draw(pwin: GameWindow)
+setPosition(px, py: double)
+...
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>65</x>
+      <y>39</y>
+      <w>130</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>*Game*
+-
+
+-
+*Game()*
+*main()*
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>182</x>
+      <y>65</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+*sp1*
+*sp2*</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>65</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+image</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>637</x>
+      <y>39</y>
+      <w>234</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>GameImage
+-
+
+-
+GameImage(pdatei: String)
+
+bg=#cccccc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>286</x>
+      <y>260</y>
+      <w>403</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>GameWindow
+-
+
+-
+GameWindow(px, py, pw, ph: double, pt: String)
+clear()
+drawImage(pimg: GameImage, px, py: int)
+paintFrame()
+
+bg=#cccccc
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>117</x>
+      <y>143</y>
+      <w>195</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=*window*</panel_attributes>
+    <additional_attributes>130.0;130.0;10.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

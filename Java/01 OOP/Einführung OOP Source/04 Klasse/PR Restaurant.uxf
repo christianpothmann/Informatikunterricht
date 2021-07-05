@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>14</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>154</x>
+      <y>84</y>
+      <w>420</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>*g1: Gericht*
+-
+name = "Pizza Hawaii"
+beschreibung = "Schinken, Ananas"
+preis = 7,99
+
+valign=top
+fontsize=18
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>154</x>
+      <y>280</y>
+      <w>420</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>*g2: Gericht*
+-
+name = "Rumpsteak"
+beschreibung = "mit Bratkartoffeln"
+preis = 15,99
+
+valign=top
+fontsize=18
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>616</x>
+      <y>0</y>
+      <w>42</w>
+      <h>476</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;320.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>154</x>
+      <y>14</y>
+      <w>420</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>*Objekte*
+fontsize=20
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>742</x>
+      <y>532</y>
+      <w>294</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>*Gericht*
+-
+name: Text
+beschreibung: Text
+preis: Geldbetrag
+
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>686</x>
+      <y>14</y>
+      <w>294</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>*Klasse*
+fontsize=20
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>686</x>
+      <y>154</y>
+      <w>294</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>*Gericht*
+-
+
+
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>532</y>
+      <w>294</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>*Gericht*
+-
+name: Text
+
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>406</x>
+      <y>532</y>
+      <w>294</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>*Gericht*
+-
+name: Text
+beschreibung: Text
+
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>182</x>
+      <y>840</y>
+      <w>392</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>*b1: Benutzer*
+-
+name = "Freddy"
+email = "freddy@email.com"
+passwort = "12345"
+bezahlart = "Paypal"
+
+valign=top
+fontsize=18
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>182</x>
+      <y>1064</y>
+      <w>392</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>*b2: Benutzer*
+-
+name = "Paula"
+email = "paula@gmx.de"
+passwort = "98765"
+bezahlart = "Kreditkarte"
+
+valign=top
+fontsize=18
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>686</x>
+      <y>896</y>
+      <w>322</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>
+-
+
+
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>182</x>
+      <y>770</y>
+      <w>392</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>*Objekte*
+fontsize=20
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>686</x>
+      <y>770</y>
+      <w>322</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>*Klasse*
+fontsize=20
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>616</x>
+      <y>756</y>
+      <w>42</w>
+      <h>518</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;350.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

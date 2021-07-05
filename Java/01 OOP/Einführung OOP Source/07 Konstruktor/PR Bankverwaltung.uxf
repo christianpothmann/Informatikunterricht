@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>91</x>
+      <y>52</y>
+      <w>169</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Bankverwaltung
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>351</x>
+      <y>52</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Konto
+-
+inhaber: String
+ktoStand: double
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>65</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+kto1
+kto2</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>78</x>
+      <y>312</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>bv: Bankverwaltung
+-
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>351</x>
+      <y>260</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>:Konto
+-
+inhaber = null
+ktoStand = 0.0
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>351</x>
+      <y>377</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>:Konto
+-
+inhaber = null
+ktoStand = 0.0
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>299</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+kto1</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>364</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+kto2</panel_attributes>
+    <additional_attributes>80.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>26</x>
+      <y>208</y>
+      <w>663</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;490.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>39</x>
+      <y>182</y>
+      <w>182</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>/Klassendiagramm/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>39</x>
+      <y>221</y>
+      <w>182</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>/Objektdiagramm/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>78</x>
+      <y>559</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>bv: Bankverwaltung
+-
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>546</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+kto1</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>611</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+kto2</panel_attributes>
+    <additional_attributes>80.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>351</x>
+      <y>533</y>
+      <w>52</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>null
+fontsize=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>351</x>
+      <y>637</y>
+      <w>52</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>null
+fontsize=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>741</x>
+      <y>39</y>
+      <w>169</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Bankverwaltung
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1001</x>
+      <y>39</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Konto
+-
+inhaber: String
+ktoStand: double
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>897</x>
+      <y>52</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+kto1
+kto2</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1001</x>
+      <y>169</y>
+      <w>182</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Aktiendepot
+-
+inhaber: String
+aktie: String
+kurs: double
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>117</y>
+      <w>195</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+ad1
+ad2</panel_attributes>
+    <additional_attributes>130.0;90.0;10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

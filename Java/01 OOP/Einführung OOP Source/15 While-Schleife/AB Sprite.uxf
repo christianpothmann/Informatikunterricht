@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>507</x>
+      <y>78</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Sprite
+-
+
+-
+
+bg=#cccccc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>234</x>
+      <y>78</y>
+      <w>156</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>*Game*
+-
+
+-
+*Game()*
+*aufgabe1()*
+*aufgabe2()*
+*aufgabe3()*
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>377</x>
+      <y>91</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+*sp1*
+*sp2*</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>91</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+image</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>767</x>
+      <y>78</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>GameImage
+-
+
+-
+
+bg=#cccccc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>507</x>
+      <y>195</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>GameWindow
+-
+
+-
+
+bg=#cccccc
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>377</x>
+      <y>221</y>
+      <w>156</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+*window*</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>

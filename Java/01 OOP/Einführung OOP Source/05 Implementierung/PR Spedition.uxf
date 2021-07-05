@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>416</x>
+      <y>78</y>
+      <w>234</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Container
+-
+id: Text
+größe: Zahl
+inhalt: Text
+wert: Geldbetrag
+kunde: Text
+gewicht: Zahl
+
+fontsize=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>78</x>
+      <y>78</y>
+      <w>234</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>c1: Container
+-
+id = "C12345"
+größe = 16 m³
+inhalt = "Kleidung"
+wert = 12.000 €
+kunde = "Wertheim"
+gewicht = 2,5 t
+
+valign=top
+fontsize=16
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>78</x>
+      <y>26</y>
+      <w>234</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>*Objekt*
+halign=center
+fontsize=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>416</x>
+      <y>26</y>
+      <w>234</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>*Entwurf*
+halign=center
+fontsize=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>754</x>
+      <y>78</y>
+      <w>234</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Container
+-
+id: String
+größe: double
+inhalt: String
+wert: double
+kunde: String
+gewicht: double
+
+fontsize=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>754</x>
+      <y>26</y>
+      <w>234</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>*Java*
+halign=center
+fontsize=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

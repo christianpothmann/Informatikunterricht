@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <help_text/>
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>247</x>
+      <y>650</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>stp: StaplerStrg
+-
+höhe = 0
+winkel = 0
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>156</x>
+      <y>585</y>
+      <w>377</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>270.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>169</x>
+      <y>559</y>
+      <w>169</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>/Klassendiagramm/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>169</x>
+      <y>598</y>
+      <w>169</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>/Objektdiagramm/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>611</x>
+      <y>169</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>stp: StaplerStrg
+-
+höhe = 10
+winkel = 0
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>247</x>
+      <y>377</y>
+      <w>182</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>StaplerStrg
+-
+höhe, winkel: double
+-
+heben()
+senken()
+neigenVor()
+neigenZurück()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>611</x>
+      <y>273</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>stp: StaplerStrg
+-
+höhe = 20
+winkel = 0
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>247</x>
+      <y>39</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>StaplerStrg
+-
+höhe, winkel: double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>247</x>
+      <y>247</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>stp: StaplerStrg
+-
+höhe = 0
+winkel = 0
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>156</x>
+      <y>182</y>
+      <w>377</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>270.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>169</x>
+      <y>156</y>
+      <w>169</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>/Klassendiagramm/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>169</x>
+      <y>195</y>
+      <w>169</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>/Objektdiagramm/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>611</x>
+      <y>377</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>stp: StaplerStrg
+-
+höhe = 30
+winkel = 0
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>611</x>
+      <y>481</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>stp: StaplerStrg
+-
+höhe = 30
+winkel = 5
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>611</x>
+      <y>65</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>stp: StaplerStrg
+-
+höhe = 0
+winkel = 0
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>611</x>
+      <y>585</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>stp: StaplerStrg
+-
+höhe = 30
+winkel = -5
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

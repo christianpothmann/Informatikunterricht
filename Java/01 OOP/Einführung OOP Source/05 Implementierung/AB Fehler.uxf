@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>78</x>
+      <y>65</y>
+      <w>182</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>class Roboter
+-
+String Name;
+typ: Text;
+Achse1: zahl
+Double gewicht
+aktiv: ja/nein</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>78</x>
+      <y>273</y>
+      <w>182</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>Roboter
+-
+Name = Fräsroboter
+Achse1 = 5,5°
+Achse2 = 10°
+gewicht = 10 t
+aktiv = ja
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

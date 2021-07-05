@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>676</x>
+      <y>104</y>
+      <w>208</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Container
+-
+id: String
+größe, gewicht: double
+kunde, inhalt: String
+wert: double
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>923</x>
+      <y>104</y>
+      <w>208</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Kunde
+-
+name, adresse: String
+ansprechpartner: String
+telefon: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>676</x>
+      <y>273</y>
+      <w>208</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Schiff
+-
+name, typ: String
+standort, ziel: String
+kapazität, ladung: int
+aufSee: boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>923</x>
+      <y>273</y>
+      <w>208</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>LKW
+-
+kennzeichen, typ: String
+standort, fahrer: String
+containerid: String
+unterwegs: boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>65</x>
+      <y>104</y>
+      <w>208</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Container
+-
+id: Text
+größe, gewicht: Zahl
+kunde, inhalt: Text
+wert: Zahl
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>104</y>
+      <w>208</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Kunde
+-
+name, adresse: Text
+ansprechpartner: Text
+telefon: Text</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>65</x>
+      <y>273</y>
+      <w>208</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Schiff
+-
+name, typ: Text
+standort, ziel: Text
+kapazität, ladung: zahl
+aufSee: ja/nein</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>273</y>
+      <w>208</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>LKW
+-
+kennzeichen, typ: Text
+standort, fahrer: Text
+containerid: Text
+unterwegs: ja/nein</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>65</x>
+      <y>39</y>
+      <w>91</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Aufgabe</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>676</x>
+      <y>39</y>
+      <w>91</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Lösung</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

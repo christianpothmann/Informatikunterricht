@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>143</x>
+      <y>13</y>
+      <w>130</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Bank
+-
+
+-
++ Bank()
++ main()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>91</x>
+      <y>195</y>
+      <w>221</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Konto
+-
+- stand
+-
++ einzahlen(pb: double)
++ auszahlen(pb: double)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>195</x>
+      <y>117</y>
+      <w>143</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- kto1, - kto2</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>481</x>
+      <y>39</y>
+      <w>130</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>bv: Bank
+-
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>572</x>
+      <y>195</y>
+      <w>130</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>:Konto
+-
+stand = 100.0
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>390</x>
+      <y>195</y>
+      <w>130</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>:Konto
+-
+stand = 50.0
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>572</x>
+      <y>104</y>
+      <w>91</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+kto1</panel_attributes>
+    <additional_attributes>50.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>442</x>
+      <y>104</y>
+      <w>91</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+kto2</panel_attributes>
+    <additional_attributes>10.0;70.0;50.0;10.0</additional_attributes>
+  </element>
+</diagram>

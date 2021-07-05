@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <help_text/>
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>273</y>
+      <w>208</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Produkt
+-
+name: String
+ekPreis, vkPreis: double
+anzahl: int
+-
+*setName(pn: String)*
+*setPreise(pek, pvk: int)*
+*einkaufen(panz: int)*
+*verkaufen(panz: int)*
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>26</x>
+      <y>104</y>
+      <w>156</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>InventarApp
+-
+
+-
+InventarApp()
+main()
+
+f
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>91</x>
+      <y>208</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+p1, p2</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>533</x>
+      <y>260</y>
+      <w>195</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>: Produkt
+-
+name = "TabletPC"
+ekPreis = 200.0
+vkPreis = 399.0
+anzahl = 15
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>663</x>
+      <y>104</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>ia: InventarApp
+-
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>182</y>
+      <w>91</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+p1</panel_attributes>
+    <additional_attributes>10.0;60.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>182</y>
+      <w>91</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+p2</panel_attributes>
+    <additional_attributes>50.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>273</x>
+      <y>273</y>
+      <w>208</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Produkt
+-
+name: String
+ekPreis, vkPreis: double
+anzahl: int
+-
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>299</x>
+      <y>104</y>
+      <w>156</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>InventarApp
+-
+
+-
+InventarApp()
+main()
+
+f
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>364</x>
+      <y>208</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+p1, p2</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>754</x>
+      <y>260</y>
+      <w>195</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>: Produkt
+-
+name = "Smartphone"
+ekPreis = 75.0
+vkPreis = 129.0
+anzahl = 39
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
