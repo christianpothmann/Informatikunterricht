@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <help_text/>
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>78</x>
+      <y>65</y>
+      <w>143</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Spedition
+-
+
+-
+main</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>78</x>
+      <y>221</y>
+      <w>143</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Produkt
+-
+name: Text
+anzahl: Zahl
+-
+hinzufügen
+entnehmen</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>637</x>
+      <y>65</y>
+      <w>143</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Spedition
+-
+
+-
++ Firma()
++ main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>923</x>
+      <y>325</y>
+      <w>195</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>List
+template=Produkt
+-
+
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>299</x>
+      <y>65</y>
+      <w>234</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>Lager
+-
+kapazität: Zahl
+Datensammlung&lt;Produkt&gt;
+-
+einlagern
+auslagern
+inventur</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>208</x>
+      <y>78</y>
+      <w>117</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lag
+</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>897</x>
+      <y>65</y>
+      <w>208</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Lager
+-
++ kapazität: double
+-
++ Lager(pk: double)
++ getKapazität(): int
++ einlagern(pp: Produkt)
++ auslagern(pn: String,
+     pa: int): Produkt
++ inventur()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>767</x>
+      <y>78</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- lag
+</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>637</x>
+      <y>247</y>
+      <w>208</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Produkt
+-
+- name: String
+- anzahl: int
+-
++ Produkt(pn: String)
++ getName(): String
++ hinzufügen(pAnz: int)
++ entnehmen(pAnz: int)
++ getAnzahl(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>988</x>
+      <y>247</y>
+      <w>117</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- produkte
+</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

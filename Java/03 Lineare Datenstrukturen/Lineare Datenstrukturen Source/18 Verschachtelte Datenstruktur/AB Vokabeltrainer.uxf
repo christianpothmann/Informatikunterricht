@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>36</y>
+      <w>240</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>Vokabeltrainer
+-
+- sprache1, sprache2: String
+-
++ Vokabeltrainer()
++ hinzufügen()
++ ausgeben()
++ trainieren()
++ main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>384</x>
+      <y>24</y>
+      <w>168</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>template=Vokabel
+List
+-
+
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>276</x>
+      <y>60</y>
+      <w>132</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- vListe</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>252</y>
+      <w>240</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>Vokabel
+-
+- begriff: String
+--
++ Vokabel(pb: String)
++ getBegriff(): String
++ übersHinzufügen(pü: String)
++ getÜbersetzungen():
+      List&lt;String&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>384</x>
+      <y>240</y>
+      <w>156</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>template=String
+List
+-
+
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>276</x>
+      <y>276</y>
+      <w>132</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- üListe</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>936</x>
+      <y>24</y>
+      <w>168</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>template=Vokabel
+List
+-
+
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>828</x>
+      <y>60</y>
+      <w>132</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- vListe</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>696</x>
+      <y>36</y>
+      <w>144</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>Vokabeltrainer
+-
+
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>936</x>
+      <y>192</y>
+      <w>156</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>template=String
+List
+-
+
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1152</x>
+      <y>24</y>
+      <w>168</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>template=Vokabel
+ListNode
+-
+
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1044</x>
+      <y>60</y>
+      <w>132</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- first
+-last
+-current</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>756</x>
+      <y>120</y>
+      <w>480</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- content</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;40.0;380.0;40.0;380.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>696</x>
+      <y>204</y>
+      <w>144</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>Vokabel
+-
+
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1152</x>
+      <y>192</y>
+      <w>156</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>template=String
+ListNode
+-
+
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1044</x>
+      <y>228</y>
+      <w>132</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- first
+-last
+-current</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>828</x>
+      <y>228</y>
+      <w>132</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- üListe</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1368</x>
+      <y>204</y>
+      <w>120</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>String
+-
+
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1260</x>
+      <y>228</y>
+      <w>132</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- content</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1236</x>
+      <y>96</y>
+      <w>96</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- next</panel_attributes>
+    <additional_attributes>10.0;30.0;10.0;60.0;60.0;60.0;60.0;10.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1236</x>
+      <y>264</y>
+      <w>96</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- next</panel_attributes>
+    <additional_attributes>10.0;30.0;10.0;60.0;60.0;60.0;60.0;10.0;30.0;10.0</additional_attributes>
+  </element>
+</diagram>

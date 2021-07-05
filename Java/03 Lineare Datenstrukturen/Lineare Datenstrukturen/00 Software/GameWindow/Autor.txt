@@ -1,0 +1,3 @@
+Autor der Bibliothek pm.gamewindow:
+Christian Pothmann (cpothmann.de)
+Freie Software unter GPL, siehe License.txt

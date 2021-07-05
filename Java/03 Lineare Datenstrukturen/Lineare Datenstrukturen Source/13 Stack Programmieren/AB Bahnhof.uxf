@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>444</x>
+      <y>36</y>
+      <w>288</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Stack
+template=Waggon
+--
+ 
+--
++ Stack()
++ isEmpty(): boolean
++ push(pContent: Waggon)
++ pop()
++ top(): Waggon</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>204</y>
+      <w>84</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+/enthält/
+</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>444</x>
+      <y>288</y>
+      <w>240</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>Waggon
+--
+- farbe: String
+--
++ Waggon(pfarbe: String)
++ getFarbe(): String
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>36</x>
+      <y>48</y>
+      <w>288</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>Bahnhof
+--
+
+--
++ Bahnhof()
++ fuellen()
++ sortieren()
++ ausgeben(gleis: Stack&lt;Waggon&gt;)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>312</x>
+      <y>72</y>
+      <w>156</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- gleis1
+- gleis2
+- gleis3</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>

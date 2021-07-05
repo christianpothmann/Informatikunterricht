@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>336</x>
+      <y>48</y>
+      <w>312</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>Stack 
+template=ContentType
+-
+ 
+-
++ Stack()
++ isEmpty(): boolean
++ push(pContent: ContentType)
++ pop()
++ top(): ContentType</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>696</x>
+      <y>72</y>
+      <w>120</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>StackNode
+-
+ 
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>576</x>
+      <y>84</y>
+      <w>144</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- head</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>36</y>
+      <w>132</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- next</panel_attributes>
+    <additional_attributes>30.0;60.0;60.0;60.0;60.0;10.0;10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>684</x>
+      <y>228</y>
+      <w>144</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=.
+ContentType
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>744</x>
+      <y>144</y>
+      <w>96</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- content</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>216</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Element 1
+bg=white
+transparency=0
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>36</x>
+      <y>60</y>
+      <w>144</w>
+      <h>204</h>
+    </coordinates>
+    <panel_attributes>bg=#BBE0E3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>168</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Element 2
+bg=white
+transparency=0
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>120</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Element 3
+bg=white
+transparency=0
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>72</y>
+      <w>120</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Element 4
+bg=white
+transparency=0
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,81 @@
+public class AdressVerwaltung
+{
+    // ...
+
+    public void kontaktAnlegen()
+    {
+        String n, v, t, e;
+        Kontakt k;
+
+        Console.println("== Neuen Kontakt hinzufügen ==");
+        Console.print("Nachname: ");
+        n = Console.readln();
+
+        // ... Weitere Daten analog
+        
+        // ... Kontakt erzeugen
+        // ... Kontakt ins Adressbuch einfügen
+
+        Console.println("Kontakt hinzugefügt.");
+        Console.readln();
+    }
+
+
+    public void kontaktDetails()
+    {
+        String name;
+        Kontakt k;
+
+        Console.println("== Kontaktdetails ==");
+        Console.print("Nachname: ");
+        name = Console.readln();
+
+        // ... Kontakt im Adressbuch suchen
+
+        if (k != null)
+        {
+            // ... Daten von k ausgeben
+        }
+        else
+        {
+            Console.println("Es gibt keinen Kontakt mit diesem Namen.");
+        }
+        Console.readln();
+    }
+
+
+    public void main()
+    {
+        int wahl;
+        do
+        {
+            Console.clear();
+            Console.println("== Adressbuch - Hauptmenü ==");
+            Console.println("Wählen Sie einen der folgenden Punkte:");
+            Console.println("1. Neuer Kontakt");
+            Console.println("2. Kontakte auflisten");
+            Console.println("3. Kontaktdetails");
+            Console.println("4. Programm beenden");
+            wahl = Console.readInt();
+            
+            if (wahl == 1)
+            {
+                kontaktAnlegen();
+            }
+            else if (wahl == 2)
+            {
+                ab.namenAusgeben();
+            }
+            else if (wahl == 3)
+            {
+                kontaktDetails();
+            }
+            else if (wahl != 4)
+            {
+                Console.println("Falsche Eingabe"); 
+            }
+        } while (wahl != 4);
+
+        Console.println("Auf Wiedersehen!");
+    }
+}

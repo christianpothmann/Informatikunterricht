@@ -1,0 +1,5 @@
+Zunächst nur S.1 austeilen
+SuS lösen das Damenproblem und formulieren einen Algorithmus
+
+Dann die restlichen Seiten (mit der Lösung des Damenproblems)
+SuS lösen Aufg. 2 und 3

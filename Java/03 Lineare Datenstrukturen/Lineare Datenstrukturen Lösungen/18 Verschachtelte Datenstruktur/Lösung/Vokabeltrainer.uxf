@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>143</x>
+      <y>221</y>
+      <w>65</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+first</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>676</x>
+      <y>338</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>741</x>
+      <y>286</y>
+      <w>117</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+next
+</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>195</y>
+      <w>494</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+last</panel_attributes>
+    <additional_attributes>340.0;70.0;340.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>221</x>
+      <y>221</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+current</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>286</y>
+      <w>403</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+next
+</panel_attributes>
+    <additional_attributes>290.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>182</x>
+      <y>338</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>130</x>
+      <y>169</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: List
+-
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>130</x>
+      <y>286</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: ListNode
+-
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>104</x>
+      <y>403</y>
+      <w>182</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: Vokabel
+-
+begriff = "laufen"
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>624</x>
+      <y>286</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: ListNode
+-
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>91</x>
+      <y>26</y>
+      <w>208</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>: Vokabeltrainer
+-
+sprache1 = "Deutsch"
+sprache2 = "Englisch"
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>182</x>
+      <y>104</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+vListe</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>832</x>
+      <y>286</y>
+      <w>52</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>null
+valign=center
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>65</x>
+      <y>546</y>
+      <w>91</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+last</panel_attributes>
+    <additional_attributes>50.0;180.0;10.0;180.0;10.0;10.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>130</x>
+      <y>520</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: List
+-
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>182</x>
+      <y>455</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+üListe</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>130</x>
+      <y>637</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: ListNode
+-
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>143</x>
+      <y>572</y>
+      <w>65</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+first</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>221</x>
+      <y>572</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+current</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>650</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>364</x>
+      <y>637</y>
+      <w>117</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+data = "run"
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>130</x>
+      <y>754</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: ListNode
+-
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>767</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>364</x>
+      <y>754</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+data = "jog"
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>182</x>
+      <y>689</y>
+      <w>65</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+next</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>182</x>
+      <y>806</y>
+      <w>65</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+next</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>169</x>
+      <y>871</y>
+      <w>52</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>null
+valign=center
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>559</x>
+      <y>546</y>
+      <w>91</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+last</panel_attributes>
+    <additional_attributes>50.0;180.0;10.0;180.0;10.0;10.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>624</x>
+      <y>520</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: List
+-
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>624</x>
+      <y>637</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: ListNode
+-
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>637</x>
+      <y>572</y>
+      <w>65</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+first</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>715</x>
+      <y>572</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+current</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>741</x>
+      <y>650</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>858</x>
+      <y>637</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+data = "look"
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>624</x>
+      <y>754</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: ListNode
+-
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>741</x>
+      <y>767</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>858</x>
+      <y>754</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+data = "watch"
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>676</x>
+      <y>689</y>
+      <w>65</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+next</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>676</x>
+      <y>806</y>
+      <w>65</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+next</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>663</x>
+      <y>871</y>
+      <w>52</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>null
+valign=center
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>598</x>
+      <y>403</y>
+      <w>182</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: Vokabel
+-
+begriff = "schauen"
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>676</x>
+      <y>455</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+üListe</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>169</x>
+      <y>520</y>
+      <w>78</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+head</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>169</x>
+      <y>650</y>
+      <w>104</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>806</x>
+      <y>598</y>
+      <w>65</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>null
+fontsize=18
+valign=center
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>598</y>
+      <w>117</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+next
+</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>169</x>
+      <y>169</y>
+      <w>78</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+head</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>143</x>
+      <y>247</y>
+      <w>78</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>null
+fontsize=18
+valign=center
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>403</x>
+      <y>650</y>
+      <w>104</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>481</x>
+      <y>598</y>
+      <w>117</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+next
+</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>637</x>
+      <y>650</y>
+      <w>104</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>715</x>
+      <y>598</y>
+      <w>117</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+next
+</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>104</x>
+      <y>117</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: Stack
+-
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>572</x>
+      <y>598</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: StackNode
+-
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>104</x>
+      <y>598</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: StackNode
+-
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>338</x>
+      <y>598</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: StackNode
+-
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>104</x>
+      <y>468</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: Stack
+-
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>429</x>
+      <y>364</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+v = "Farbverlauf"
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>104</x>
+      <y>39</y>
+      <w>156</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>*1. Diagramm*
+leerer Stack</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>104</x>
+      <y>390</y>
+      <w>234</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>*2. Diagramm*
+drei Schritte eingefügt
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>494</x>
+      <y>169</y>
+      <w>78</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+head</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>494</x>
+      <y>299</y>
+      <w>104</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>897</x>
+      <y>247</y>
+      <w>65</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>null
+fontsize=18
+valign=center
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>572</x>
+      <y>247</y>
+      <w>117</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+next
+</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>728</x>
+      <y>299</y>
+      <w>104</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>806</x>
+      <y>247</y>
+      <w>117</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+next
+</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>429</x>
+      <y>247</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: StackNode
+-
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>663</x>
+      <y>247</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: StackNode
+-
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>429</x>
+      <y>117</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: Stack
+-
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>429</x>
+      <y>39</y>
+      <w>338</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>*3. Diagramm*
+zwei rückgängig, ein neuer Schritt
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>104</x>
+      <y>715</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+v = "Farbeimer"
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>338</x>
+      <y>715</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+v = "Zeichenstift"
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>572</x>
+      <y>715</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+v = "Neue Datei"
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>663</x>
+      <y>364</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+v = "Neue Datei"
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

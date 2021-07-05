@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>26</x>
+      <y>221</y>
+      <w>247</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>52</x>
+      <y>65</y>
+      <w>195</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Klasse
+-
+
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

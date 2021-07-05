@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>65</x>
+      <y>65</y>
+      <w>143</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: Objekt
+-
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>221</x>
+      <y>65</y>
+      <w>117</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+ref</panel_attributes>
+    <additional_attributes>10.0;20.0;70.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>377</x>
+      <y>65</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+data = { 'R','o','t' }
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>377</x>
+      <y>377</y>
+      <w>221</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+data = { 'O','r','a','n','g','e' }
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>377</x>
+      <y>221</y>
+      <w>182</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+data = { 'G','e','l','b' }
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>377</x>
+      <y>299</y>
+      <w>182</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+data = { 'G','r','ü','n' }
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>247</x>
+      <y>117</y>
+      <w>52</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>null</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>377</x>
+      <y>143</y>
+      <w>182</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+data = { 'B','l','a','u' }
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

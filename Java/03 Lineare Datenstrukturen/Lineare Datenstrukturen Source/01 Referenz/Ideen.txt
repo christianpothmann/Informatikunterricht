@@ -1,0 +1,59 @@
+Ziele
+- Verstehen: Referenz auf Objekt != Objekt
+- Referenz kann man verschieben, mehrere Ref. auf ein Obj. möglich
+- Referenz zeigt erst auf null
+  Objekt muss "erzeugt" werden
+- Garbage Collector: wenn keine Ref. mehr auf Obj. zeigt
+- Referenz != Variable: 
+  Variablen zuweisen -> Kopie
+  Referenz zuweisen  -> gleiches Objekt
+- Referenz = Objekt zuordnen (wie Pilot - Raumschiff), ohne Erzeugen
+- Referenz als Parameter:
+  Objekt übergeben, kann geändert werden
+  (bei einf. DT ist Kopie)
+- Referenz im Speicher: Adresse
+  Speichermodell des v.Neumann-Rechners
+- Objekt erzeugt -> Speicher reserviert
+  ggf. statischer vs. dynamischer Speicher (Parameter), stack frame
+- Methoden für Ref. als Parameter ausführen
+- Ref. zurückgeben und Methoden für Ref. als Rückgabewert ausführen
+  d.h. auch Ref. als lokale Variablen
+- Vorsicht null-Ref -> Verzweigung
+- Neue Struktur Sprite: Bild als Referenz
+  Vorteil: mehrere Sprites ein Bild
+- Ref. per Konstruktor setzen
+- evtl. temporäre Objekte erzeugen? brauchts eigentlich nicht
+
+
+Vorgehen
+- Deklaration einfacher DT vs. Referenz:
+  Variable schafft "Platz" für Wert, ist 0
+  Referenz: schafft keinen Platz, nur "Pfeil/Zeiger" auf null
+  Hier schon Speichermodell hilfreich: Adresse vs. Platz?
+  Oder, Objektdiagramm reicht
+- main-Methode:
+  Wert für Var. setzen möglich
+  set-Methode für Objekt nicht
+
+
+1. Wdh. Datentypen
+    - einfach: int, double, float, boolean, char (und weitere)
+    - komplex: Klassen, z.B. String, Konto, Sprite, GameImage, GameWindow
+
+2. Deklaration + Erzeugung
+    - int a;    -> erzeugt Platz für 1 Zahl
+    - Konto k;  -> erzeugt nicht den Platz für Objekt! k kann auf ein Objekt "zeigen", aber zeigt zunächst auf nichts, in Java "null".
+                -> k = new Konto(); nötig
+
+3. Zuweisung
+    - a = 50;  b = a;
+      b enthält den gleichen Wert wie a
+      b = b + 50;
+      a bleibt 50, b wird 100.
+    - k1 = new Konto();  k2 = k1;
+      k1 und k2 zeigen auf das gleiche Objekt, es wird keine Kopie erzeugt!
+      k1.einzahlen(50);
+      k2.einzahlen(50);
+      zahlen beide auf das gleich Konto -> stand = 100.
+
+

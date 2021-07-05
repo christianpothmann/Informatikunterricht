@@ -1,0 +1,5 @@
+1. Das fertige Programm vorführen, damit klar ist, zu welchem Zweck es dient und wer der Benutzer ist.
+
+2. Aufgaben erläutern
+
+3. SuS bearbeiten Aufgaben mit BlueJ
