@@ -1,0 +1,7 @@
+Ursprüngliche Bibliothek IOTools: Copyright (C) 1999 Jens Scheffler
+https://www.grundkurs-java.de
+
+Änderungen 2016 durch Christian Pothmann (cpothmann.de)
+u.A. Umbenennung in console.jar
+
+Freie Software unter GPL, siehe License.txt

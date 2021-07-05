@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>39</x>
+      <y>546</y>
+      <w>156</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Firma
+--
+
+--
++ Firma()
++ main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>182</x>
+      <y>572</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- mListe</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1391</x>
+      <y>598</y>
+      <w>234</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>Mitarbeiter
+--
+- nachname: String
+- vorname: String
+- email: String
+...
+--
++ Mitarbeiter()
++ setNachname(p: String)
++ getNachnam(): String
+...
+*+ compareTo(*
+*         pm: Mitarbeiter): int*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1391</x>
+      <y>416</y>
+      <w>286</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>*&lt;&lt; interface &gt;&gt;*
+Comparable
+template=Mitarbeiter
+-
+*compareTo(*
+*          pm: Mitarbeiter): int*
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1495</x>
+      <y>533</y>
+      <w>39</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1131</x>
+      <y>533</y>
+      <w>208</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>template=Mitarbeiter
+*OrderedList*
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1482</x>
+      <y>143</y>
+      <w>39</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>299</x>
+      <y>533</y>
+      <w>208</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>template=Mitarbeiter
+List
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>299</x>
+      <y>741</y>
+      <w>208</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>template=Mitarbeiter
+ListNode
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>559</x>
+      <y>637</y>
+      <w>234</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>Mitarbeiter
+--
+- nachname: String
+- vorname: String
+- email: String
+...
+--
++ Mitarbeiter()
++ setNachname(p: String)
++ getNachnam(): String
+...
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>871</x>
+      <y>546</y>
+      <w>156</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Firma
+--
+
+--
++ Firma()
++ main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1014</x>
+      <y>572</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- mListe</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>338</x>
+      <y>637</y>
+      <w>104</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=- first\n- last\n- current</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>442</x>
+      <y>780</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- content</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1131</x>
+      <y>741</y>
+      <w>208</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>template=Mitarbeiter
+ListNode
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1170</x>
+      <y>637</y>
+      <w>104</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=- first\n- last\n- current</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1274</x>
+      <y>780</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- content</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>585</x>
+      <y>26</y>
+      <w>221</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>template=ContentType
+*OrderedList*
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>585</x>
+      <y>234</y>
+      <w>221</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>template=ContentType
+ListNode
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>845</x>
+      <y>247</y>
+      <w>208</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>ContentType
+-
+
+-
+compareTo(
+     p: ContentType): int
+lt=.
+fg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>130</y>
+      <w>104</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=- first\n- last\n- current</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>728</x>
+      <y>273</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- content</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1131</x>
+      <y>26</y>
+      <w>221</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>template=ContentType
+*OrderedList*
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1131</x>
+      <y>234</y>
+      <w>221</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>template=ContentType
+ListNode
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1391</x>
+      <y>247</y>
+      <w>208</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>ContentType
+-
+
+-
+lt=.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1170</x>
+      <y>130</y>
+      <w>104</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=- first\n- last\n- current</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1274</x>
+      <y>273</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- content</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1391</x>
+      <y>26</y>
+      <w>273</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>*&lt;&lt; interface &gt;&gt;*
+Comparable
+template=ContentType
+-
+compareTo(
+     p: ContentType): int
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>39</x>
+      <y>26</y>
+      <w>221</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>template=ContentType
+List
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>39</x>
+      <y>234</y>
+      <w>221</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>template=ContentType
+ListNode
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>78</x>
+      <y>130</y>
+      <w>104</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=- first\n- last\n- current</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>182</x>
+      <y>273</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- content</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>299</x>
+      <y>247</y>
+      <w>208</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>ContentType
+-
+
+-
+
+lt=.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>403</x>
+      <y>1144</y>
+      <w>234</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>Mitarbeiter
+--
+- nachname: String
+...
+--
+...
++ compareTo(
+         pm: Mitarbeiter): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>403</x>
+      <y>988</y>
+      <w>234</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>*/Comparable/*
+*{ abstract }*
+-
+/compareTo(/
+/          pm: Mitarbeiter): int/
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>507</x>
+      <y>1079</y>
+      <w>39</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>806</x>
+      <y>1157</y>
+      <w>234</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>Mitarbeiter
+--
+- nachname: String
+...
+--
+...
++ compareTo(
+         pm: Mitarbeiter): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>806</x>
+      <y>975</y>
+      <w>234</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>*/Comparable/*
+*{ abstract }*
+-
+compareTo(
+          pm: Mitarbeiter): int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>871</x>
+      <y>1079</y>
+      <w>39</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+lw=2
+fg=red</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1131</x>
+      <y>1157</y>
+      <w>208</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Kunde
+--
+- nachname: String
+...
+--
+...
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1378</x>
+      <y>1157</y>
+      <w>208</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Produkt
+--
+- bezeichnung: String
+...
+--
+...
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1131</x>
+      <y>975</y>
+      <w>208</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Datensatz
+--
+- id: String
+- owner: String
+--
+...
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1222</x>
+      <y>1079</y>
+      <w>39</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1222</x>
+      <y>1118</y>
+      <w>286</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;200.0;10.0;200.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>949</x>
+      <y>1079</y>
+      <w>312</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>220.0;10.0;220.0;40.0;10.0;40.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1898</x>
+      <y>1170</y>
+      <w>234</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>Mitarbeiter
+--
+- nachname: String
+...
+--
+...
++ compareTo(
+         pm: Mitarbeiter): int
++ clone(): Object
++ writeObject(pOut: 
+         ObjectOutputStream)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1898</x>
+      <y>962</y>
+      <w>286</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>*&lt;&lt; interface &gt;&gt;*
+*Comparable*
+template=Mitarbeiter
+-
+compareTo(
+          pm: Mitarbeiter): int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2002</x>
+      <y>1079</y>
+      <w>39</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2210</x>
+      <y>975</y>
+      <w>195</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>*&lt;&lt; interface &gt;&gt;*
+*Cloneable*
+-
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2002</x>
+      <y>1053</y>
+      <w>325</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>230.0;10.0;230.0;60.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1638</x>
+      <y>975</y>
+      <w>195</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>*&lt;&lt; interface &gt;&gt;*
+*Serializable*
+-
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1716</x>
+      <y>1053</y>
+      <w>325</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0;230.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>26</x>
+      <y>1144</y>
+      <w>234</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>Mitarbeiter
+--
+- nachname: String
+...
+--
+...
++ compareTo(
+         pm: Mitarbeiter): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>26</x>
+      <y>962</y>
+      <w>286</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>*&lt;&lt; interface &gt;&gt;*
+*Comparable*
+template=Mitarbeiter
+-
+compareTo(
+          pm: Mitarbeiter): int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>1079</y>
+      <w>39</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+lw=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>299</x>
+      <y>1105</y>
+      <w>130</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>vs.
+fg=red
+fontsize=40
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>403</x>
+      <y>1378</y>
+      <w>169</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+lw=2</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>104</x>
+      <y>1378</y>
+      <w>169</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+lw=2</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

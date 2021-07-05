@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>39</x>
+      <y>52</y>
+      <w>260</w>
+      <h>338</h>
+    </coordinates>
+    <panel_attributes>*/Fahrzeug/*
+*{ abstract }*
+-
+- kennz: String
+- tagesPreis: double
+- tage: int
+- km: double
+-
++ Fahrzeug(pk: String)
++ getKennzeichen(): String
++ setTagesPreis(pp: double)
++ getTagesPreis(): double
++ mieten(pt: int)
++ getTage(): int
++ fahren(pk: double)
++ getKm(): double
+*/+ getGesamtPreis(): double/*</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

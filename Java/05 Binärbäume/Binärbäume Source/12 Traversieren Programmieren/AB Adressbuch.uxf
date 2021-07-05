@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>676</x>
+      <y>299</y>
+      <w>195</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>BinaryTree 
+template=Kontakt
+--
+ 
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>741</x>
+      <y>403</y>
+      <w>39</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>793</x>
+      <y>377</y>
+      <w>117</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- left
+- right
+</panel_attributes>
+    <additional_attributes>10.0;30.0;10.0;60.0;70.0;60.0;70.0;10.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>559</x>
+      <y>351</y>
+      <w>143</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>90.0;10.0;40.0;10.0;40.0;60.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>637</x>
+      <y>507</y>
+      <w>234</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>Kontakt
+--
+- nachname: String
+- vorname: String
+- telefon: String
+- email: String
+--
++ Kontakt()
++ Kontakt(n, v, t, e: String)
++ getNachnam(): String
++ setNachname(p: String)
++ ...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>169</x>
+      <y>390</y>
+      <w>403</w>
+      <h>351</h>
+    </coordinates>
+    <panel_attributes>Adressbuch
+--
+
+--
++ Adressbuch()
++ einfügen(pk: Kontakt)
++ suchen(pn: String): Kontakt
++ namenAusgeben()
+*- ausgabeInRek(pb: BinaryTree&lt;Kontakt&gt;)*
+*- ausgabePreRek(pb: BinaryTree&lt;Kontakt&gt;)*
+*- ausgabePostRek(pb: BinaryTree&lt;Kontakt&gt;)*
++ listeSpeichern(): List&lt;Kontakt&gt;
+*- listeSpRek(pb: BinaryTree&lt;Kontakt&gt;,*
+*                     pList: List&lt;Kontakt&gt;)*
++ listeLaden(pList: List&lt;Kontakt&gt;)
++ getAnzahl(): int
+*- zählenRek(pb: BinaryTree&lt;Kontakt&gt;): int*
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>273</x>
+      <y>143</y>
+      <w>208</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>AdressVerwaltung
+--
+
+--
++ AdressVerwaltung()
++ kontaktAnlegen()
++ kontaktDetails()
++ kontakteSpeichern()
++ kontakteLaden()
++ main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>364</x>
+      <y>325</y>
+      <w>104</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=- aBuch</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>663</x>
+      <y>455</y>
+      <w>91</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>- content</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>572</x>
+      <y>325</y>
+      <w>91</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>- wurzel
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

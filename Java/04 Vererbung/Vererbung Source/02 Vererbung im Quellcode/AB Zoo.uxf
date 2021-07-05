@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>572</x>
+      <y>78</y>
+      <w>208</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>Tier
+-
+- art: String
+- name: String
+-
++ setArt(pa: String)
++ getArt(): String
++ setName(pn: String)
++ getName(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>702</x>
+      <y>377</y>
+      <w>247</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>WasserTier
+-
+- beckenVol: double
+-
++ setBeckenVol(pv: double)
++ getBeckenVol(): double
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>507</x>
+      <y>247</y>
+      <w>195</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;40.0;130.0;40.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>663</x>
+      <y>286</y>
+      <w>195</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>130.0;70.0;130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>403</x>
+      <y>325</y>
+      <w>234</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>LandTier
+-
+- auslauf: double
+-
++ setAuslauf(pa: double)
++ getAuslauf(): double
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>377</y>
+      <w>182</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>ZooVerwaltung
+-
+
+-
++ ZooVerwaltung()
++ main()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>299</x>
+      <y>377</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
++ lati</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>299</x>
+      <y>442</y>
+      <w>429</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
++ wati</panel_attributes>
+    <additional_attributes>310.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>286</x>
+      <y>676</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>: ZooVerwaltung
+-
+
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>585</x>
+      <y>585</y>
+      <w>182</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>: LandTier
+-
+art = "Elefant"
+name = "Blümchen"
+auslauf = 1000.0
+
+
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>585</x>
+      <y>741</y>
+      <w>182</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>: WasserTier
+-
+art = "Hai"
+name = "Fressi"
+auslauf = 200.0
+
+
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>455</x>
+      <y>624</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lati</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>455</x>
+      <y>728</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+wati</panel_attributes>
+    <additional_attributes>100.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

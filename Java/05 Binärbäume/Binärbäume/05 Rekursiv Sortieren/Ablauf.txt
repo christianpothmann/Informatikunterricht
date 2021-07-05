@@ -1,0 +1,5 @@
+Die Arbeitsblätter auf Papier austeilen und bearbeiten lassen.
+
+1. Merge Sort
+
+2. Quicksort

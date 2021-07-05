@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>247</x>
+      <y>52</y>
+      <w>221</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>Turtle
+-
+- x, y: double
+- heading: double
+...
+-
++ setPos(px, py: double)
++ forward(pd: double)
++ left(pa: double)
++ right(pa: double)
+...
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>39</x>
+      <y>52</y>
+      <w>130</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Drawing
+-
+
+-
++ Drawing()
++ main()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>156</x>
+      <y>65</y>
+      <w>117</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- tom</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>

@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>819</x>
+      <y>1157</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>_: BinaryTree_
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>546</x>
+      <y>1196</y>
+      <w>325</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+left</panel_attributes>
+    <additional_attributes>10.0;50.0;230.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>1196</y>
+      <w>481</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+right</panel_attributes>
+    <additional_attributes>350.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>871</x>
+      <y>1196</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>793</x>
+      <y>1261</y>
+      <w>182</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>_: Adresse_
+-
+*name = "Müller"*
+telefon = "..."</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>871</x>
+      <y>1079</y>
+      <w>91</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=wurzel</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>494</x>
+      <y>1261</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>_: BinaryTree_
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>182</x>
+      <y>1300</y>
+      <w>364</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+left</panel_attributes>
+    <additional_attributes>10.0;70.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>585</x>
+      <y>1300</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+right</panel_attributes>
+    <additional_attributes>100.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>546</x>
+      <y>1300</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>468</x>
+      <y>1365</y>
+      <w>182</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>_: Adresse_
+-
+*name = "Günther"*
+telefon = "..."</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1300</x>
+      <y>1261</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>_: BinaryTree_
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1118</x>
+      <y>1300</y>
+      <w>234</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+left</panel_attributes>
+    <additional_attributes>10.0;50.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1391</x>
+      <y>1300</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+right</panel_attributes>
+    <additional_attributes>100.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1352</x>
+      <y>1300</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1274</x>
+      <y>1365</y>
+      <w>182</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>_: Adresse_
+-
+*name = "Peters"*
+telefon = "..."</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>1391</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>_: BinaryTree_
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>26</x>
+      <y>1430</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+left</panel_attributes>
+    <additional_attributes>10.0;50.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>221</x>
+      <y>1430</y>
+      <w>234</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+right</panel_attributes>
+    <additional_attributes>160.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>182</x>
+      <y>1430</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>1495</y>
+      <w>182</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>_: Adresse_
+-
+*name = "Albrecht"*
+telefon = "..."</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>676</x>
+      <y>1365</y>
+      <w>78</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=.
+leerer
+Knoten</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>1495</y>
+      <w>78</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=.
+leerer
+Knoten</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1482</x>
+      <y>1365</y>
+      <w>78</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=.
+leerer
+Knoten</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1053</x>
+      <y>1365</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>_: BinaryTree_
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>949</x>
+      <y>1404</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+left</panel_attributes>
+    <additional_attributes>10.0;50.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1144</x>
+      <y>1404</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+right</panel_attributes>
+    <additional_attributes>100.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1105</x>
+      <y>1404</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1027</x>
+      <y>1469</y>
+      <w>182</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>_: Adresse_
+-
+*name = "Neumann"*
+telefon = "..."</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>923</x>
+      <y>1469</y>
+      <w>78</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=.
+leerer
+Knoten</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1235</x>
+      <y>1469</y>
+      <w>78</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=.
+leerer
+Knoten</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>377</x>
+      <y>1495</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>_: BinaryTree_
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>273</x>
+      <y>1534</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+left</panel_attributes>
+    <additional_attributes>10.0;50.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>468</x>
+      <y>1534</y>
+      <w>234</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+right</panel_attributes>
+    <additional_attributes>160.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>429</x>
+      <y>1534</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>351</x>
+      <y>1599</y>
+      <w>182</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>_: Adresse_
+-
+*name = "Becker"*
+telefon = "..."</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>247</x>
+      <y>1599</y>
+      <w>78</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=.
+leerer
+Knoten</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>1599</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>_: BinaryTree_
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>1638</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+left</panel_attributes>
+    <additional_attributes>10.0;50.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>715</x>
+      <y>1638</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+right</panel_attributes>
+    <additional_attributes>100.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>676</x>
+      <y>1638</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>598</x>
+      <y>1703</y>
+      <w>182</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>_: Adresse_
+-
+*name = "Frantz"*
+telefon = "..."</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>494</x>
+      <y>1703</y>
+      <w>78</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=.
+leerer
+Knoten</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>806</x>
+      <y>1703</y>
+      <w>78</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=.
+leerer
+Knoten</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>767</x>
+      <y>104</y>
+      <w>195</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>BinaryTree 
+template=Kontakt
+--
+ 
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1274</x>
+      <y>520</y>
+      <w>260</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>Kontakt
+--
+- name: String
+- telefon: String
+--
++ Kontakt(pname, ptel: String)
++ getName(): String
++ getTelefon(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>130</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- content</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>884</x>
+      <y>182</y>
+      <w>117</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- left
+- right
+</panel_attributes>
+    <additional_attributes>10.0;30.0;10.0;60.0;70.0;60.0;70.0;10.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>507</x>
+      <y>117</y>
+      <w>156</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Adressbuch
+-
+
+-
++ Adressbuch()
++ main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>130</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- wurzel</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>819</x>
+      <y>1027</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>_: Adressbuch_
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>832</x>
+      <y>663</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>_: BinaryTree_
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>598</x>
+      <y>702</y>
+      <w>286</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+left</panel_attributes>
+    <additional_attributes>10.0;50.0;200.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>923</x>
+      <y>702</y>
+      <w>286</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+right</panel_attributes>
+    <additional_attributes>200.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>884</x>
+      <y>702</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>806</x>
+      <y>767</y>
+      <w>182</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>_: Adresse_
+-
+*name = "Müller"*
+telefon = "..."</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>884</x>
+      <y>585</y>
+      <w>91</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=wurzel</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>546</x>
+      <y>767</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>_: BinaryTree_
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>637</x>
+      <y>806</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+right</panel_attributes>
+    <additional_attributes>100.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>598</x>
+      <y>806</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>871</y>
+      <w>182</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>_: Adresse_
+-
+*name = "Günther"*
+telefon = "..."</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1118</x>
+      <y>767</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>_: BinaryTree_
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1014</x>
+      <y>806</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+left</panel_attributes>
+    <additional_attributes>10.0;50.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1209</x>
+      <y>806</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+right</panel_attributes>
+    <additional_attributes>100.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1170</x>
+      <y>806</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1092</x>
+      <y>871</y>
+      <w>182</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>_: Adresse_
+-
+*name = "Peters"*
+telefon = "..."</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>728</x>
+      <y>871</y>
+      <w>78</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=.
+leerer
+Knoten</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1300</x>
+      <y>871</y>
+      <w>78</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=.
+leerer
+Knoten</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>832</x>
+      <y>533</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>_: Adressbuch_
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>988</x>
+      <y>871</y>
+      <w>78</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=.
+leerer
+Knoten</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>416</x>
+      <y>871</y>
+      <w>78</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=.
+leerer
+Knoten</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>442</x>
+      <y>806</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+left</panel_attributes>
+    <additional_attributes>10.0;50.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1846</x>
+      <y>143</y>
+      <w>182</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>Müller
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1625</x>
+      <y>169</y>
+      <w>299</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;70.0;210.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1534</x>
+      <y>260</y>
+      <w>182</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>Günther
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>2171</x>
+      <y>260</y>
+      <w>182</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>Peters
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1963</x>
+      <y>169</y>
+      <w>299</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;210.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1443</x>
+      <y>286</y>
+      <w>169</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;50.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1651</x>
+      <y>286</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;100.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1365</x>
+      <y>351</y>
+      <w>182</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>Albrecht
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1703</x>
+      <y>351</y>
+      <w>182</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>Becker
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1807</x>
+      <y>377</y>
+      <w>78</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;40.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1716</x>
+      <y>533</y>
+      <w>182</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>Engel
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1794</x>
+      <y>468</y>
+      <w>78</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>40.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1781</x>
+      <y>442</y>
+      <w>182</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>Frantz
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1027</x>
+      <y>117</y>
+      <w>234</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>Kontakt
+--
+- nachname: String
+- vorname: String
+- telefon: String
+- email: String
+--
++ Kontakt()
++ Kontakt(n, v, t, e: String)
++ getNachnam(): String
++ setNachname(p: String)
++ ...</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

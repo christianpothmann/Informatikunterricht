@@ -1,0 +1,6 @@
+The Java Turtle package
+Ägidius Plüss
+https://aplu.ch/home/apluhomex.jsp?site=65
+
+Freie Software unter GPL 2.0
+https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html

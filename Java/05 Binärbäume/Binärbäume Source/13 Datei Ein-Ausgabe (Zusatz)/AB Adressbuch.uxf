@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>507</x>
+      <y>143</y>
+      <w>195</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>BinaryTree 
+template=Kontakt
+--
+ 
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>572</x>
+      <y>247</y>
+      <w>39</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>221</y>
+      <w>117</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- left
+- right
+</panel_attributes>
+    <additional_attributes>10.0;30.0;10.0;60.0;70.0;60.0;70.0;10.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>403</x>
+      <y>195</y>
+      <w>130</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>80.0;10.0;40.0;10.0;40.0;120.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>507</x>
+      <y>351</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Kontakt
+-
+
+-
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>312</y>
+      <w>286</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Adressbuch
+--
+
+--
+...
++ listeSpeichern(): List&lt;Kontakt&gt;
++ listeLaden(pList: List&lt;Kontakt&gt;)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>169</x>
+      <y>91</y>
+      <w>208</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>AdressVerwaltung
+--
+
+--
+...
+*+ kontakteSpeichern()*
+*+ kontakteLaden()*
++ main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>234</y>
+      <w>104</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=- aBuch</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>494</x>
+      <y>286</y>
+      <w>91</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>- content</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>416</x>
+      <y>169</y>
+      <w>91</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>- wurzel
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
