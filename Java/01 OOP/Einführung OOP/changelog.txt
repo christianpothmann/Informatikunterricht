@@ -1,0 +1,39 @@
+Neu
+- Korrekturen in GameWindow-Doku (21)
+- Lizenztexte komprimiert (13, 15, 16, 21)
+- 14 Kommentare jetzt mit Ablauf und Lösung (zum Zeigen)
+
+22.05.2021
+- Abschnitte zu Vererbung entfernt 
+  (in anderes Kapitel eingeordnet)
+- Zugriffsmodifikator überarbeitet
+
+04.04.2021
+- Erste Veröffentlichung:
+  00 Software
+  01 Einstieg
+  02 Objekt
+  03 Attribut
+  04 Klasse
+  05 Implementierung
+  06 Assoziation
+  07 Konstruktor
+  08 Methode
+  09 Methodenaufruf
+  10 Parameter
+  11 Set-Methode
+  12 Konstruktor mit Parameter
+  13 GameWindow
+  14 Kommentare
+  15 While-Schleife
+  16 While-Schleife mit Variable
+  17 Gültigkeitsbereich
+  18 Sequenzdiagramm
+  19 Get-Methode
+  20 Verzweigung
+  21 Rückgabewert
+  22 Zugriffsmodifikator
+  23 Vererbung
+  24 Vererbung im Quellcode
+  25 Vererbung und Attribute
+  30 Jar-Datei

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>104</x>
+      <y>416</y>
+      <w>247</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>foto: Bild
+-
+dateiname = "urlaub01.jpg"
+breite = 4000
+höhe = 3000
+dateigröße = 4500000
+kompressionsrate = 0.75
+geöndert = false
+
+valign=top
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>403</x>
+      <y>416</y>
+      <w>247</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>paint: AppFenster
+-
+x = 10
+y = 10
+breite = 800
+höhe = 600
+titel = "Paint.NET"
+vollbild = false
+valign=top
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>117</y>
+      <w>221</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>Bild
+-
+dateiname: String
+breite, höhe: int
+dateigröße: int
+kompressionsrate: double
+geändert: boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>416</x>
+      <y>117</y>
+      <w>221</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>AppFenster
+-
+x, y: int
+breite, höhe: int
+titel: String
+vollbild: boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>91</x>
+      <y>338</y>
+      <w>585</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;430.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>104</x>
+      <y>299</y>
+      <w>195</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>/Klassendiagramm/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>104</x>
+      <y>364</y>
+      <w>195</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>/Objektdiagramm/</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

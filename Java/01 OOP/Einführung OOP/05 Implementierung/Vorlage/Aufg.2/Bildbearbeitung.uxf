@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>156</y>
+      <w>221</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>Klasse
+-
+attribut: Datentyp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>26</x>
+      <y>442</y>
+      <w>1053</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;790.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>39</x>
+      <y>403</y>
+      <w>195</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>/Klassendiagramm/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>39</x>
+      <y>468</y>
+      <w>195</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>/Objektdiagramm/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>143</x>
+      <y>572</y>
+      <w>195</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>obj: Klasse
+-
+attribut = wert
+
+valign=top
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

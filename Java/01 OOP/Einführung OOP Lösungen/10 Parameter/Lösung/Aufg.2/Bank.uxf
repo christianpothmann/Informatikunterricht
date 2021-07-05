@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>156</x>
+      <y>78</y>
+      <w>156</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Bankverwaltung
+-
+
+-
+Bankverwaltung()
+main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>195</x>
+      <y>377</y>
+      <w>156</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>: Bankverwaltung
+-
+
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>429</x>
+      <y>65</y>
+      <w>234</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>Konto
+-
+stand: double
+-
+einzahlen(pBetrag: double)
+abheben(pBetrag: double)
+zinsen(pZinssatz: double)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>299</x>
+      <y>104</y>
+      <w>156</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+kt1, kt2</panel_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>442</x>
+      <y>338</y>
+      <w>130</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>: Konto
+-
+stand = 2100
+
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>338</x>
+      <y>351</y>
+      <w>130</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+kt1</panel_attributes>
+    <additional_attributes>10.0;40.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>442</x>
+      <y>442</y>
+      <w>130</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>: Konto
+-
+stand = 1030
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>338</x>
+      <y>416</y>
+      <w>130</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+kt2</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;40.0</additional_attributes>
+  </element>
+</diagram>

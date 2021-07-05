@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>143</x>
+      <y>546</y>
+      <w>195</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Einsatz
+-
+std, min: int
+beschreibung: String
+strasse, plz: String
+prio: int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>91</x>
+      <y>468</y>
+      <w>611</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;450.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>104</x>
+      <y>494</y>
+      <w>195</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>/Klassendiagramm/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>104</x>
+      <y>429</y>
+      <w>195</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>/Objektdiagramm/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>104</x>
+      <y>39</y>
+      <w>260</w>
+      <h>169</h>
+    </coordinates>
+    <panel_attributes>e1: Einsatz
+-
+std = 12
+min = 30
+beschreibung = "Überfall"
+strasse = "Frankfurter Str. 39"
+plz = "51107"
+prio = 1
+
+valign=top
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>104</x>
+      <y>234</y>
+      <w>260</w>
+      <h>169</h>
+    </coordinates>
+    <panel_attributes>e2: Einsatz
+-
+std = 4
+min = 15
+beschreibung = "Schlägerei"
+strasse = "Neumarkt 5"
+plz = "50123"
+prio = 2
+
+valign=top
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>416</x>
+      <y>39</y>
+      <w>260</w>
+      <h>169</h>
+    </coordinates>
+    <panel_attributes>s1: Streifenwagen
+-
+kennz = "K-FC 123"
+standort = "Neumarkt 1"
+pol1 = "Kalle Blomqvist"
+pol2 = "Nina Hagen"
+
+valign=top
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>416</x>
+      <y>234</y>
+      <w>260</w>
+      <h>169</h>
+    </coordinates>
+    <panel_attributes>s2: Streifenwagen
+-
+kennz = "K-FC 456"
+standort = "Alter Markt 5"
+pol1 = "Jürgen Neumann"
+pol2 = "Frida Kahlo"
+
+valign=top
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>442</x>
+      <y>546</y>
+      <w>195</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Streifenwagen
+-
+kennz: String
+standort: String
+pol1, pol2: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

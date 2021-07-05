@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>52</y>
+      <w>156</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Konto
+-
+stand: double
+zinssatz: double
+-
+einzahlen()
+auszahlen()
+zinsErhöhen()
+zinsSenken()
+abrechnung()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <help_text/>
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>195</x>
+      <y>65</y>
+      <w>182</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>StaplerStrg
+-
+höhe, winkel: double
+-
+heben()
+senken()
+oben()
+unten()
+neigenVor()
+neigenZurück()
+neigenMitte()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>611</x>
+      <y>117</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>st1: StaperStrg
+-
+höhe = 30
+winkel = 10
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>806</x>
+      <y>117</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>st2: StaperStrg
+-
+höhe = 190
+winkel = -5
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>65</x>
+      <y>65</y>
+      <w>182</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>Sprite
+-
+x, y: double
+speed: double
+richtung: double
+-
+zumUrsprung()
+stop()
+schneller()
+langsamer()
+dreheLinks()
+dreheRechts()
+bewege()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>65</x>
+      <y>377</y>
+      <w>182</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>sp1: Sprite
+-
+x = 38.28
+y = 28.28
+speed = 10.0
+richtung = 0.0
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>65</x>
+      <y>130</y>
+      <w>221</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Container
+-
+id: String
+größe, gewicht: double
+kunde, inhalt: String
+wert: double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>338</x>
+      <y>130</y>
+      <w>221</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Kunde
+-
+name, adresse: String
+ansprechpartner: String
+telefon: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>65</x>
+      <y>299</y>
+      <w>221</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Schiff
+-
+name, typ: String
+standort, ziel: String
+kapazität, ladung: double
+aufSee: boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>338</x>
+      <y>299</y>
+      <w>221</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>LKW
+-
+kennzeichen, typ: String
+standort, fahrer: String
+containerid: String
+unterwegs: boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>182</x>
+      <y>104</y>
+      <w>221</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Roboter
+-
+name, typ: String
+achse1, achse2: double
+gewicht: double
+aktiv: boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>195</x>
+      <y>403</y>
+      <w>195</w>
+      <h>169</h>
+    </coordinates>
+    <panel_attributes>r1: Roboter
+-
+name = "FR-1"
+typ = "Fräsroboter"
+achse1 = 5.5
+achse2 = 10.0
+gewicht = 10.0
+aktiv = true
+
+valign=top
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>169</x>
+      <y>312</y>
+      <w>260</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>182</x>
+      <y>273</y>
+      <w>195</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>/Klassendiagramm/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>182</x>
+      <y>338</y>
+      <w>195</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>/Objektdiagramm/</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

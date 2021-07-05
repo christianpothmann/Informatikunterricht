@@ -1,0 +1,14 @@
+1. Lösung der Aufgaben als Bespiel zeigen
+   -> zu jeder Methode ein Kommentar
+   Sinn: eigenes Gedächtnis, Erläuterung für Kollegen
+
+2. Dokumentation mit BlueJ erzeugen
+
+3. Offizielle Java-Dokumentation zeigen (Browser)
+
+4. Präsentation
+
+5. AB bearbeiten
+
+6. Lösung mit Fehlern zeigen und mit SuS korrigieren
+   insbes. überflüssiges weglassen, präsisere Angaben, Einheiten angaben
