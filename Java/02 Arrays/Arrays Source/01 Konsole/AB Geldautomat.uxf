@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>403</x>
+      <y>117</y>
+      <w>221</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>Konto
+-
+- stand: double
+-
++ Konto()
++ getStand(): double
++ einzahlen(pb: double)
++ abheben(pb: double)
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>143</x>
+      <y>117</y>
+      <w>169</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Geldautomat
+-
+
+-
++ Geldautomat()
++ conEinzahlen()
++ conAbheben()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>299</x>
+      <y>130</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- kto</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>

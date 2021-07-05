@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>403</x>
+      <y>117</y>
+      <w>208</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>Produkt
+-
+- name: String
+- preis: double
+- anzahl: int
+-
++ Produkt(pn: String)
++ getName(): String
++ getPreis(): double
++ setPreis(pp: double)
++ getAnzahl(): int
++ nachfuellen(pa: int)
++ verkaufen()
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>143</x>
+      <y>117</y>
+      <w>169</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>SnackAutomat
+-
+
+-
++ SnackAutomat()
++ conWartung()
++ conVerkauf()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>299</x>
+      <y>130</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- p1
+- p2</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>

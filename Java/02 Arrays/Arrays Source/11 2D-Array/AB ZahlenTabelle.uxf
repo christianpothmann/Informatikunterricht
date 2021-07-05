@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>169</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Programm
+-
++ Programm()
++ printTabelle()
++ main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>585</x>
+      <y>169</y>
+      <w>325</w>
+      <h>247</h>
+    </coordinates>
+    <panel_attributes>ZahlenTabelle
+-
+- tabelle: int [ ] [ ]
+- breite, hoehe: int
+-
++ ZahlenTabelle(pBreite, pHoehe: int)
++ getTabelle(): int [ ] [ ]
++ getBreite(): int
++ getHoehe(): int
++ fuelleZufall()
++ fuelleEinmaleins() 
+...
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>325</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Visualisierung
+-
+...
+-
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>364</x>
+      <y>325</y>
+      <w>169</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>GameWindow
+-
+...
+-
+...
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>273</x>
+      <y>195</y>
+      <w>338</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- vs</panel_attributes>
+    <additional_attributes>240.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>195</x>
+      <y>260</y>
+      <w>65</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- vs</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>273</x>
+      <y>338</y>
+      <w>117</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- win</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>

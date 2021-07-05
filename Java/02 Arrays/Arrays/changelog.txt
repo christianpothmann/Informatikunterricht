@@ -1,0 +1,19 @@
+Neu
+- 01 Konsole: Fehler korrigiert, Lösung (als Demo) hinzugefügt
+- 05 Algorithmus: .uxf-Datei zum Erarbeiten
+- Abläufe z.T. hinzugefügt / bearbeitet
+
+05.05.2021
+- Erste Veröffentlichung:
+  00 Software
+  01 Konsole
+  02 Array
+  03 Füllen
+  04 For-Schleife
+  05 Algorithmus
+  06 Berechnungen
+  07 Verschieben
+  08 Sortieren
+  09 Laufzeitmessung
+  10 Laufzeitabschätzung
+  11 2D-Array

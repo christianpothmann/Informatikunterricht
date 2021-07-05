@@ -1,0 +1,5 @@
+1. Datei "Demo.java" zeigen: 
+   ineffizient, problematisch wenn man Array vergrößert
+   umprogrammieren (am Beamer) zur Verwendung einer While-Schleife, die bereits bekannt ist.
+
+2. AB mit BlueJ bearbeiten

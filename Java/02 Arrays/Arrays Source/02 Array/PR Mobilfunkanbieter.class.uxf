@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>208</x>
+      <y>117</y>
+      <w>169</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Mobilfunknetz
+-
+
+-
++ Mobilfunknetz()
++ main()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>117</y>
+      <w>221</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>Kunde
+-
+- nummer: String
+- name: String
+- guthaben: double
+-
++ Kunde()
++ getNummer(): String
++ getName(): String
++ getGuthaben(): double
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>364</x>
+      <y>143</y>
+      <w>182</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>fontsize=16
+lt=&lt;-
+*-k1, -k2*</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>234</x>
+      <y>871</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>_:Mobilfunknetz_
+-
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>507</x>
+      <y>806</y>
+      <w>221</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>_:Kunde_
+-
+nummer = "0123456789"
+name = "Hansi Müller"
+guthaben = 20,00
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>507</x>
+      <y>936</y>
+      <w>221</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>_:Kunde_
+-
+nummer = "0234567898"
+name = "Petra Hüsch"
+guthaben = 30,00
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>377</x>
+      <y>845</y>
+      <w>156</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+fontsize=16
+*k1*</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>377</x>
+      <y>923</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+fontsize=16
+*k2*</panel_attributes>
+    <additional_attributes>100.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>897</x>
+      <y>130</y>
+      <w>182</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>Kunde
+-
+- nummer: String
+- guthaben: double
+...
+-
++ Kunde()
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>208</x>
+      <y>403</y>
+      <w>169</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Mobilfunknetz
+-
+
+-
++ Mobilfunknetz()
++ main()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>403</y>
+      <w>221</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>Kunde
+-
+- nummer: String
+- name: String
+- guthaben: double
+-
++ Kunde()
++ getNummer(): String
++ getName(): String
++ getGuthaben(): double
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>364</x>
+      <y>429</y>
+      <w>182</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>fontsize=16
+lt=&lt;-
+*-k1, -k2*
+*-k3, -k4*
+*-k5, -k6*
+*-k7, -k8*
+*...*
+</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>

@@ -1,0 +1,32 @@
+1. Präsentation "Benutzerschnittstelle"
+
+2. Lösung Aufg. 3 als Bsp. für Konsole zeigen (ausführen)
+
+3. Aufg. 1 lesen + Fragen
+
+4. Lösung besprechen:
+   String-Konkatenation mit +
+   print-"line" erklären (Zeilenumbruch)
+   Unterschied readString / readln
+   Rückgabe von Console.readDouble() in Variable speichern, 
+       nicht read-Befehl mehrmals für den gleichen Wert benutzen
+
+5. Erläuterung zu Aufg. 2:
+   Doppelte Prüfung; 1. Klasse Konto, 2. Hauptklasse / UI
+   Begründung: 
+   - Programmierer "Konto" verantwortlich, dass Daten in Ordnung bleiben
+   - Programmierer "UI" verantwortlich, dem Benutzer ggf. Fehlermeldungen zu geben
+   Rückblick: Präsentation "Zugriffsmodifikator"
+   - Prüfung eines Parameters
+   - zwei Bedingungen ggf. mit && verknüpfen, da gleiche Reaktion des Programms
+   Im UI Verkettung von if-else, da auf jeden Fall unterschiedl. Reaktion folgt
+   - je nach Fehler andere Ausgabe
+
+6. Zu Hause:
+   Installation console.jar zeigen + Import
+
+7. Tabelle mit Vokabeln (z.B. Tafel, ins Heft schreiben):
+   zurückgeben
+   übergeben
+   ausgeben
+   eingeben
