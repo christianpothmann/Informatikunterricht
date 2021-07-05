@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>396</x>
+      <y>55</y>
+      <w>154</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Matisse
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>209</x>
+      <y>77</y>
+      <w>253</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;210.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>143</x>
+      <y>143</y>
+      <w>154</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Cézanne
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>495</x>
+      <y>308</y>
+      <w>154</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Monet
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>242</x>
+      <y>165</y>
+      <w>110</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;80.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>605</x>
+      <y>165</y>
+      <w>110</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>22</x>
+      <y>231</y>
+      <w>154</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Beuys
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>264</x>
+      <y>231</y>
+      <w>154</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Marc
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>539</x>
+      <y>231</y>
+      <w>154</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Renoir
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>231</x>
+      <y>330</y>
+      <w>55</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>30.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>275</x>
+      <y>385</y>
+      <w>154</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Klee
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>330</y>
+      <w>55</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;30.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>165</x>
+      <y>385</y>
+      <w>154</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Gauguin
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>220</x>
+      <y>308</y>
+      <w>154</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Kandinksy
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>253</y>
+      <w>66</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>40.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>517</x>
+      <y>385</y>
+      <w>154</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Picasso
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>649</x>
+      <y>143</y>
+      <w>154</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Turner
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>748</x>
+      <y>165</y>
+      <w>110</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;80.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>770</x>
+      <y>231</y>
+      <w>154</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Van Gogh
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>561</x>
+      <y>330</y>
+      <w>55</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;30.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>275</x>
+      <y>253</y>
+      <w>66</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>40.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>88</x>
+      <y>165</y>
+      <w>110</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>495</x>
+      <y>77</y>
+      <w>253</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;210.0;60.0</additional_attributes>
+  </element>
+</diagram>

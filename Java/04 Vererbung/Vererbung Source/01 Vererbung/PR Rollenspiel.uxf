@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>273</x>
+      <y>1196</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Charakter
+-
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>143</x>
+      <y>1248</y>
+      <w>221</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>150.0;10.0;150.0;40.0;10.0;40.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>52</x>
+      <y>1378</y>
+      <w>130</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;80.0;40.0;10.0;40.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>143</x>
+      <y>1404</y>
+      <w>130</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;80.0;20.0;80.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>416</x>
+      <y>1378</y>
+      <w>130</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;80.0;40.0;10.0;40.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>507</x>
+      <y>1404</y>
+      <w>130</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;80.0;20.0;80.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>325</x>
+      <y>1287</y>
+      <w>221</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0;150.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>234</x>
+      <y>377</y>
+      <w>208</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>Charakter
+-
+- name: String
+- lebensenergie: int
+-
++ setName(String pn)
++ getName(): String
++ verwunden(pl: int)
++ heilen(pl: int)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>65</y>
+      <w>208</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>Krieger
+-
+- name: String
+- lebensenergie: int
+- kraft: int
+-
++ setName(String pn)
++ getName(): String
++ verwunden(pl: int)
++ heilen(pl: int)
++ angreifen()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>65</y>
+      <w>208</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>Zauberer
+-
+- name: String
+- lebensenergie: int
+- mana: int
+-
++ setName(String pn)
++ getName(): String
++ verwunden(pl: int)
++ heilen(pl: int)
++ zaubern()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>156</x>
+      <y>624</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>*Krieger*
+-
+*- kraft: int*
+-
+*+ angreifen()*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>364</x>
+      <y>624</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>*Zauberer*
+-
+*- mana: int*
+-
+*+ zaubern()*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>221</x>
+      <y>546</y>
+      <w>117</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>70.0;10.0;70.0;40.0;10.0;40.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>351</x>
+      <y>546</y>
+      <w>117</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;70.0;40.0;70.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>624</x>
+      <y>403</y>
+      <w>182</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>*: Krieger*
+-
+name = "Obelix"
+lebensenergie = 200
+*kraft = 200*
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>624</x>
+      <y>559</y>
+      <w>182</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>*: Zauberer*
+-
+name = "Miraculix"
+lebensenergie = 100
+*mana = 300*
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>156</x>
+      <y>832</y>
+      <w>182</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Charakter
+-
+- name: String
+- lebensenergie: int
+-
+...
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>169</x>
+      <y>1001</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Krieger
+-
+- kraft: int
+-
++ angreifen()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>234</x>
+      <y>936</y>
+      <w>39</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+fg=red</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>403</x>
+      <y>1001</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Schwert
+-
+zustand: double
+-
+schärfen()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>312</x>
+      <y>1027</y>
+      <w>117</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+fg=red</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>624</x>
+      <y>845</y>
+      <w>182</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>: Krieger
+-
+name = "Obelix"
+lebensenergie = 200
+kraft = 200
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>884</x>
+      <y>871</y>
+      <w>143</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: Schwert
+-
+zustand = 1.0
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>793</x>
+      <y>884</y>
+      <w>117</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>91</x>
+      <y>1326</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Mensch
+-
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>546</x>
+      <y>1456</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Ork
+-
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>455</x>
+      <y>1326</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Fabelwesen
+-
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>182</x>
+      <y>1456</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Zauberer
+-
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>1456</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Krieger
+-
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>364</x>
+      <y>1456</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Elfe
+-
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>273</x>
+      <y>1352</y>
+      <w>208</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+lw=2
+fg=red</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>338</x>
+      <y>1339</y>
+      <w>65</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lw=3
+fg=red</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>338</x>
+      <y>1339</y>
+      <w>65</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lw=3
+fg=red</panel_attributes>
+    <additional_attributes>10.0;30.0;30.0;10.0</additional_attributes>
+  </element>
+</diagram>

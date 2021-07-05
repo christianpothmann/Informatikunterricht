@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>430</x>
+      <y>70</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Marc
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>90</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;70.0;190.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>220</x>
+      <y>160</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Friedrich
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>650</x>
+      <y>160</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Picasso
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>90</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;190.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>180</y>
+      <w>100</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>310</x>
+      <y>180</y>
+      <w>100</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;80.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>180</y>
+      <w>100</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>750</x>
+      <y>180</y>
+      <w>100</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;80.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>110</x>
+      <y>240</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Cézanne
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>330</x>
+      <y>240</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Kandinsky
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>550</x>
+      <y>240</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Monet
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>770</x>
+      <y>240</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Turner
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>260</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>260</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;30.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>60</x>
+      <y>320</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Beuys
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>160</x>
+      <y>320</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Dalí
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>260</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>260</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;30.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>280</x>
+      <y>320</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Gauguin
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>380</x>
+      <y>320</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Klee
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>260</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>260</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;30.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>500</x>
+      <y>320</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Matisse
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>600</x>
+      <y>320</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Munch
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>260</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>860</x>
+      <y>260</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;30.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>720</x>
+      <y>320</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Renoir
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>820</x>
+      <y>320</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Van Gogh
+fontsize=18
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

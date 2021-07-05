@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>858</x>
+      <y>26</y>
+      <w>286</w>
+      <h>169</h>
+    </coordinates>
+    <panel_attributes>*Object*
+-
+
+-
++ Object()
++ equals(pObj: Object): boolean
++ getClass(): Class
++ toString(): String
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>208</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>/Charakter/
+-
+
+-
+
+bg=#ffff55</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>416</x>
+      <y>377</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Krieger
+-
+
+-
+
+bg=#ff5555</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>377</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Zauberer
+-
+
+-
+
+bg=#5555ff</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>481</x>
+      <y>299</y>
+      <w>143</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;90.0;40.0;10.0;40.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>585</x>
+      <y>338</y>
+      <w>143</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0;90.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>26</x>
+      <y>208</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Rollenspiel
+-
+
+-
+
+
+bg=#55ff55</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>273</x>
+      <y>195</y>
+      <w>208</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>List
+template=Charakter
+-
+
+-
+bg=#55ff55
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>169</x>
+      <y>234</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- char
+  Liste</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>273</x>
+      <y>26</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>*Object*
+-
+
+-
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>91</x>
+      <y>117</y>
+      <w>286</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>200.0;10.0;200.0;40.0;10.0;40.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>338</x>
+      <y>156</y>
+      <w>39</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>338</x>
+      <y>156</y>
+      <w>286</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;200.0;10.0;200.0;40.0</additional_attributes>
+  </element>
+</diagram>

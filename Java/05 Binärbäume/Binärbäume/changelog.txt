@@ -1,0 +1,18 @@
+04.07.2021
+- Erste Veröffentlichung:
+  00 Software
+  01 Rekursiv Zeichnen
+  02 Turtle-Grafik
+  03 Rekursion Programmanalyse
+  04 Rekursive Grafik
+  05 Rekursiv Sortieren
+  06 Binärbaum
+  07 BinaryTree Methoden
+  08 Suchbaum
+  09 Suchbaum Programmieren
+  10 Traversieren
+  11 Traversieren Programmanalyse
+  12 Traversieren Programmieren
+  13 Datei Ein-Ausgabe (Zusatz)
+  14 Suchbaum Löschen
+  15 BinarySearchTree

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>36</y>
+      <w>384</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>BinaryTree 
+template=ContentType
+--
+ 
+--
++ BinaryTree()
++ BinaryTree(pContent: ContentType)
++ BinaryTree(pContent: ContentType, 
+         pLeftTree, pRightTree: BinaryTree)
++ isEmpty(): boolean
++ getContent(): ContentType
++ setContent(pContent: ContentType)
++ getLeftTree(): BinaryTree
++ getRightTree(): BinaryTree
++ setLeftTree(pTree: BinaryTree)
++ setRightTree(pTree: BinaryTree)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>792</x>
+      <y>84</y>
+      <w>132</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- left
+- right
+</panel_attributes>
+    <additional_attributes>10.0;60.0;60.0;60.0;60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>396</y>
+      <w>324</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=.
+ContentType
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>636</x>
+      <y>324</y>
+      <w>96</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- content</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>36</x>
+      <y>60</y>
+      <w>336</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>Die NRW-Klasse BinaryTree hat eigentlich noch eine innere Klasse "BTNode", an der das Content-Objekt hängt, und die die Verweise auf den linken / rechten Teilbaum enthält (aus mir schleierhaften Gründen). 
+Es scheint mit unnötig kompliziert, insbesondere für Schüler, daher habe ich es so gehalten wie mit der alten Version der NRW-Klassen.
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1008</x>
+      <y>36</y>
+      <w>228</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>BinaryTree 
+template=ContentType
+--
+ 
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1008</x>
+      <y>204</y>
+      <w>168</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=.
+ContentType
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1080</x>
+      <y>132</y>
+      <w>96</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- content</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1164</x>
+      <y>72</y>
+      <w>132</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- left
+- right
+</panel_attributes>
+    <additional_attributes>10.0;50.0;60.0;50.0;60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

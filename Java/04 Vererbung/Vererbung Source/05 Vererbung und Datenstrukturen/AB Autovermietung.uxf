@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>324</x>
+      <y>456</y>
+      <w>240</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>LKW
+-
+- kmPreis: double
+-
++ LKW(pk: String)
++ setKmPreis(pk: double)
++ getKmPreis(): double
++ getGesamtPreis(): double
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>456</y>
+      <w>240</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>Bus
+-
+- plätze: int
+- gereinigt: boolean
+-
++ Bus(pk: String, pp: int)
++ getPlätze(): int
++ setGereinigt(pg: boolean)
++ getGereinigt(): boolean
++ getGesamtPreis(): double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>156</x>
+      <y>360</y>
+      <w>588</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>470.0;10.0;470.0;50.0;10.0;50.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>408</y>
+      <w>36</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>672</x>
+      <y>408</y>
+      <w>72</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>456</y>
+      <w>240</w>
+      <h>204</h>
+    </coordinates>
+    <panel_attributes>PKW
+-
+- wochenPreis: double
+- navi: boolean
+-
++ PKW(pk: String)
++ setWochenPreis(pp: double)
++ getWochenPreis(): double
++ setNavi(pn: boolean)
++ getNavi(): boolean
++ getGesamtPreis(): double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>60</y>
+      <w>180</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>Autovermietung
+-
+
+-
++ Autovermietung()
++ objekteErzeugen()
++ datenAusgeben()
++ main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>336</x>
+      <y>48</y>
+      <w>192</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>List
+template=Fahrzeug
+-
+
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>216</x>
+      <y>72</y>
+      <w>144</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- fListe</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>336</x>
+      <y>240</y>
+      <w>192</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>ListNode
+template=Fahrzeug
+-
+
+-
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>396</x>
+      <y>144</y>
+      <w>96</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- first
+- last
+- current
+</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>468</x>
+      <y>276</y>
+      <w>156</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- content
+</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>60</y>
+      <w>240</w>
+      <h>312</h>
+    </coordinates>
+    <panel_attributes>/Fahrzeug/
+{ abstract }
+-
+- kennz: String
+- tagesPreis: double
+- tage: int
+- km: double
+-
++ Fahrzeug(pk: String)
++ getKennzeichen(): String
++ setTagesPreis(pp: double)
++ getTagesPreis(): double
++ mieten(pt: int)
++ getTage(): int
++ fahren(pk: double)
++ getKm(): double
+/+ getGesamtPreis(): double/</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

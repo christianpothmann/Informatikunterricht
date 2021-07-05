@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>715</x>
+      <y>26</y>
+      <w>195</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>BinaryTree 
+template=Kontakt
+--
+ 
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>130</y>
+      <w>104</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=- content</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>104</y>
+      <w>104</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- left
+- right
+</panel_attributes>
+    <additional_attributes>10.0;30.0;10.0;60.0;60.0;60.0;60.0;10.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>598</x>
+      <y>65</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- wurzel</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>676</x>
+      <y>247</y>
+      <w>234</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>Kontakt
+--
+- nachname: String
+- vorname: String
+- telefon: String
+- email: String
+--
++ Kontakt()
++ Kontakt(n, v, t, e: String)
++ getNachnam(): String
++ setNachname(p: String)
++ ...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>403</x>
+      <y>39</y>
+      <w>208</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>Adressbuch
+--
+
+--
++ Adressbuch()
++ einfügen(pk: Kontakt)
++ suchen(pn: String): 
+    Kontakt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>39</y>
+      <w>195</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>AdressVerwaltung
+--
+
+--
++ AdressVerwaltung()
++ kontaktAnlegen()
++ kontaktDetails()
++ main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>286</x>
+      <y>65</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- aBuch</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>

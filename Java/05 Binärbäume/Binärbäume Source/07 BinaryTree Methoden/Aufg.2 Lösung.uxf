@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>900</x>
+      <y>228</y>
+      <w>228</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+left</panel_attributes>
+    <additional_attributes>10.0;70.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1212</x>
+      <y>228</y>
+      <w>288</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+right</panel_attributes>
+    <additional_attributes>220.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1152</x>
+      <y>240</y>
+      <w>84</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1524</x>
+      <y>60</y>
+      <w>84</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=aktuell</panel_attributes>
+    <additional_attributes>10.0;200.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1308</x>
+      <y>60</y>
+      <w>60</w>
+      <h>408</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=neu</panel_attributes>
+    <additional_attributes>10.0;320.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>696</x>
+      <y>348</y>
+      <w>132</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+left</panel_attributes>
+    <additional_attributes>10.0;80.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>888</x>
+      <y>348</y>
+      <w>96</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+right</panel_attributes>
+    <additional_attributes>60.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>840</x>
+      <y>348</y>
+      <w>84</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1380</x>
+      <y>348</y>
+      <w>132</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+left</panel_attributes>
+    <additional_attributes>10.0;80.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1524</x>
+      <y>348</y>
+      <w>84</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>492</y>
+      <w>96</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+left</panel_attributes>
+    <additional_attributes>10.0;50.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>696</x>
+      <y>492</y>
+      <w>96</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+right</panel_attributes>
+    <additional_attributes>60.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>648</x>
+      <y>492</y>
+      <w>84</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1332</x>
+      <y>492</y>
+      <w>84</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+content</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>0</x>
+      <y>144</y>
+      <w>372</w>
+      <h>384</h>
+    </coordinates>
+    <panel_attributes>fontsize=18
+wurzel = new BinaryTree();
+
+wurzel.setContent("Müller");
+neu = new BinaryTree("Günther");
+wurzel.setLeftTree(neu);
+neu = new BinaryTree("Peters");
+wurzel.setRightTree(neu);
+
+aktuell = wurzel.getLeftTree();
+neu = new BinaryTree("Albrecht");
+aktuell.setLeftTree(neu);
+
+aktuell = wurzel.getRightTree();
+neu = new BinaryTree("Neumann");
+aktuell.setLeftTree(neu);
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1152</x>
+      <y>120</y>
+      <w>84</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=wurzel</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1104</x>
+      <y>192</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>: BinaryTree
+-
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1104</x>
+      <y>72</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>: Beispiel
+-
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1092</x>
+      <y>300</y>
+      <w>144</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+*v = "Müller"*
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>792</x>
+      <y>300</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>: BinaryTree
+-
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>456</y>
+      <w>60</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=left</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>996</x>
+      <y>456</y>
+      <w>84</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=content</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>948</x>
+      <y>408</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>: BinaryTree
+-
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1020</x>
+      <y>528</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>948</x>
+      <y>528</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>984</x>
+      <y>528</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1032</x>
+      <y>456</y>
+      <w>72</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=right</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>600</x>
+      <y>444</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>: BinaryTree
+-
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1476</x>
+      <y>300</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>: BinaryTree
+-
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>768</x>
+      <y>600</y>
+      <w>60</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=left</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>804</x>
+      <y>600</y>
+      <w>84</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=content</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>756</x>
+      <y>552</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>: BinaryTree
+-
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>828</x>
+      <y>672</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>756</x>
+      <y>672</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>792</x>
+      <y>672</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>840</x>
+      <y>600</y>
+      <w>72</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=right</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>456</x>
+      <y>600</y>
+      <w>60</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=left</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>492</x>
+      <y>600</y>
+      <w>84</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=content</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>444</x>
+      <y>552</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>: BinaryTree
+-
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>516</x>
+      <y>672</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>444</x>
+      <y>672</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>480</x>
+      <y>672</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>528</x>
+      <y>600</y>
+      <w>72</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=right</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>780</x>
+      <y>408</y>
+      <w>144</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+*v = "Günther"*
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>588</x>
+      <y>552</y>
+      <w>144</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+*v = "Albrecht"*
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1272</x>
+      <y>552</y>
+      <w>144</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+*v = "Neumann"*
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1380</x>
+      <y>492</y>
+      <w>96</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+right</panel_attributes>
+    <additional_attributes>60.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1452</x>
+      <y>600</y>
+      <w>60</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=left</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1488</x>
+      <y>600</y>
+      <w>84</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=content</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1440</x>
+      <y>552</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>: BinaryTree
+-
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1512</x>
+      <y>672</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1440</x>
+      <y>672</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1476</x>
+      <y>672</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1524</x>
+      <y>600</y>
+      <w>72</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=right</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1284</x>
+      <y>444</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>: BinaryTree
+-
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1140</x>
+      <y>600</y>
+      <w>60</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=left</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1176</x>
+      <y>600</y>
+      <w>84</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=content</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1128</x>
+      <y>552</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>: BinaryTree
+-
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1200</x>
+      <y>672</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1128</x>
+      <y>672</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1164</x>
+      <y>672</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1212</x>
+      <y>600</y>
+      <w>72</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=right</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1224</x>
+      <y>492</y>
+      <w>96</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+left</panel_attributes>
+    <additional_attributes>10.0;50.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1464</x>
+      <y>408</y>
+      <w>144</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>: String
+-
+*v = "Peters"*
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1572</x>
+      <y>348</y>
+      <w>96</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+right</panel_attributes>
+    <additional_attributes>60.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1644</x>
+      <y>456</y>
+      <w>60</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=left</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1680</x>
+      <y>456</y>
+      <w>84</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=content</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1632</x>
+      <y>408</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>: BinaryTree
+-
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1704</x>
+      <y>528</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1632</x>
+      <y>528</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1668</x>
+      <y>528</y>
+      <w>48</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>null
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1716</x>
+      <y>456</y>
+      <w>72</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=right</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
