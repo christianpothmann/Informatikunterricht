@@ -1,6 +1,7 @@
 Neu
 - 01 Konsole: Fehler korrigiert, Lösung (als Demo) hinzugefügt
 - 05 Algorithmus: .uxf-Datei zum Erarbeiten
+  Grafik vom AB entfernt
 - Abläufe z.T. hinzugefügt / bearbeitet
 
 05.05.2021
