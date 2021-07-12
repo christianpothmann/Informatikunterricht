@@ -1,0 +1,22 @@
+Online-Buchhandel (z.B. Amazon) zeigen
+SuS geben Artikel zum Suchen an
+Frage: Wird für jedes Buch eine HTML-Datei geschrieben? 
+Warum nicht? → bei Millionen von Artikeln zu aufwendig
+Bei Antwort „Datenbank“: Was ist denn eine Datenbank?
+Antwort: speichert alle Daten zu Verkaufsartikeln, Kunden usw.
+Die Webseite baut sich dann automatisch aus den Daten auf.
+
+Wo findet man noch Datenbanken (abgesehen vom Internet)?
+Banken, Wirtschaft (Produktionsplanung / SAP, Buchhaltung)
+Verwaltung (Einwohnermeldeamt, Polizei)
+Wissenschaft (Wetterdaten usw.)
+
+SuS lesen Text zum Begriff "Datenbank"
+
+Aufgabe:
+Wie würdet ihr die Daten für einen Online-Buchhandel darstellen?
+SuS überlegen Struktur und ein paar konkrete Beispiele.
+(Nicht mit UML oder Objekten)
+
+In der Regel kommen SuS von selbst darauf, die Daten in Tabellenform darzustellen.
+-> Fazit: Datenbanken sind Sammlungen von Tabellen mit Daten.

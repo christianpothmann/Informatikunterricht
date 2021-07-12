@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>364</x>
+      <y>52</y>
+      <w>156</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>valign=center
+Sprache</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>390</x>
+      <y>130</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>_SNR_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>377</x>
+      <y>91</y>
+      <w>39</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>390</x>
+      <y>169</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Name</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>195</x>
+      <y>143</y>
+      <w>157</w>
+      <h>79</h>
+    </coordinates>
+    <panel_attributes>gesprochen</panel_attributes>
+    <additional_attributes/>
+    <custom_code>int y = height/2 + 12 - textHeight()*textlines.size()/2;
+
+for(String textline : textlines) {
+	y += printCenter(textline,y);
+}
+
+Polygon p = new Polygon();
+p.addPoint(width/2, 0);
+p.addPoint(width, height/2);
+p.addPoint(width/2, height);
+p.addPoint(0, height/2);
+drawPolygon(p);</custom_code>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>65</y>
+      <w>130</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>m2=m
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>364</x>
+      <y>312</y>
+      <w>156</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>valign=center
+Land</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>390</x>
+      <y>390</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>_LNR_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>390</x>
+      <y>429</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Name</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>377</x>
+      <y>351</y>
+      <w>39</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>208</y>
+      <w>182</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>m1=n
+fontsize=18</panel_attributes>
+    <additional_attributes>110.0;80.0;110.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>390</x>
+      <y>468</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Einwohner</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>390</x>
+      <y>507</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Flaeche</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>364</x>
+      <y>585</y>
+      <w>156</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>valign=center
+Kontinent</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>390</x>
+      <y>663</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>_KNR_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>390</x>
+      <y>702</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Name</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>377</x>
+      <y>624</y>
+      <w>39</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>390</x>
+      <y>741</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Flaeche</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>195</x>
+      <y>442</y>
+      <w>157</w>
+      <h>79</h>
+    </coordinates>
+    <panel_attributes>teilVon</panel_attributes>
+    <additional_attributes/>
+    <custom_code>int y = height/2 + 12 - textHeight()*textlines.size()/2;
+
+for(String textline : textlines) {
+	y += printCenter(textline,y);
+}
+
+Polygon p = new Polygon();
+p.addPoint(width/2, 0);
+p.addPoint(width, height/2);
+p.addPoint(width/2, height);
+p.addPoint(0, height/2);
+drawPolygon(p);</custom_code>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>325</y>
+      <w>130</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>m2=n
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>507</y>
+      <w>130</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>m1=1
+fontsize=18</panel_attributes>
+    <additional_attributes>80.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>858</x>
+      <y>312</y>
+      <w>156</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>valign=center
+Ort</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>884</x>
+      <y>390</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>_ONR_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>884</x>
+      <y>429</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Name</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>871</x>
+      <y>351</y>
+      <w>39</w>
+      <h>273</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;190.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>884</x>
+      <y>546</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Breite</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>611</x>
+      <y>221</y>
+      <w>157</w>
+      <h>79</h>
+    </coordinates>
+    <panel_attributes>liegtIn</panel_attributes>
+    <additional_attributes/>
+    <custom_code>int y = height/2 + 12 - textHeight()*textlines.size()/2;
+
+for(String textline : textlines) {
+	y += printCenter(textline,y);
+}
+
+Polygon p = new Polygon();
+p.addPoint(width/2, 0);
+p.addPoint(width, height/2);
+p.addPoint(width/2, height);
+p.addPoint(0, height/2);
+drawPolygon(p);</custom_code>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>481</x>
+      <y>247</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>m1=1
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>754</x>
+      <y>247</y>
+      <w>221</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>m1=n
+fontsize=18</panel_attributes>
+    <additional_attributes>140.0;50.0;140.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>611</x>
+      <y>351</y>
+      <w>157</w>
+      <h>79</h>
+    </coordinates>
+    <panel_attributes>Hauptstadt</panel_attributes>
+    <additional_attributes/>
+    <custom_code>int y = height/2 + 12 - textHeight()*textlines.size()/2;
+
+for(String textline : textlines) {
+	y += printCenter(textline,y);
+}
+
+Polygon p = new Polygon();
+p.addPoint(width/2, 0);
+p.addPoint(width, height/2);
+p.addPoint(width/2, height);
+p.addPoint(0, height/2);
+drawPolygon(p);</custom_code>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>507</x>
+      <y>325</y>
+      <w>130</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>m1=1
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0;50.0;50.0;80.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>754</x>
+      <y>325</y>
+      <w>130</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>m2=1
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;50.0;40.0;50.0;40.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>884</x>
+      <y>585</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Laenge</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>884</x>
+      <y>468</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Einwohner</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>884</x>
+      <y>507</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Landesteil</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>91</x>
+      <y>221</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Anteil</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>208</x>
+      <y>182</y>
+      <w>39</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

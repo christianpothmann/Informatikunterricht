@@ -1,0 +1,19 @@
+Mit w3schools zeigen:
+
+Anzahl Lieferanten in Deutschland
+SELECT Count(Country) AS Anzahl FROM Suppliers WHERE Country = 'Germany';
+
+Anzahl Lieferanten nach Ländern
+SELECT Country, Count(Country) AS Anzahl FROM Suppliers GROUP BY Country;
+
+Durchschnittspreis
+SELECT Avg(Price) AS Durchschnitt FROM Products;
+
+Höchster Preis
+SELECT Max(Price) AS Höchster FROM Products;
+
+Geht nicht: Maxpreis mit Name
+SELECT Max(Price), ProductName FROM Products;
+
+-> Verschachtelung (nur kurz zeigen)
+SELECT ProductName, Price FROM Products WHERE Price = (SELECT Max(Price) FROM Products);

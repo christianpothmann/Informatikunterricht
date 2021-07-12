@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>270</y>
+      <w>320</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Server</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>320</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>DBMS
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>230</x>
+      <y>320</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Webserver
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>330</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+SQL</panel_attributes>
+    <additional_attributes>10.0;20.0;70.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>270</y>
+      <w>150</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Client</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>320</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Browser
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>330</y>
+      <w>170</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+Internet
+HTTP</panel_attributes>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>630</x>
+      <y>280</y>
+      <w>80</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Benutzer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>520</y>
+      <w>150</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Server</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>570</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>DBMS
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>580</y>
+      <w>170</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+Netzwerk
+SQL</panel_attributes>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>520</y>
+      <w>150</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Client</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>310</x>
+      <y>570</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>GUI
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>460</x>
+      <y>530</y>
+      <w>80</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Benutzer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>40</x>
+      <y>30</y>
+      <w>820</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>DBMS:
+Database Management System
+Beispiele: Oracle, Microsoft SQL Server, MySQL, PostgreSQL, ...
+Verwaltet eine oder mehrere Datenbanken
+Ermöglicht Verbindung anderer Software mit einer Datenbank (direkt oder über das Internet)
+Datenaustausch zwischen Software und Datenbank i.d.R. über SQL
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>40</x>
+      <y>680</y>
+      <w>820</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Vorteile eines DBMS:
+- Programme können von anderen Computern auf eine Datenbank zugreifen
+- Viele Clients können gleichzeitig mit der Datenbank arbeiten (Abfragen und Änderungen)
+   Das wäre mit einer Datei nicht möglich (nur je ein Benutzer gleichzeitig)
+
+Vorteile einer Abfragesprache wie SQL:
+- Eine Software kann Abragen "dynamisch" aufbauen, z.B. aus den Eingaben, die ein Benutzer macht
+- SQL ist ein Standard, der von fast allen DBMS unterstützt wird.
+   D.h. es ist relativ einfach, Software von einem DBMS auf ein anderes umzustellen.
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>40</x>
+      <y>430</y>
+      <w>800</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Anwendung in einer Firma (z.B. Produktionssteuerung)
+Benutzer arbeitet mit spezieller Software (graphische Oberfläche, GUI)
+Die GUI schickt Anfragen (codiert mit SQL) an eine Datenbank, die von einem DBMS verwaltet wird
+DBMS antwortet, die GUI zeigt die Daten entsprechend an.
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>40</x>
+      <y>160</y>
+      <w>800</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Anwendung über das Web (z.B. Amazon):
+Benutzer klickt im Browser
+Browser schickt Anfrage über Internet an einen Webserver
+Webserver schickt Anfrage (codiert mit SQL) an eine Datenbank, die von einem DBMS verwaltet wird
+DBMS antwortet, Webserver baut automatisch die Webseite auf und schickt sie über das Internet an den Browser
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

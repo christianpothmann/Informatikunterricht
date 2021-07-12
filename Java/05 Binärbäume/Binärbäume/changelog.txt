@@ -1,3 +1,6 @@
+Neu:
+- AB Installation Software: kleine Änderungen
+
 04.07.2021
 - Erste Veröffentlichung:
   00 Software

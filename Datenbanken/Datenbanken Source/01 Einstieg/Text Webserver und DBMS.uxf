@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>117</x>
+      <y>104</y>
+      <w>65</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>338</x>
+      <y>182</y>
+      <w>117</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>PHP-Skript
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>104</x>
+      <y>273</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>customelement=
+// Text Elemnt
+// DB Symbol
+drawArc(0,0,width,height*2/5,0,180,true) fg=black
+drawArc(0,0,width,height*2/5,180,180,true) fg=black
+drawLine(0,height/5,0,height*4/5)fg=black
+drawLine(width,height/5,width,height*4/5)fg=black
+drawArc(0,height*1/5,width,height*2/5,180,180,true) fg=black
+drawArc(0,height*2/5,width,height*2/5,180,180,true) fg=black 
+drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>91</x>
+      <y>377</y>
+      <w>117</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Datenbank
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>78</x>
+      <y>195</y>
+      <w>143</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Design-Vorlage
+in HTML
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>182</x>
+      <y>130</y>
+      <w>169</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>110.0;60.0;50.0;60.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>195</x>
+      <y>234</y>
+      <w>156</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Daten
+zum 
+Buch</panel_attributes>
+    <additional_attributes>100.0;10.0;40.0;10.0;40.0;70.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>533</x>
+      <y>195</y>
+      <w>65</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>494</x>
+      <y>286</y>
+      <w>143</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>HTML-Datei
+zum Buch
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>598</x>
+      <y>221</y>
+      <w>247</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=    Internet</panel_attributes>
+    <additional_attributes>170.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>455</x>
+      <y>221</y>
+      <w>91</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>65</x>
+      <y>65</y>
+      <w>572</w>
+      <h>351</h>
+    </coordinates>
+    <panel_attributes>Webserver</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>741</x>
+      <y>91</y>
+      <w>247</w>
+      <h>299</h>
+    </coordinates>
+    <panel_attributes>Gerät des Kunden</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>832</x>
+      <y>195</y>
+      <w>65</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>793</x>
+      <y>286</y>
+      <w>143</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>HTML-Datei
+zum Buch
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>143</y>
+      <w>169</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>Browser</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

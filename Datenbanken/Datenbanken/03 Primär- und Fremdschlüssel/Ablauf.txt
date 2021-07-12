@@ -1,0 +1,13 @@
+1. Beispiel zeigen: "Was sind hier die Probleme?"
+   Marco Schmitz gibt es 2x -> Bestellungen nicht eindeutig
+   Der kleine Hobbit ebenfalls (verschiedene Ausgaben)
+
+   Andere Spalte für Bestellungen auswählen?
+   Emailadresse kann sich ändern
+   Kontonr. / Kreditkarte nicht immer vorhanden
+   -> Kundennr. für Kunden, ISBN für Bücher sind jeweils eindeutig
+
+2. SuS lesen AB
+
+3. SuS bearbeiten die Aufgaben
+

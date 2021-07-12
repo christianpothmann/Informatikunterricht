@@ -1,5 +1,6 @@
 Neu
-- Fehler in 04 Abstrakte Klasse korrigiert
+- AB Abstrakte Klasse: Fehler korrigiert
+- AB Installation Software: kleine Änderungen
 
 04.06.2021
 - Erste Veröffentlichung:

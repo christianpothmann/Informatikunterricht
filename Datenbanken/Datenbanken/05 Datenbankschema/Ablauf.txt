@@ -1,0 +1,13 @@
+1. Präsentation
+   - SuS geben Kardinalitäten an
+   - SuS überlegen, wie Beziehungstypen dargestellt werden
+     insbes. n-1-Beziehungstyp, geht das ohne zus. Tabelle?
+   - letzte Folie nur kurz zeigen (Erläuterungen im AB)
+
+2. AB lesen + Aufgabe
+
+3. An dieser Stelle sind Aufgaben aus dem Zentralabitur zu ER-Modellen 
+   und Datenbankschemata sinnvoll, zum Beispiel:
+   - 2017 a), b)
+   - 2015 a)
+   - 2013 a)

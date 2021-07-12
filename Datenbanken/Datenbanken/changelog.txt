@@ -1,0 +1,16 @@
+12.07.2021
+- Erste Veröffentlichung:
+  00 Software
+  01 Einstieg
+  02 Entität und Beziehung
+  03 Primär- und Fremdschlüssel
+  04 ER-Modell
+  05 Datenbankschema
+  06 SQL Einstieg
+  07 SQL Verbund (Join)
+  08 SQL Outer Join
+  09 SQL Rechnen
+  10 SQL Unterabfrage
+  11 Normalisierung
+  12 Datenbank und Java
+  13 Datenschutz

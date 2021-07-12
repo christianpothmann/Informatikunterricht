@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>91</x>
+      <y>117</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>valign=center
+Student</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>104</x>
+      <y>182</y>
+      <w>117</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>_MatrNr_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>91</x>
+      <y>156</y>
+      <w>39</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>104</x>
+      <y>221</y>
+      <w>117</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Name</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>208</x>
+      <y>104</y>
+      <w>78</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>n
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;30.0;40.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>260</x>
+      <y>104</y>
+      <w>117</w>
+      <h>79</h>
+    </coordinates>
+    <panel_attributes>besucht</panel_attributes>
+    <additional_attributes/>
+    <custom_code>int y = height/2 + 12 - textHeight()*textlines.size()/2;
+
+for(String textline : textlines) {
+	y += printCenter(textline,y);
+}
+
+Polygon p = new Polygon();
+p.addPoint(width/2, 0);
+p.addPoint(width, height/2);
+p.addPoint(width/2, height);
+p.addPoint(0, height/2);
+drawPolygon(p);</custom_code>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>416</x>
+      <y>117</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>valign=center
+Kurs</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>429</x>
+      <y>182</y>
+      <w>117</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>_KursNr_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>429</x>
+      <y>221</y>
+      <w>117</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Titel</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>585</x>
+      <y>104</y>
+      <w>117</w>
+      <h>79</h>
+    </coordinates>
+    <panel_attributes>leitet</panel_attributes>
+    <additional_attributes/>
+    <custom_code>int y = height/2 + 12 - textHeight()*textlines.size()/2;
+
+for(String textline : textlines) {
+	y += printCenter(textline,y);
+}
+
+Polygon p = new Polygon();
+p.addPoint(width/2, 0);
+p.addPoint(width, height/2);
+p.addPoint(width/2, height);
+p.addPoint(0, height/2);
+drawPolygon(p);</custom_code>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>741</x>
+      <y>117</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>valign=center
+Dozent</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>754</x>
+      <y>182</y>
+      <w>117</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>_PersNr_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>754</x>
+      <y>221</y>
+      <w>117</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Name</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>364</x>
+      <y>104</y>
+      <w>78</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>m
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;30.0;40.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>416</x>
+      <y>156</y>
+      <w>39</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>533</x>
+      <y>104</y>
+      <w>78</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>n
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;30.0;40.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>689</x>
+      <y>104</y>
+      <w>78</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>1
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;30.0;40.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>741</x>
+      <y>156</y>
+      <w>39</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

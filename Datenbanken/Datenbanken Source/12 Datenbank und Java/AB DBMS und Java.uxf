@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>234</x>
+      <y>390</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>customelement=
+// Text Elemnt
+// DB Symbol
+drawArc(0,0,width,height*2/5,0,180,true) fg=black
+drawArc(0,0,width,height*2/5,180,180,true) fg=black
+drawLine(0,height/5,0,height*4/5)fg=black
+drawLine(width,height/5,width,height*4/5)fg=black
+drawArc(0,height*1/5,width,height*2/5,180,180,true) fg=black
+drawArc(0,height*2/5,width,height*2/5,180,180,true) fg=black 
+drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>221</x>
+      <y>481</y>
+      <w>117</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Datenbank 1
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>442</x>
+      <y>429</y>
+      <w>273</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+m2=          SQL-Befehle\n           und Daten\n          über Internet</panel_attributes>
+    <additional_attributes>190.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>182</x>
+      <y>299</y>
+      <w>325</w>
+      <h>247</h>
+    </coordinates>
+    <panel_attributes>Server (z.B. Linux)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>663</x>
+      <y>351</y>
+      <w>247</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>Client (z.B. Windows)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>208</x>
+      <y>351</y>
+      <w>273</w>
+      <h>169</h>
+    </coordinates>
+    <panel_attributes>DBMS (z.B. MySQL)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>364</x>
+      <y>390</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>customelement=
+// Text Elemnt
+// DB Symbol
+drawArc(0,0,width,height*2/5,0,180,true) fg=black
+drawArc(0,0,width,height*2/5,180,180,true) fg=black
+drawLine(0,height/5,0,height*4/5)fg=black
+drawLine(width,height/5,width,height*4/5)fg=black
+drawArc(0,height*1/5,width,height*2/5,180,180,true) fg=black
+drawArc(0,height*2/5,width,height*2/5,180,180,true) fg=black 
+drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>351</x>
+      <y>481</y>
+      <w>117</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Datenbank 2
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>689</x>
+      <y>403</y>
+      <w>195</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>Benutzerschnittstelle
+(z.B. Java)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>936</x>
+      <y>390</y>
+      <w>104</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>Benutzer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>871</x>
+      <y>429</y>
+      <w>117</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>299</x>
+      <y>676</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>customelement=
+// Text Elemnt
+// DB Symbol
+drawArc(0,0,width,height*2/5,0,180,true) fg=black
+drawArc(0,0,width,height*2/5,180,180,true) fg=black
+drawLine(0,height/5,0,height*4/5)fg=black
+drawLine(width,height/5,width,height*4/5)fg=black
+drawArc(0,height*1/5,width,height*2/5,180,180,true) fg=black
+drawArc(0,height*2/5,width,height*2/5,180,180,true) fg=black 
+drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>299</x>
+      <y>767</y>
+      <w>390</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>Datenbank
+z.B. im SQLite-Format
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>741</x>
+      <y>689</y>
+      <w>130</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>Programm
+(z.B. Java)
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>559</x>
+      <y>715</y>
+      <w>208</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+m2=   SQL-Befehle\n     und Daten</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>468</x>
+      <y>689</y>
+      <w>104</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>
+Treiber
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>377</x>
+      <y>702</y>
+      <w>117</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>273</x>
+      <y>637</y>
+      <w>624</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Computer (z.B. Windows)</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

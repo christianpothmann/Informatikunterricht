@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>247</y>
+      <w>351</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>DatabaseConnector
+-
+
+-
++ DatabaseConnector
+   (pIP: String, pPort: int, 
+    pDatabase, pUser, pPassw: String)
++ executeStatement(pSQL: String)
++ getCurrentQueryResult(): QueryResult
++ getErrorMessage(): String
++ close()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>533</x>
+      <y>247</y>
+      <w>325</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>QueryResult
+-
+
+-
++ QueryResult(pData: String [ ] [ ], 
+   pColNames, pColTypes: String [ ] )
++ getData(): String [ ] [ ]
++ getColumnNames(): String [ ]
++ getColumnTypes(): String [ ]
++ getRowCount(): int
++ getColumnCount(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>299</x>
+      <y>455</y>
+      <w>39</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>234</x>
+      <y>494</y>
+      <w>208</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>template=String [ ]
+Queue
+-
+
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>234</x>
+      <y>117</y>
+      <w>156</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;Hauptklasse&gt;
+-
+
+-
++ main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>299</x>
+      <y>195</y>
+      <w>39</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>468</x>
+      <y>338</y>
+      <w>91</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

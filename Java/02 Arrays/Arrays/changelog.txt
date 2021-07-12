@@ -1,8 +1,8 @@
 Neu
-- 01 Konsole: Fehler korrigiert, Lösung (als Demo) hinzugefügt
-- 05 Algorithmus: .uxf-Datei zum Erarbeiten
-  Grafik vom AB entfernt
-- Abläufe z.T. hinzugefügt / bearbeitet
+- AB Konsole: Fehler korrigiert, Lösung (als Demo) hinzugefügt
+- AB Algorithmus: .uxf-Datei zum Erarbeiten
+- Zu einigen Abschnitten Ablauf.txt  hinzugefügt / bearbeitet
+- AB Installation Software: kleine Änderungen
 
 05.05.2021
 - Erste Veröffentlichung:

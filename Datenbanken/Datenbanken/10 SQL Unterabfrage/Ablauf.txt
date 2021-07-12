@@ -1,0 +1,13 @@
+1. SuS lesen AB
+
+2. SuS bearbeiten Aufgaben
+
+3. Lösungen besprechen
+
+4. Beispiel zeigen (welches?) dass man viele Abfragen sowohl mit JOIN als auch mit Unterabfragen lösen kann.
+   Mit Unterabfragen hat kann man jedoch nicht Spalten beider Tabellen ins Ergebnis aufnehmen.
+   Performance? Im Internet verschiedene Aussagen dazu.
+   JOINs scheinen aber besser lesbar zu sein.
+   Abitur: Solange die Abfrage das korrekte Ergebnis liefert, ist beides erlaubt.
+
+5. Aufgaben aus dem Zentralabitur zum Üben, z.B. von 2017, 2016
