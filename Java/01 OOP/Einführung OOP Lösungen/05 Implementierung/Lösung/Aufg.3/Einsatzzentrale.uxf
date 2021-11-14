@@ -105,9 +105,10 @@ valign=top
     <panel_attributes>s1: Streifenwagen
 -
 kennz = "K-FC 123"
-standort = "Neumarkt 1"
-pol1 = "Kalle Blomqvist"
-pol2 = "Nina Hagen"
+strasse = "Neumarkt 1"
+plz = "50123"
+pol1 = "Nils Holgerson"
+pol2 = "Kalle Blomqvist"
 
 valign=top
 
@@ -125,9 +126,10 @@ valign=top
     <panel_attributes>s2: Streifenwagen
 -
 kennz = "K-FC 456"
-standort = "Alter Markt 5"
-pol1 = "Jürgen Neumann"
-pol2 = "Frida Kahlo"
+strasse = "Alter Markt 5"
+plz = "50124"
+pol1 = "Celin Öztürk"
+pol2 = "Nina Schmidt"
 
 valign=top
 
@@ -145,7 +147,8 @@ valign=top
     <panel_attributes>Streifenwagen
 -
 kennz: String
-standort: String
+strasse: String
+plz: String
 pol1, pol2: String</panel_attributes>
     <additional_attributes/>
   </element>

@@ -1,6 +1,6 @@
 class Streifenwagen
 {
     String kennz;
-    String standort;
+    String strasse, plz;
     String pol1, pol2;
 }

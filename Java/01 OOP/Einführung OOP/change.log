@@ -1,12 +1,19 @@
 Neu
+- AB Implementierung: Korrektur in der Lösung
+- Konstruktor, Methode: Vorlagen-Ordner umbenannt
+- PR Methodenaufruf, PR Get-Methode: Begriff Referenz entfernt
+- AB Methodenaufruf Aufg. 1 überarbeitet (Formulierungen)
+- Methodenaufruf zus. AB zur Wdh. von Begriffen
+
+03.09.2021
 - Korrekturen in GameWindow-Doku (21)
-- Lizenztexte komprimiert (13, 15, 16, 21)
+- Lizenztexte komprimiert
 - AB Kommentare jetzt mit Ablauf und Lösung (zum Zeigen)
 - AB Installation Software: kleine Änderungen
 
 22.05.2021
 - Abschnitte zu Vererbung entfernt 
-  (in anderes Kapitel eingeordnet)
+  -> neue Reihe zu Vererbung
 - Zugriffsmodifikator überarbeitet
 
 04.04.2021
