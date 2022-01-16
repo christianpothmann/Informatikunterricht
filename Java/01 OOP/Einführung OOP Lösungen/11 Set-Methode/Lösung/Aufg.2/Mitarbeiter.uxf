@@ -5,27 +5,24 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>780</x>
-      <y>234</y>
+      <x>728</x>
+      <y>299</y>
       <w>182</w>
-      <h>169</h>
+      <h>117</h>
     </coordinates>
     <panel_attributes>: Mitarbeiter
 -
 name = "Müller"
-monatBrutto = 3000
-steuersatz = 11
-gesNetto = 6270
-gesBrutto = 7000
-gesSteuer = 730
+monGehalt = 3000
+gesGehalt = 7000
 valign=top</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>897</x>
-      <y>104</y>
+      <x>845</x>
+      <y>169</y>
       <w>182</w>
       <h>65</h>
     </coordinates>
@@ -38,8 +35,8 @@ valign=top</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>858</x>
-      <y>156</y>
+      <x>806</x>
+      <y>221</y>
       <w>104</w>
       <h>104</h>
     </coordinates>
@@ -50,8 +47,8 @@ m1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1027</x>
-      <y>156</y>
+      <x>975</x>
+      <y>221</y>
       <w>104</w>
       <h>104</h>
     </coordinates>
@@ -64,20 +61,19 @@ m2</panel_attributes>
     <coordinates>
       <x>338</x>
       <y>169</y>
-      <w>338</w>
-      <h>221</h>
+      <w>234</w>
+      <h>195</h>
     </coordinates>
     <panel_attributes>Mitarbeiter
 -
 name: String
-monatBrutto, steuersatz: double
-gesNetto, gesBrutto, gesSteuer: double
+monGehalt: double
+gesGehalt: double
 -
 setName(pn: String)
-setMonatBrutto(pb: double)
-erhöheMonatBrutto(perh: double)
-setSteuersatz(ps: double)
-lohnzahlung()
+setMonGehalt(pg: double)
+erhöheGehalt(pg: double)
+zahleGehalt()
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -115,19 +111,16 @@ m1, m2</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1014</x>
-      <y>234</y>
+      <x>962</x>
+      <y>299</y>
       <w>182</w>
-      <h>169</h>
+      <h>117</h>
     </coordinates>
     <panel_attributes>: Mitarbeiter
 -
 name = "Schmidt"
-monatBrutto = 3000
-steuersatz = 11
-gesNetto = 9000
-gesBrutto = 8010
-gesSteuer = 990
+monGehalt = 4000
+gesGehalt = 10000
 valign=top</panel_attributes>
     <additional_attributes/>
   </element>

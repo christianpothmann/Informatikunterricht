@@ -11,19 +11,19 @@ class MAVerwaltung
     void main()
     {
         m1.setName("Müller");
-        m1.setGehalt(2000);
-        m1.setSteuersatz(10);
-        m1.zahleGehalt();
-        m1.zahleGehalt();
-        m1.erhöheGehalt(1000);
-        m1.setSteuersatz(11);
-        m1.zahleGehalt();
-        
+        m1.setMonGehalt(2000);
         m2.setName("Schmidt");
-        m2.setGehalt(3000);
-        m2.setSteuersatz(11);
+        m2.setMonGehalt(3000);
+
+        m1.zahleGehalt();
         m2.zahleGehalt();
+
+        m1.zahleGehalt();
         m2.zahleGehalt();
+
+        m1.erhöheMonGehalt(1000);
+        m1.zahleGehalt();        
+        m2.erhöheMonGehalt(1000);
         m2.zahleGehalt();
     }
 }

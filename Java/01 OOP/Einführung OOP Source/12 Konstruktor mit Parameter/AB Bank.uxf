@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>156</x>
+      <y>91</y>
+      <w>156</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Bankverwaltung
+-
+
+-
+Bankverwaltung()
+main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>455</x>
+      <y>91</y>
+      <w>234</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Konto
+-
+nummer: String
+name: String
+stand: double
+-
+Konto(pnr: String)
+setName(pn: String)
+einzahlen(pBetrag: double)
+abheben(pBetrag: double)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>299</x>
+      <y>117</y>
+      <w>182</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+kt1, kt2</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>455</x>
+      <y>325</y>
+      <w>234</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Aktie
+-
+gesellschaft: String
+kurs: double
+-
+Aktie(pg: String)
+setKurs(pk: double)
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>299</x>
+      <y>169</y>
+      <w>182</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+ak1, ak2</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0;50.0;150.0;120.0;150.0</additional_attributes>
+  </element>
+</diagram>

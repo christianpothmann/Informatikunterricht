@@ -1,34 +1,26 @@
 class Mitarbeiter
 {
     String name;
-    double gehalt;
-    double steuersatz;
-    double gesamtBrutto, gesamtNetto, gesamtSteuer;
+    double monGehalt, gesGehalt;
 
     void setName(String pn)
-    {
-        name = pn;
+    { 
+        name = pn; 
     }
-    
-    void setGehalt(double pg)
-    {
-        gehalt = pg;
+
+    void setMonGehalt(double pg)
+    { 
+        monGehalt = pg;
     }
-    
-    void erhöheGehalt(double perh)
+
+    void erhöheMonGehalt(double pg)
     {
-        gehalt = gehalt + perh;
+        monGehalt = monGehalt + pg;
     }
-    
-    void setSteuersatz(double ps)
-    {
-        steuersatz = ps;
-    }
-    
+
     void zahleGehalt()
     {
-        gesamtBrutto = gesamtBrutto + gehalt;
-        gesamtNetto = gesamtNetto + (gehalt - gehalt * steuersatz / 100);
-        gesamtSteuer = gesamtSteuer + (gehalt * steuersatz / 100);
+        gesGehalt = 
+        gesGehalt + monGehalt;
     }
 }

@@ -8,6 +8,12 @@ public class Laufzeitmessung
 { 
     // Array wird in der main-Methode erzeugt (dort wird die Länge vom Benutzer erfragt)
     private int[] liste;
+    private Stoppuhr uhr;
+
+    public Laufzeitmessung()
+    {
+        uhr = new Stoppuhr();
+    }
 
     /*
      * Füllt die Liste mit Zufallszahlen zw. -100 und 100
@@ -108,7 +114,6 @@ public class Laufzeitmessung
     public void main()
     {
         int länge;
-        Stoppuhr uhr = new Stoppuhr();
         
         Console.clear();
         Console.println("Laufzeitmessung von Sortierverfahren\nWie lang soll die Liste sein?");

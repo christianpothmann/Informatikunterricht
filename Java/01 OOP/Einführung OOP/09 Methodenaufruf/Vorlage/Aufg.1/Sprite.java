@@ -4,17 +4,6 @@ class Sprite
     double richtung;
     double speed;
 
-    void zumUrsprung() 
-    {
-        x = 0;
-        y = 0;
-    }
-
-    void stop()
-    {
-        speed = 0;
-    }
-
     void schneller()
     {
         speed = speed + 10;

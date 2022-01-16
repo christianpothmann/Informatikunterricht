@@ -1,0 +1,13 @@
+Bildergeschichte
+
+1. UG: Konzept Variable vorstellen:
+   Spiel merkt sich z.B. Namen von Spielern, oder Punkte
+   
+2. Erstellen des Skript für Frage-Antwort-Spiel nach und nach vormachen
+
+3. EA: SuS bearbeiten Aufg. 1
+
+4. UG: Rechenoperatoren vorstellen
+
+5. EA: SuS bearbeiten Aufg. 2
+

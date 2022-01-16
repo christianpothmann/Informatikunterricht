@@ -1,0 +1,13 @@
+1. UG zur Wiederholung:
+   Klassendiagramm zur Weltraumsimulation zeigen
+   SuS geben die Implementierung an 
+   -> mit Notepad oder BlueJ mitschreiben
+
+2. Präsentation (die ersten Folien kann man dann überspringen)
+   bis zur schwarzen Folie
+
+3. AB Aufgabe 1
+
+4. Nur für die fortgeschrittenen SuS
+   Weitere Folien der Präsentation
+   AB Aufgabe 2

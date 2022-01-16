@@ -7,10 +7,12 @@ import console.*;
 public class Laufzeitmessung
 { 
     private int[] liste;
+    private Stoppuhr uhr;
 
     public Laufzeitmessung()
     {
         liste = new int[1000];
+        uhr = new Stoppuhr();
     }
 
     /*

@@ -4,10 +4,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>624</x>
-      <y>143</y>
-      <w>182</w>
-      <h>260</h>
+      <x>260</x>
+      <y>52</y>
+      <w>156</w>
+      <h>221</h>
     </coordinates>
     <panel_attributes>Sprite
 -
@@ -15,8 +15,6 @@ x, y: double
 speed: double
 richtung: double
 -
-zumUrsprung()
-anhalten()
 schneller()
 langsamer()
 dreheLinks()
@@ -27,8 +25,8 @@ bewege()</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>663</x>
-      <y>598</y>
+      <x>234</x>
+      <y>403</y>
       <w>182</w>
       <h>130</h>
     </coordinates>
@@ -45,9 +43,9 @@ valign=top</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>390</x>
-      <y>169</y>
-      <w>130</w>
+      <x>26</x>
+      <y>52</y>
+      <w>117</w>
       <h>117</h>
     </coordinates>
     <panel_attributes>Game
@@ -62,13 +60,13 @@ main()
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>507</x>
-      <y>182</y>
-      <w>143</w>
+      <x>130</x>
+      <y>65</y>
+      <w>156</w>
       <h>52</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 sp1, sp2</panel_attributes>
-    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>

@@ -6,8 +6,8 @@
     <coordinates>
       <x>65</x>
       <y>65</y>
-      <w>182</w>
-      <h>260</h>
+      <w>169</w>
+      <h>221</h>
     </coordinates>
     <panel_attributes>Sprite
 -
@@ -15,8 +15,6 @@ x, y: double
 speed: double
 richtung: double
 -
-zumUrsprung()
-stop()
 schneller()
 langsamer()
 dreheLinks()
@@ -28,8 +26,8 @@ bewege()</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>65</x>
-      <y>377</y>
-      <w>182</w>
+      <y>338</y>
+      <w>169</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>sp1: Sprite

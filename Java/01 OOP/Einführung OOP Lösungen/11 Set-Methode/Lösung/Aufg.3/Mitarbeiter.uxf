@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <help_text/>
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>767</x>
+      <y>156</y>
+      <w>182</w>
+      <h>169</h>
+    </coordinates>
+    <panel_attributes>: Mitarbeiter
+-
+name = "Müller"
+monGehalt = 3000
+steuersatz = 11
+gesNetto = 6270
+gesBrutto = 7000
+gesSteuer = 730
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>884</x>
+      <y>26</y>
+      <w>182</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>mv: MAVerwaltung
+-
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>845</x>
+      <y>78</y>
+      <w>104</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1</panel_attributes>
+    <additional_attributes>10.0;60.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1014</x>
+      <y>78</y>
+      <w>104</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2</panel_attributes>
+    <additional_attributes>60.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>325</x>
+      <y>91</y>
+      <w>338</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>Mitarbeiter
+-
+name: String
+monGehalt, steuersatz: double
+gesNetto, gesBrutto, gesSteuer: double
+-
+setName(pn: String)
+setMonGehalt(pg: double)
+erhöheMonGehalt(pg: double)
+setSteuersatz(ps: double)
+zahleGehalt()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>65</x>
+      <y>91</y>
+      <w>156</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>MAVerwaltung
+-
+
+-
+MAVerwaltung()
+main()
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>208</x>
+      <y>104</y>
+      <w>143</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1, m2</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1001</x>
+      <y>156</y>
+      <w>182</w>
+      <h>169</h>
+    </coordinates>
+    <panel_attributes>: Mitarbeiter
+-
+name = "Schmidt"
+monGehalt = 3000
+steuersatz = 11
+gesNetto = 9000
+gesBrutto = 8010
+gesSteuer = 990
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

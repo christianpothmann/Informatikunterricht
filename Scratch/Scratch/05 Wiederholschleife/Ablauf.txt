@@ -1,0 +1,13 @@
+Wiederholschleife
+
+1. EA: SuS bearbeiten AB Seite 1 (auf Papier)
+
+2. Aufgabe besprechen
+
+3. Bsp. Folgen zeigen:
+   Sprite folgt dem Mauszeiger, mit Verzögerung
+   -> Spiel besteht aus kleinen, laufend wiederholten Schritten
+   Ohne Verzögerung sieht es flüssig aus (sind aber weiterhin viele Einzelschritte)
+   Zeigen, wie man Sprite hinzufügt und Skript kopiert
+
+4. EA: SuS bearbeiten restl. AB am PC
