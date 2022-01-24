@@ -1,0 +1,38 @@
+Einstieg Kryptographie
+
+1. UG: SuS fragen nach Begriff "Kryptographie" und "Verschlüsselung"
+   und warum das in Informatik eine Rolle spielt.
+   
+   Ggf. ergänzen:
+   - Verschlüsselung = codieren einer Botschaft, so dass nur der 
+     gewünschte Empfänger sie wieder entschlüsseln und lesen kann.
+   - Datenübertragung im Internet leicht mitzulesen
+     Niemand möchte aber, dass persönliche Informationen
+	 oder Passwörter mitgelesen werden -> kann üble Folgen haben.
+   - Daher gibt es Programme, die Nachrichten so verschlüsseln,
+     dass niemand anderes (außer der Empfänger) sie lesen kann.
+
+   Stationenlernen anmoderieren:
+   Kryptographie ist schon sehr alt, und wir schauen uns frühe 
+   (und einfach zu verstehende) Verfahren an.
+   7 Stationen, Partnerarbeit mit Tischnachbarn
+   Je eine Station abholen, bearbeiten und wieder zurückgeben.
+   Außer "Zitronensaft", dafür muss man herkommen, schreiben, warten 
+   (in der Zeit eine andere Station bearbeiten), wieder herkommen und bügeln.
+   Jede/r braucht ein Blatt Papier, um Nachrichten zu codieren
+   und die Fragen der Stationen zu beantworten.
+   Man muss nicht alle Stationen bearbeiten, dafür reicht die Zeit evtl. nicht.
+   
+2. PA: SuS bearbeiten Stationen
+
+3. UG: (evtl. erst in der nächsten Doppelstunde)
+
+   SuS erläutern Caesar-Verschüsselung
+   Frage: Welche Information benötigt der Empfänger zusätzlich zur verschlüsselten Botschaft?
+   -> Begriff "Schlüssel"; hier: wie weit wurde das Alphabet verschoben?
+   
+   Tafelbild 1: Tabelle der Verfahren + Schlüssel (siehe Material zu Stationen)
+   SuS geben Schlüssel an
+   
+   Tafelbild 2: Struktur der Geheimen Botschaften
+   SuS fügen ihre Verfahren an der richtigen Stelle ein und schreiben die Struktur ab.   

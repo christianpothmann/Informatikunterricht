@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>19</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>209</x>
+      <y>38</y>
+      <w>57</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>fg=black
+transparency=0
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>152</x>
+      <y>38</y>
+      <w>57</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>bg=black
+fg=white
+transparency=0
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>95</x>
+      <y>38</y>
+      <w>57</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>bg=black
+fg=white
+transparency=0
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>38</x>
+      <y>38</y>
+      <w>57</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>fg=black
+transparency=0
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>266</x>
+      <y>38</y>
+      <w>57</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>bg=black
+fg=black
+transparency=0
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>323</x>
+      <y>38</y>
+      <w>57</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>fg=black
+transparency=0
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>38</y>
+      <w>57</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>fg=black
+transparency=0
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

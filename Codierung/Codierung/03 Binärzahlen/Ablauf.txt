@@ -1,0 +1,37 @@
+Binärzahlen
+
+1. Doppelstunde
+---------------
+
+1. UG
+Begriff "Digitalisierung" wiederholen (siehe AB)
+Darstellung von Zahlen im Binärsystem begründen
+
+2. UG/EA (Beamer)
+AB austeilen, aber gemeinsamm durcharbeiten
+Schriftl. Addition wiederholen
+Regeln für binäre Addition erläutern, Bsp. gemeinsam rechnen
+SuS berechnen Binärzahlen bis 16
+
+3. UG (Beamer)
+Sicherung: Lösung zeigen
+SuS erkennen Muster in Tabelle der Binärzahlen
+
+4. UG/EA (Beamer)
+Regeln für Addition von zwei Binärzahlen erläutern, Bsp. gemeinsam rechnen
+SuS addieren Binärzahlen
+
+2. Doppelstunde
+---------------
+
+1. UG
+Addition wiederholen (Tafel)
+
+2. UG/EA (Beamer)
+Beispiel (Seite 4) gemeinsam besprechen
+Ein Beispiel gemeinsam rechnen
+SuS addieren mehrere Binärzahlen
+
+3. UG/EA
+Multiplikation ebenso gemeinsam erarbeiten
+SuS multiplizieren Binärzahlen
