@@ -46,7 +46,7 @@ public class ZahlenTabelle
     }
 
     /*
-     * Füllt die Tabelle zufälligen Zahlen zw. 0 und 99.
+     * Füllt die Tabelle mit zufälligen Zahlen zw. pmin und pmax
      */
     public void fuelleZufall(int pmin, int pmax)
     {

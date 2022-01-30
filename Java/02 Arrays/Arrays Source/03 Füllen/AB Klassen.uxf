@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>299</x>
+      <y>52</y>
+      <w>169</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Zahlenliste
+-
+- liste: int [ ]
+-
++ Zahlenliste()
++ ausgeben()
++ eingeben()
++ füllenZufall()
++ füllenLinear()
++ füllenQuadrate()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>91</x>
+      <y>52</y>
+      <w>130</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>MatheApp
+-
+
+-
++ MatheApp()
++ main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>208</x>
+      <y>65</y>
+      <w>117</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+zl</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>

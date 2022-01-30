@@ -4,49 +4,137 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>26</x>
-      <y>26</y>
-      <w>182</w>
+      <x>312</x>
+      <y>117</y>
+      <w>169</w>
       <h>117</h>
     </coordinates>
-    <panel_attributes>Lottotipp
+    <panel_attributes>LottoTipp
 -
 *- tipp: int [ ]*
 -
-+ Lottotipp()
-+ setBeispielTipp()</panel_attributes>
++ LottoTipp()
++ setBeispiel()</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>26</x>
-      <y>182</y>
-      <w>182</w>
-      <h>117</h>
+      <x>312</x>
+      <y>273</y>
+      <w>169</w>
+      <h>130</h>
     </coordinates>
-    <panel_attributes>ZahlenListe
+    <panel_attributes>Zahlenliste
 -
 - liste: double [ ]
 -
-+ ZahlenListe()
-+ main()</panel_attributes>
++ Zahlenliste()
++ füllenLinear()
++ ausgeben()</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>26</x>
-      <y>338</y>
-      <w>182</w>
-      <h>117</h>
+      <x>312</x>
+      <y>455</y>
+      <w>169</w>
+      <h>130</h>
     </coordinates>
-    <panel_attributes>TextListe
+    <panel_attributes>Textliste
 -
 - liste: String [ ]
 -
-+ TextListe()
++ Textliste()
++ fragen()
++ ausgeben()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>91</x>
+      <y>117</y>
+      <w>130</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Lotto
+-
+
+-
++ Lotto()
 + main()</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>208</x>
+      <y>130</y>
+      <w>130</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lt
+</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>78</x>
+      <y>273</y>
+      <w>156</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>MatheApp
+-
+
+-
++ MatheApp()
++ main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>221</x>
+      <y>286</y>
+      <w>117</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+zl</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>78</x>
+      <y>455</y>
+      <w>156</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Fragespiel
+-
+
+-
++ Fragespiel()
++ main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>221</x>
+      <y>468</y>
+      <w>117</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+tl
+</panel_attributes>
+    <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>

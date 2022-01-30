@@ -7,9 +7,9 @@
  *     uhr.start();
  *     algorithmus();
  *     uhr.stopp();
- *     IOTools.println("Die Zeit beträgt " + uhr.gestoppteZeit() + " Sekunden.");
+ *     Console.println("Die Zeit beträgt " + uhr.gestoppteZeit() + " Sekunden.");
  * }
- * Christian Pothmann, 2.06.2013
+ * Christian Pothmann, 2.6.2013
  */
 public class Stoppuhr
 { 

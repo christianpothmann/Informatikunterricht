@@ -1,3 +1,9 @@
+Neu
+- Abschnitte von Array bis Laufzeitmessung:
+  Modelle jeweils mit Hauptklasse und main-Methode, statt alle Methoden in einer Klasse
+- Verschieben Lösung um Zusatzaufgaben erweitert
+- 2D-Array Lösung hinzugefügt
+
 16.01.2022
 - 2D-Array: AB korrigiert
 - Laufzeitmessung: Lösung erweitert um Beispieldaten

@@ -1,0 +1,27 @@
+16.01.2022
+- 2D-Array: AB korrigiert
+- Laufzeitmessung: Lösung erweitert um Beispieldaten
+- Laufzeitabschätzung: AB Quellcode leicht geändert, Lösung als PDF
+
+03.09.2021
+- Installation Software: AB kleine Änderungen
+- Konsole: AB Fehler korrigiert, Lösung (als Demo) hinzugefügt
+- Algorithmus: .uxf-Datei zum Erarbeiten
+- 2D-Array: AB Fehler korrigiert
+- Alle Lizenztexte komprimiert
+- Zu einigen Abschnitten Ablauf.txt hinzugefügt / bearbeitet
+
+05.05.2021
+- Erste Veröffentlichung:
+  00 Software
+  01 Konsole
+  02 Array
+  03 Füllen
+  04 For-Schleife
+  05 Algorithmus
+  06 Berechnungen
+  07 Verschieben
+  08 Sortieren
+  09 Laufzeitmessung
+  10 Laufzeitabschätzung
+  11 2D-Array

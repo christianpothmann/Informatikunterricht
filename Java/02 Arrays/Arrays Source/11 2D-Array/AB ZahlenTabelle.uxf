@@ -9,9 +9,9 @@
       <w>156</w>
       <h>104</h>
     </coordinates>
-    <panel_attributes>Programm
+    <panel_attributes>MatheApp
 -
-+ Programm()
++ MatheApp()
 + printTabelle()
 + main()</panel_attributes>
     <additional_attributes/>
