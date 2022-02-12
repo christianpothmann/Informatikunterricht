@@ -8,13 +8,11 @@ import java.awt.event.*;
 class Game
 {
     Sprite sp;
-    GameImage img;
     GameWindow window;
     
     Game()
     {
-        img    = new GameImage("images/Ghost red 100x115.png");
-        sp     = new Sprite(img);
+        sp = new Sprite("images/ghost red 100x100.png");
         window = new GameWindow(100, 100, 1200, 900, "Spiel mit Ereignissen");
     }
 
