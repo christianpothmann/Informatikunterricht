@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>65</x>
+      <y>65</y>
+      <w>182</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>*Prozessor (CPU)*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>91</x>
+      <y>208</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Cache</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>91</x>
+      <y>156</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Rechenwerk</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>91</x>
+      <y>104</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Steuereinheit</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSyncBarVertical</id>
+    <coordinates>
+      <x>325</x>
+      <y>39</y>
+      <w>26</w>
+      <h>559</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>429</x>
+      <y>65</y>
+      <w>182</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>*Speicher (RAM)*
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>429</x>
+      <y>104</y>
+      <w>91</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>halign=center
+Adresse
+-
+0001
+-
+0004
+-
+0008
+-
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>104</y>
+      <w>91</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>halign=center
+Daten
+-
+4711
+-
+1977
+-
+2017
+-
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>208</x>
+      <y>351</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>halign=center
+ Bus-System</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>234</x>
+      <y>117</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>325</x>
+      <y>104</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>429</x>
+      <y>286</y>
+      <w>182</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>lt=.
+*Geräte (Peripherie)*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>455</x>
+      <y>325</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Festplatte</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>455</x>
+      <y>377</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Grafikkarte</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>455</x>
+      <y>429</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>USB</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>325</x>
+      <y>325</y>
+      <w>156</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>325</x>
+      <y>377</y>
+      <w>156</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>325</x>
+      <y>429</y>
+      <w>156</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>936</x>
+      <y>338</y>
+      <w>299</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>*Prozessor*
+Führt Programme aus
+
+*Speicher*
+Enthält Programme und Daten, 
+mit denen Programme arbeiteten
+
+*Geräte*
+Zur Ein-/Ausgabe für den Benutzer,
+zum dauerhaften Speichern usw.
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>455</x>
+      <y>468</y>
+      <w>130</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>...
+halign=center
+fontsize=20</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

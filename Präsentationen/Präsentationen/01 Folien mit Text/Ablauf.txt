@@ -1,0 +1,21 @@
+Ablauf "Folien mit Text"
+
+UG
+Motivation: Präsentation in Schule, Studium, Job wichtig
+Überblick: Programm "Impress" kennenlernen, Vortrag vorbereiten und halten
+Themen: Computerhardware und Netzwerke
+
+UG (Beamer) - Vorführen
+Neue Präsentation anfangen (ohne Vorlage)
+Format 4:3 einstellen
+Folien hinzufügen (Titel, Inhalt)
+Position / Größe von Textfeldern anpassen
+Text formatieren
+Listen einfügen
+Fußzeile mit Foliennummer
+Folien kopieren
+Speichern
+Präsentation starten
+
+EA (PC)
+SuS bearbeiten Aufgabe

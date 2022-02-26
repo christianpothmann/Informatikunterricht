@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>494</x>
+      <y>481</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>customelement=
+// Text Elemnt
+// DB Symbol
+drawArc(0,0,width,height*2/5,0,180,true) fg=black
+drawArc(0,0,width,height*2/5,180,180,true) fg=black
+drawLine(0,height/5,0,height*4/5)fg=black
+drawLine(width,height/5,width,height*4/5)fg=black
+drawArc(0,height*1/5,width,height*2/5,180,180,true) fg=black
+drawArc(0,height*2/5,width,height*2/5,180,180,true) fg=black 
+drawArc(0,height*3/5,width,height*2/5,180,180,true) fg=black </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>481</x>
+      <y>572</y>
+      <w>117</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Datenbank
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>455</x>
+      <y>416</y>
+      <w>91</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+</panel_attributes>
+    <additional_attributes>50.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>195</x>
+      <y>299</y>
+      <w>416</w>
+      <h>312</h>
+    </coordinates>
+    <panel_attributes>Server
+(Computer)
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>338</x>
+      <y>325</y>
+      <w>130</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>*Webserver*
+z.B. Apache
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>1157</x>
+      <y>325</y>
+      <w>104</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>Benutzer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1105</x>
+      <y>364</y>
+      <w>104</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>351</x>
+      <y>494</y>
+      <w>104</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Bilder
+Videos
+usw.
+halign=center
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>416</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>221</x>
+      <y>494</y>
+      <w>104</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Webseiten
+(HTML)
+halign=center
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>416</y>
+      <w>39</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>936</x>
+      <y>299</y>
+      <w>208</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>Client (Computer)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>663</x>
+      <y>325</y>
+      <w>221</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=.
+Internet
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>975</x>
+      <y>338</y>
+      <w>130</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>*Browser*
+z.B. Firefox
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>468</x>
+      <y>364</y>
+      <w>221</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m2=    HTTP</panel_attributes>
+    <additional_attributes>150.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>871</x>
+      <y>364</y>
+      <w>117</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>364</y>
+      <w>260</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
