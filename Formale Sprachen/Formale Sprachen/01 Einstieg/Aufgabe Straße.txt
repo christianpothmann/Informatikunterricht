@@ -1,0 +1,17 @@
+(z.B. für Schulcloud, HA etc.)
+
+Lies die Präsentation zum Einstieg in das Thema "Formale Sprachen" nochmal.
+
+Zeiche dann einen endlichen Automaten, der erkennt, ob die Eingabe eine korrekte Straße mit Hausnummer ist.
+Als Eingabe für den Automaten sind Groß- und Kleinbuchstaben, Leerzeichen, Bindestrich und Ziffern möglich, 
+andere Sonderzeichen brauchen nicht berücksichtigt werden.
+Die Hausnummer soll max. 4 Stellen haben, und kann am Ende einen Buchstaben haben.
+Tipp: Bevor du mit dem Automaten beginnst, schreibe dir erst alle Kriterien auf, die der Automat
+berücksichtigen soll.
+
+Lsg. Kritieren:
+- Name fängt mit Großbuchstaben an
+- Name kann aus mehreren Wörtern bestehen, dazwischen Leerzeichen oder Bindestrich
+- Doppelte Bindestriche / Leerz. nicht erlaubt
+- Name enthält keine Ziffern
+- Am Ende Nummer, davor ein Leerzeichen

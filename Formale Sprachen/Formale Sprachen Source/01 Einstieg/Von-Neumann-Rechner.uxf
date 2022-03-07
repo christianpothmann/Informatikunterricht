@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>325</x>
+      <y>104</y>
+      <w>182</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Prozessor (CPU)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>351</x>
+      <y>247</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Register</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>351</x>
+      <y>195</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>ALU</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>351</x>
+      <y>143</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Steuereinheit</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSyncBarVertical</id>
+    <coordinates>
+      <x>611</x>
+      <y>78</y>
+      <w>26</w>
+      <h>559</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>104</y>
+      <w>182</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Speicher (RAM)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>143</y>
+      <w>91</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>halign=center
+Adresse
+-
+0001
+-
+0002
+-
+0003
+-
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>871</x>
+      <y>143</y>
+      <w>91</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>halign=center
+Daten
+-
+4711
+-
+1977
+-
+2017
+-
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>494</x>
+      <y>338</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>halign=center
+ Bus-System</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>494</x>
+      <y>156</y>
+      <w>156</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>611</x>
+      <y>130</y>
+      <w>195</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-
+Datenleitung</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>611</x>
+      <y>156</y>
+      <w>195</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-
+Adressleitung</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>364</y>
+      <w>182</w>
+      <h>247</h>
+    </coordinates>
+    <panel_attributes>lt=.
+Geräte (Peripherie)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>806</x>
+      <y>403</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Bildschirm</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>806</x>
+      <y>455</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Festplatte</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>806</x>
+      <y>507</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Tastatur</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>806</x>
+      <y>559</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Maus</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>611</x>
+      <y>403</y>
+      <w>221</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>150.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>611</x>
+      <y>455</y>
+      <w>221</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>150.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>611</x>
+      <y>507</y>
+      <w>221</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>150.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>611</x>
+      <y>559</y>
+      <w>221</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>150.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>26</x>
+      <y>91</y>
+      <w>273</w>
+      <h>416</h>
+    </coordinates>
+    <panel_attributes>*CPU-Befehle*
+- Daten in RAM speichern
+- Daten aus RAM lesen
+- Daten an Gerät senden
+- Daten von Gerät lesen
+- Rechnen mit Daten
+- Daten vergleichen
+- Sprung (für Schleifen)
+
+Befehle sind codiert als Zahlen.
+Ein Programm besteht aus 
+diesen Codes und liegt im 
+Speicher. D.h. die CPU holt 
+sich ihre Befehle aus dem RAM.
+
+Besonderheit der
+*von-Neumann-Architektur:*
+Programme und Daten liegen 
+im gleichen Speicher.</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

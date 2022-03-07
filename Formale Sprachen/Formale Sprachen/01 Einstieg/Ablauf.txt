@@ -1,0 +1,37 @@
+UG
+  Ziele der Beschäftigung mit formalen Sprachen (unter anderem):
+  - Programmiersprachen entwerfen
+  - Compiler entwickeln → Programm in „höherer“ Sprache übersetzen
+    Prozessor eines Computers „versteht“ keinen Java-Quellcode, sondern nur viel einfachere Befehle
+
+  Zeigen: BlueJ kompiliert ein (fehlerhaftes) Programm
+  - Begriffe Syntax und Semantik abfragen
+  - Unterschiede Syntax-/Semantikfehler erläutern:
+    Syntax kann geprüft werden, Semantik nicht (oder nicht ohne K.I.)
+
+  Präsentation
+  - Von-Neumann-Rechner erklären 
+    Maschinensprache = einfache Befehle, codiert durch Zahlen
+  - Erstes Beispiel für einen endl. Automaten: Postleitzahl
+    Schritt für Schritt erläutern
+
+EA/PA
+  SuS entwerfen DEA, der prüft, ob Eingabe ein gültiges Datum ist.
+  Vorgaben: Datum zweistellig, ggf. mit führender Null
+  (etwas schwieriger: auch einstellige Zahlen zuslassen)
+  Tage 1 – 31, Monate 1 – 12, Jahre 0 – 2999, vierstellig (oder 1 - 4-stellig)
+  Keine Prüfung ob z.B. 30.02. oder 31.04. korrekt ist.
+
+Sichern
+  SuS zeichnen Lösung an Tafel
+  Aufpassen: Endzustand, alle Übergänge eindeutig
+  „Müllzustand“ zur Vereinfachung weglassen (aber zeigen wie's aussähe)
+  Ggf. Lösungen mit Nicht-Determinismus: 
+  (hier) nicht erlaubt, wie geht’s mit eindeutigen Übergängen?
+  Z.B. um ein- oder zweistellige Zahlen am Anfang zu behandeln:
+  mit 1 – 3 in den ersten und den zweiten Zustand übergehen.
+  Ggf. Frage: lässt sich Automat reduzieren? (Zustände weglassen)
+  
+Nächste Stunde
+  Zum Üben: Automat für Straße / Hausnummer
+  (schon etwas komplexer)
