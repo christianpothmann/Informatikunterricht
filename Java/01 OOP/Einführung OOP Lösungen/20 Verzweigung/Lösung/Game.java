@@ -22,7 +22,7 @@ class Game
      */
     void aufgabe1()
     {
-        sp.setPosition(window.getWidth()/2-50, window.getHeight()/2-50);
+        sp.setPosition(window.getWidth()/2, window.getHeight()/2);
         while (true)
         {
             if (window.mouseButton1())
@@ -45,28 +45,30 @@ class Game
         sp.setPosition(window.getWidth()/2-50, window.getHeight()/2-50);
         while (true)
         {
-            sp.setSpeed(0);
             if (window.isKeyDown(KeyEvent.VK_RIGHT))
             {
                 sp.setSpeed(5);
                 sp.setRichtung(0);
+                sp.bewege();
             }
             if (window.isKeyDown(KeyEvent.VK_LEFT))
             {
                 sp.setSpeed(5);
                 sp.setRichtung(180);
+                sp.bewege();
             }
             if (window.isKeyDown(KeyEvent.VK_UP))
             {
                 sp.setSpeed(5);
                 sp.setRichtung(270);
+                sp.bewege();
             }
             if (window.isKeyDown(KeyEvent.VK_DOWN))
             {
                 sp.setSpeed(5);
                 sp.setRichtung(90);
+                sp.bewege();
             }
-            sp.bewege();
 
             window.clear();
             sp.draw(window);

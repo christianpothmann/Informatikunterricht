@@ -20,10 +20,10 @@ public class MatheApp
         zl.fuellenZufall();
         zl.ausgeben();
 
-        Console.println("\nDie Summe ist " + zl.summe());
-        Console.println("Der Mittelwert ist " + zl.mittelwert());
-        Console.println("Das Minimum ist " + zl.minimum() + " und das Maximum ist " + zl.maximum());
-        Console.println("Die zweitgrößte Zahl ist " + zl.zweitgroesste());
+        Console.println("\nDie Summe ist " + zl.summe() + ".");
+        Console.println("Der Mittelwert ist " + zl.mittelwert() + ".");
+        Console.println("Das Minimum ist " + zl.minimum() + " und das Maximum ist " + zl.maximum() + ".");
+        Console.println("Die zweitgrößte Zahl ist " + zl.zweitgroesste() + ".");
         Console.println("Das Array enthält " + zl.anzahlNullen() + " mal den Wert 0.");        
     }
 }

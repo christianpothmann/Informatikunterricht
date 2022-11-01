@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.3.0">
+<diagram program="umlet" version="15.0.0">
   <zoom_level>13</zoom_level>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>169</x>
-      <y>559</y>
+      <x>208</x>
+      <y>585</y>
       <w>208</w>
       <h>91</h>
     </coordinates>
@@ -19,8 +19,8 @@ valign=top</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>169</x>
-      <y>52</y>
+      <x>208</x>
+      <y>78</y>
       <w>169</w>
       <h>91</h>
     </coordinates>
@@ -33,8 +33,8 @@ passwort: String</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>416</x>
-      <y>0</y>
+      <x>455</x>
+      <y>26</y>
       <w>169</w>
       <h>91</h>
     </coordinates>
@@ -46,8 +46,8 @@ anzAchsen: int</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>416</x>
-      <y>117</y>
+      <x>455</x>
+      <y>143</y>
       <w>169</w>
       <h>91</h>
     </coordinates>
@@ -59,8 +59,8 @@ anzSensoren: int</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>325</x>
-      <y>26</y>
+      <x>364</x>
+      <y>52</y>
       <w>117</w>
       <h>78</h>
     </coordinates>
@@ -71,8 +71,8 @@ mech</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>325</x>
-      <y>104</y>
+      <x>364</x>
+      <y>130</y>
       <w>117</w>
       <h>91</h>
     </coordinates>
@@ -83,21 +83,22 @@ senso</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>689</x>
-      <y>0</y>
+      <x>728</x>
+      <y>26</y>
       <w>169</w>
       <h>91</h>
     </coordinates>
     <panel_attributes>Achse
 -
-winkel, kraft: double</panel_attributes>
+geschwindigkeit,
+winkel: double</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>689</x>
-      <y>117</y>
+      <x>728</x>
+      <y>143</y>
       <w>169</w>
       <h>91</h>
     </coordinates>
@@ -110,8 +111,8 @@ messwert: double</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>572</x>
-      <y>13</y>
+      <x>611</x>
+      <y>39</y>
       <w>143</w>
       <h>52</h>
     </coordinates>
@@ -122,8 +123,8 @@ a1,a2,a3</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>572</x>
-      <y>143</y>
+      <x>611</x>
+      <y>169</y>
       <w>143</w>
       <h>52</h>
     </coordinates>
@@ -134,8 +135,8 @@ sn1, sn2</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>442</x>
-      <y>455</y>
+      <x>481</x>
+      <y>481</y>
       <w>156</w>
       <h>65</h>
     </coordinates>
@@ -148,8 +149,8 @@ valign=top</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>442</x>
-      <y>676</y>
+      <x>481</x>
+      <y>702</y>
       <w>156</w>
       <h>65</h>
     </coordinates>
@@ -162,53 +163,38 @@ valign=top</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>520</x>
-      <y>312</y>
-      <w>156</w>
+      <x>533</x>
+      <y>325</y>
+      <w>195</w>
       <h>91</h>
     </coordinates>
     <panel_attributes>:Achse
 -
-winkel = 300
-kraft = 1500
+geschwindigkeit = 30
+winkel = 15
 valign=top</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>689</x>
-      <y>403</y>
-      <w>156</w>
+      <x>728</x>
+      <y>429</y>
+      <w>195</w>
       <h>91</h>
     </coordinates>
     <panel_attributes>:Achse
 -
-winkel = 20
-kraft = 900
+geschwindigkeit = -20
+winkel = 90
 valign=top</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>689</x>
-      <y>520</y>
-      <w>156</w>
-      <h>91</h>
-    </coordinates>
-    <panel_attributes>:Achse
--
-winkel = 170
-kraft = 400
-valign=top</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>689</x>
-      <y>650</y>
+      <x>728</x>
+      <y>676</y>
       <w>156</w>
       <h>91</h>
     </coordinates>
@@ -222,8 +208,8 @@ valign=top</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>650</x>
-      <y>767</y>
+      <x>689</x>
+      <y>793</y>
       <w>156</w>
       <h>91</h>
     </coordinates>
@@ -237,8 +223,8 @@ valign=top</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>364</x>
-      <y>507</y>
+      <x>403</x>
+      <y>533</y>
       <w>117</w>
       <h>104</h>
     </coordinates>
@@ -249,8 +235,8 @@ mech</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>364</x>
-      <y>611</y>
+      <x>403</x>
+      <y>637</y>
       <w>117</w>
       <h>104</h>
     </coordinates>
@@ -261,20 +247,20 @@ senso</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>507</x>
-      <y>390</y>
-      <w>91</w>
-      <h>91</h>
+      <x>546</x>
+      <y>403</y>
+      <w>78</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 a1</panel_attributes>
-    <additional_attributes>50.0;10.0;10.0;50.0</additional_attributes>
+    <additional_attributes>40.0;10.0;10.0;60.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>585</x>
-      <y>429</y>
+      <x>624</x>
+      <y>455</y>
       <w>130</w>
       <h>65</h>
     </coordinates>
@@ -285,8 +271,8 @@ a2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>585</x>
-      <y>494</y>
+      <x>624</x>
+      <y>520</y>
       <w>130</w>
       <h>78</h>
     </coordinates>
@@ -297,8 +283,8 @@ a3</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>585</x>
-      <y>663</y>
+      <x>624</x>
+      <y>689</y>
       <w>130</w>
       <h>52</h>
     </coordinates>
@@ -309,13 +295,28 @@ sn1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>585</x>
-      <y>715</y>
+      <x>624</x>
+      <y>741</y>
       <w>91</w>
       <h>91</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 sn2</panel_attributes>
     <additional_attributes>50.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>728</x>
+      <y>546</y>
+      <w>195</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>:Achse
+-
+geschwindigkeit = 0
+winkel = 45
+valign=top</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>

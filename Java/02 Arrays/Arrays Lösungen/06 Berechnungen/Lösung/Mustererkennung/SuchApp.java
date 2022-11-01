@@ -2,7 +2,7 @@ import console.*;
 
 /*
  * Hauptklasse für die Mustererkennung
- * (Name, Datum)
+ * Christian Pothmann, 28.01.2022
  */
 public class SuchApp
 {
@@ -50,14 +50,13 @@ public class SuchApp
         text.fuellenZufall();
         text.ausgeben();
 
-        c = 'j';
-        while (c == 'j')
+		do
         {
             muster = musterEinlesen();
             anzahl = text.musterSuche(muster);
             Console.println("Das Muster kommt " + anzahl + " mal vor");
             Console.println("Noch eins? (j/n)");
             c = Console.readChar();
-        }
+        } while (c == 'j')
     }
 }

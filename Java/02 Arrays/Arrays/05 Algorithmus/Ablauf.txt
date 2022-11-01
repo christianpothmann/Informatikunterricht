@@ -1,0 +1,17 @@
+Algorithmen
+
+- Präsentation
+  Hinweis: Bisher Algorithmen nur in Java formuliert
+  Neue Darstellung in Umgangsprache / Diagramm, unabh. von Programmiersprache
+  Wichtig auch für das schriftliche Abitur
+
+- EA / PA mit AB auf Papier
+  Wird schwierig sein, daher Aufgaben schrittweise erarbeiten lassen und sichern
+  Formulierungen erarbeiten, wie man eine for-Schleife beschreiben kann,
+  ohne die Variable i zu erwähnen
+  Ziel: Algorithmus so einfach wie möglich zu beschreiben, aber mit
+  allen nötigen Details -> ein Programmierer könnte das dan ohne Nachdenken umsetzen
+  Diagramme verwenden die umgangsprachlichen Formulierungen
+  
+- Abschluss:
+  SuS tragen die Grundbausteine von Algorithmen zusammen (Variablen, Schleifen usw.)

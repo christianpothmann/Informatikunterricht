@@ -1,0 +1,15 @@
+Anfang: Großbuchstabe
+Dann beliebig viele Kleinbuchstaben
+Möglicherweise zusätzliche Wörter, möglicherweise mit Großbuchst.
+Möglicherweise dazwischen ein Bindestrich
+Möglicherweise ein Punkt
+Dann Leerzeichen
+Dann maximal 5 Ziffern
+Möglicherweise ein Kleinbuchstabe
+Möglicherweise Bindestrich und weitere Zahl
+
+
+Optional: Prüfe, ob "Straße", "Weg" enthalten ist
+-> sehr aufwendig
+Optional: zweite Zahl muss größer als erste sein
+-> sehr aufwendig

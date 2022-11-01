@@ -104,7 +104,7 @@ public class Zahlenliste
     {
         int i, a;
         a = 0;
-        for (i = 1; i < liste.length; i++)
+        for (i = 0; i < liste.length; i++)
         {
             if (liste[i] == 0)
             {
@@ -115,7 +115,7 @@ public class Zahlenliste
     }
 
     /*
-     * Gibt die zweitgrößte Zahl zurück.
+     * Gibt die (echt) zweitgrößte Zahl der Liste zurück.
      * Im Sonderfall, dass alle Elemente des Arrays den gleichen Wert haben, wird eine Mitteilung auf der Konsole gemacht.
      */
     public int zweitgroesste()
@@ -123,10 +123,33 @@ public class Zahlenliste
         int i;
         int max1, max2;
 
-        // Setze anfangs erst- und zweitgrößte Zahl auf den Anfang des Arrays
+        // Anfangswerte für max1 und max2:
+        // Die ersten beiden unterschiedlichen Zahlen der Liste
+        // (beachtet den Sonderfall, dass das Maximum am Anfang steht, auch ggf. mehrmals)
         max1 = liste[0];
-        max2 = liste[0];
-        for (i = 1; i < liste.length; i++)
+        i = 1;
+        while (i < liste.length && liste[i] == max1)
+        {
+            i++;
+        }
+        // Sonderfall: alle Zahlen gleich
+        if (i == liste.length)
+        {
+            Console.println("Es gibt keine zweitgrößte Zahl.");
+            return max1;
+        }
+        // setze max1 auf die größere, max2 auf die kleinere der beiden Zahlen
+        if (liste[i] < max1)
+        {
+            max2 = liste[i];
+        }
+        else
+        {
+            max2 = max1;
+            max1 = liste[i];
+        }
+        // Fahre mit der restlichen Liste fort
+        for (; i < liste.length; i++)
         {
             // Jedesmal wenn eine neue größte Zahl gefunden wird, 
             // wandert die bisherige größte zur zweitgrößten.
@@ -143,13 +166,7 @@ public class Zahlenliste
                 max2 = liste[i];
             }
         }
-        
-        // Sonderfall: alle Elemente der Liste sind gleich
-        if (max1 == max2)
-        {
-            Console.println("Es gibt keine zweitgrößte Zahl.");
-        }
-        
+       
         return max2;
     }
 }

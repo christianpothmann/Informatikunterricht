@@ -1,5 +1,12 @@
+18.10.2022
+- Rechtschreibfehler in allen ABs korrigiert
+- Wortwahl: SQL-"Befehl" ersetzt durch SQL-"Abfrage"
+- PR SQL Join: Fehlerkorrektur
+- AB SQL Rechnen: Aufg.7 überarbeitet
+
 16.01.2022
-- AB Primär- und Fremdschlüssel: Fehlerkorrektur; Mehr Fokus auf "Unveränderlichkeit"
+- AB Primär- und Fremdschlüssel: Fehlerkorrektur
+  Mehr Fokus auf "Unveränderlichkeit"
 - SQL Einstieg: kleine Korrekturen
 - PR SQL Join: Fehlerkorrektur
 - AB SQL Join: kleine Korrektur

@@ -24,6 +24,7 @@ EA/PA
 
 Sichern
   SuS zeichnen Lösung an Tafel
+  Ggf. helfen: Verzweigung in mehrere Möglichkeiten
   Aufpassen: Endzustand, alle Übergänge eindeutig
   „Müllzustand“ zur Vereinfachung weglassen (aber zeigen wie's aussähe)
   Ggf. Lösungen mit Nicht-Determinismus: 
@@ -34,4 +35,4 @@ Sichern
   
 Nächste Stunde
   Zum Üben: Automat für Straße / Hausnummer
-  (schon etwas komplexer)
+  -> Benutzt auch Wiederholung, um beliebig lange Wörter und beliebig viele Wörter zu erlauben

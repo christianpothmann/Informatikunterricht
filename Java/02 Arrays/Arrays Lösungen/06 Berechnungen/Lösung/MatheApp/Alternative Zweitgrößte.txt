@@ -1,10 +1,10 @@
     /*
-     * Gibt die zweitgrößte Zahl zurück.
+     * Gibt die zweitgroesste Zahl zurÃ¼ck.
      * Im Sonderfall, dass alle Elemente des Arrays den gleichen Wert haben, 
      * wird eine Mitteilung auf der Konsole gemacht.
      * Algorithmus: Sucht zuerst dax Maximum.
-     * Wiederholt dann den Algorithmus, wählt aber nur Zahlen aus, die zugleich kleiner als das Max. sind.
-     * Um einen Anfangswert für die zweitgrößte zu finden wird der Sonderfall berücksichtigt, dass
+     * Wiederholt dann den Algorithmus, waehlt aber nur Zahlen aus, die zugleich kleiner als das Max. sind.
+     * Um einen Anfangswert fuer die zweitgroesste zu finden wird der Sonderfall beruecksichtigt, dass
      * das Maximum gleich (ein- oder mehrmals) am Anfang der Liste steht.
      */
     int zweitgroesste()
@@ -32,10 +32,10 @@
         // Sonderfall: alle Elemente der Liste sind gleich
         if (j == liste.length)
         {
-            IOTools.println("Es gibt keine zweitgrößte Zahl.");
+            Console.println("Es gibt keine zweitgroesste Zahl.");
         }
 
-        // suche die zweitgrößte Zahl
+        // suche die zweitgroesste Zahl
         max2 = liste[j];
         for (i = j+1; i < liste.length; i++)
         {

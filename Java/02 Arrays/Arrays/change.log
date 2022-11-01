@@ -1,4 +1,13 @@
-Neu
+18.10.2022
+- AB Berechnungen: Leicht überarbeitet
+  Lsg. erweitert um Alternativen für den Mittelwert
+- AB Algorithmus: Bild von al-Chwarizimi ergänzt
+  PR Algorithmus um Bausteine von Alg. ergänzt
+- Fehlerkorrekturen:
+  ABs Array, Lsg. Füllen, AB Algorithmus, Lsg. Berechnungen (Zweitgrößte), AB Sortieren Aufg.1
+- Kleinere sprachliche Korrekturen in allen ABs
+
+30.01.2022
 - Abschnitte von Array bis Laufzeitmessung:
   Modelle jeweils mit Hauptklasse und main-Methode, statt alle Methoden in einer Klasse
 - Verschieben Lösung um Zusatzaufgaben erweitert

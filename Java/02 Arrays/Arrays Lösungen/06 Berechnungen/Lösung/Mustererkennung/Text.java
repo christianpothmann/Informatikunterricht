@@ -2,7 +2,7 @@ import console.*;
 
 /*
  * Stellt einen Text als Array von Buchstaben (char) dar.
- * (Name, Datum)
+ * Christian Pothmann, 28.01.2022
  */
 public class Text
 {   
