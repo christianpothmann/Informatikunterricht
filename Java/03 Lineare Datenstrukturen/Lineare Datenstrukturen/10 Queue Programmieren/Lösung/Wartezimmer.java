@@ -99,6 +99,6 @@ public class Wartezimmer
             }
 
             Console.readln();
-        } while (wahl != 6);
+        } while (wahl != 3);
     }
 }

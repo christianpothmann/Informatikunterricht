@@ -31,16 +31,14 @@
       <x>52</x>
       <y>234</y>
       <w>195</w>
-      <h>156</h>
+      <h>117</h>
     </coordinates>
     <panel_attributes>Raumschiff
 -
 - typ: String
 -
 + setTyp(pt: String)
-+ getTyp(): String
-+ setPilot(pp: Pilot)
-*+ getPilot(): Pilot*
+*+ setPilot(pp: Pilot)*
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -94,16 +92,13 @@
       <x>351</x>
       <y>234</y>
       <w>195</w>
-      <h>156</h>
+      <h>117</h>
     </coordinates>
     <panel_attributes>Pilot
 -
 - name: String
 -
 + setName(pn: String)
-+ getName(): String
-
-
 
 
 
@@ -125,9 +120,9 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>741</x>
-      <y>143</y>
-      <w>143</w>
+      <x>715</x>
+      <y>130</y>
+      <w>156</w>
       <h>65</h>
     </coordinates>
     <panel_attributes>: Raumschiff
@@ -140,8 +135,8 @@ valign=top</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>845</x>
-      <y>39</y>
+      <x>819</x>
+      <y>26</y>
       <w>182</w>
       <h>65</h>
     </coordinates>
@@ -154,27 +149,26 @@ valign=top</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>663</x>
-      <y>65</y>
-      <w>208</w>
+      <x>650</x>
+      <y>39</y>
+      <w>195</w>
       <h>156</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=rs1</panel_attributes>
-    <additional_attributes>60.0;90.0;10.0;90.0;10.0;10.0;140.0;10.0</additional_attributes>
+    <additional_attributes>50.0;90.0;10.0;90.0;10.0;10.0;130.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>988</x>
-      <y>143</y>
-      <w>143</w>
-      <h>91</h>
+      <x>949</x>
+      <y>130</y>
+      <w>156</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>: Pilot
 -
 name = "Snips"
-erfahrung = 0
 
 valign=top</panel_attributes>
     <additional_attributes/>
@@ -182,15 +176,14 @@ valign=top</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>988</x>
-      <y>247</y>
-      <w>143</w>
-      <h>91</h>
+      <x>949</x>
+      <y>234</y>
+      <w>156</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>: Pilot
 -
 name = "Anakin"
-erfahrung = 0
 
 valign=top</panel_attributes>
     <additional_attributes/>
@@ -198,37 +191,157 @@ valign=top</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1014</x>
-      <y>65</y>
-      <w>208</w>
+      <x>988</x>
+      <y>39</y>
+      <w>195</w>
       <h>156</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=p1</panel_attributes>
-    <additional_attributes>90.0;90.0;140.0;90.0;140.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>90.0;90.0;130.0;90.0;130.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1014</x>
-      <y>65</y>
-      <w>208</w>
+      <x>988</x>
+      <y>39</y>
+      <w>195</w>
       <h>260</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=p2</panel_attributes>
-    <additional_attributes>90.0;170.0;140.0;170.0;140.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>90.0;170.0;130.0;170.0;130.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>871</x>
-      <y>143</y>
-      <w>143</w>
+      <x>780</x>
+      <y>182</y>
+      <w>52</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m2=*pil*</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>767</x>
+      <y>260</y>
+      <w>52</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>null
+fontsize=16
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>715</x>
+      <y>455</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: Raumschiff
+-
+typ = "XWing"
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>819</x>
+      <y>351</y>
+      <w>182</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>ws: WeltraumSim
+-
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>364</y>
+      <w>195</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=rs1</panel_attributes>
+    <additional_attributes>50.0;90.0;10.0;90.0;10.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>949</x>
+      <y>455</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: Pilot
+-
+name = "Snips"
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>949</x>
+      <y>559</y>
+      <w>156</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>: Pilot
+-
+name = "Anakin"
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>988</x>
+      <y>364</y>
+      <w>195</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=p1</panel_attributes>
+    <additional_attributes>90.0;90.0;130.0;90.0;130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>988</x>
+      <y>364</y>
+      <w>195</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=p2</panel_attributes>
+    <additional_attributes>90.0;170.0;130.0;170.0;130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>858</x>
+      <y>468</y>
+      <w>117</w>
       <h>52</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-*pil*</panel_attributes>
-    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+m2=*pil*</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
