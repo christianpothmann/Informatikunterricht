@@ -1,0 +1,4 @@
+Aufgabe 1 ?
+
+Quellcode (Weltraumspiel) vorgeben, SuS zeichnen Objektdiagramme 
+wäre allerdings viel Quellcode; BlueJ-Projekt analyisieren?

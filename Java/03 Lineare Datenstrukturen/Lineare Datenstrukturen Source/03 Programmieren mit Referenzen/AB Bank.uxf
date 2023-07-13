@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <help_text>// Uncomment the following line to change the fontsize and font:
+// fontsize=10
+// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Welcome to UMLet!
+//
+// Double-click on elements to add them to the diagram, or to copy them
+// Edit elements by modifying the text in this panel
+// Hold Ctrl to select multiple elements
+// Use Ctrl+mouse to select via lasso
+//
+// Use +/- or Ctrl+mouse wheel to zoom
+// Drag a whole relation at its central square icon
+//
+// Press Ctrl+C to copy the whole diagram to the system clipboard (then just paste it to, eg, Word)
+// Edit the files in the "palettes" directory to create your own element palettes
+//
+// Select "Custom Elements &gt; New..." to create new element types
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// This text will be stored with each diagram;  use it for notes.</help_text>
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>637</x>
+      <y>182</y>
+      <w>247</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Kunde
+-
+- name: String
+-
++ Kunde(pn: String)
++ getName(): String
++ setKonto(pk: Konto)
++ getKonto(): Konto
++ setDepot(pd: Depot)
++ getDepot(): Depot
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>507</x>
+      <y>442</y>
+      <w>208</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Konto
+-
+- nummer: int
+- stand: double
+-
++ Konto(pn: int)
++ getNummer(): int
++ einzahlen(pb: double)
++ abheben(pb: double)
++ getStand(): double
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>481</x>
+      <y>208</y>
+      <w>182</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- kd1
+- kd2
+- kd3</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>234</x>
+      <y>442</y>
+      <w>208</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>Depot
+-
+- aktie: String
+- kurs: double
+- anzahl: int
+-
++ Depot(pa: String)
++ getAktie(): String
++ setKurs(pk: double)
++ getKurs(): double
++ kaufen(pa: int)
++ verkaufen(pa: int)
++ getAnzahl(): int
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>702</x>
+      <y>364</y>
+      <w>143</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- kto</panel_attributes>
+    <additional_attributes>10.0;90.0;60.0;90.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>429</x>
+      <y>364</y>
+      <w>455</w>
+      <h>338</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- dep</panel_attributes>
+    <additional_attributes>10.0;240.0;330.0;240.0;330.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>481</x>
+      <y>286</y>
+      <w>130</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- kto1
+- kto2
+- kto3</panel_attributes>
+    <additional_attributes>50.0;120.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>325</x>
+      <y>364</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+- dep1, - dep2
+</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>234</x>
+      <y>182</y>
+      <w>260</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Bank
+-
+
+-
++ Bank()
++ anfangsWerte()
++ kundenWahl(): Kunde
++ kontoBearbeiten(pk: Kunde)
++ depotBearbeiten(pk: Kunde)
++ main()
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

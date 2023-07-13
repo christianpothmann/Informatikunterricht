@@ -1,19 +1,15 @@
 Abfolge
 
 Um den Grundkurs etwas zu entschleunigen, können einige Abschnitte
-nur mit Schüler*innen gemacht werden, die potentiell Informatik als
-schriftliches Abiturfach wählen (bzw. die Klausuren mitschreiben):
+nur mit den schnelleren Schüler*innen bzw. Abiturienten gemacht werden.
 
-- 05 Referenz als Rückgabewert
-- 14 Stack Sortieren
-- 18 Verschachelte Datenstruktur
-- 19 Switch
-- 20 Struktogramm
-- 21 Entwurfsdiagramm
+- Stack Sortieren
 
-Der Zusatzabschnitt 07 Get-Methode mit Parameter ist nicht abiturrelevant
-und damit nur für Schüler*innen, die wesentlich schneller arbeiten und 
-motiviert sind.
+- Verschachelte Datenstruktur
+- Switch
+- Struktogramm
+- Entwurfsdiagramm
+- Wrapper-Klasse
 
 Zur Übung empfiehlt es sich, im Anschluss mit ehem. Abituraufgaben zu üben.
 Ich nehme gerne die von 2015: Aufg. c) mit Sortierverfahren, d) mit Vererbung

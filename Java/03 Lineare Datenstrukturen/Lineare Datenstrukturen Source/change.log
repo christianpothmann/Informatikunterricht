@@ -1,3 +1,34 @@
+13.07.2023
+- Rechtschreibfehler in allen ABs und Lösungen korrigiert
+- Dyn. Datenstrukturen: Folien ergänzt
+- AB Queue Methoden überarbeitet
+- AB Verschachtelte Datenstruktur: Lösung (Implementierung) vereinfacht
+- Größere Überarbeitung:
+    - ABs zu Referenzen (Parameter, Methodenaufruf, Rückgabewert) zusammengefasst
+	  Get-Methode mit Parameter entfernt
+    - AB Queue Programmieren und AB Queue Algorithmen zusammengefasst
+      klare Trennung von Algorithmen und Benutzerschnittstelle
+    - AB Wrapperklasse hinzugefügt
+- Neue Reihenfolge:
+  01 Referenz
+  02 Von-Neumann-Rechner
+  03 Programmieren mit Referenzen
+  04 Array von Referenzen
+  05 Dynamische Datenstrukturen
+  06 Queue Methoden
+  07 Queue Programmieren
+  08 Stack Methoden
+  09 Stack Programmieren
+  10 Stack Sortieren
+  11 Stack Backtracking
+  12 Liste Methoden
+  13 Liste Programmieren
+  14 Verschachtelte Datenstruktur
+  15 Switch
+  16 Struktogramm
+  17 Entwurfsdiagramm
+  18 Wrapperklasse
+
 20.11.2022
 - AB Installation Software überarbeitet
 
