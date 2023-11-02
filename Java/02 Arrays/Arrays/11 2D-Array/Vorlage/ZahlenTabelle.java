@@ -1,6 +1,6 @@
 /*
  * Erstellt Muster für ein zweidimensionales Array von Zahlen
- * C. Pothmann, 21.09.2020
+ * (Name, Datum)
  */
 public class ZahlenTabelle
 {

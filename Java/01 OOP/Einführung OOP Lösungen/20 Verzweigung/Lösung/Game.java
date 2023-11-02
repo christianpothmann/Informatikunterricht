@@ -78,7 +78,7 @@ class Game
 
     /**
      * Sprite wird durch Pfeiltasten gesteuert
-     * (schneller, langsamer, Richtung ändern)
+     * (schneller, langsamer, Richtung Ã¤ndern)
      */
     void aufgabe3()
     {

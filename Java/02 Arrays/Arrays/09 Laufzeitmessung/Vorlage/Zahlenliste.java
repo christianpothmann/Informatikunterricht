@@ -10,7 +10,7 @@ public class Zahlenliste
     private int[] liste;
 
     /*
-     * Die L�nge des Arrays wird als Parameter �bergeben
+     * Die Länge des Arrays wird als Parameter übergeben
      */
     public Zahlenliste(int laenge)
     {
@@ -95,7 +95,7 @@ public class Zahlenliste
     }
 
     /*
-     * Insertion Sort (Sortieren durch Einfügen)
+     * Insertion Sort (Sortieren durch EinfÃ¼gen)
      */
     public void insertionSort()
     {

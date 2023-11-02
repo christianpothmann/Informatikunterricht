@@ -12,7 +12,7 @@ public class ZooVerwaltung
    public void main()
    {
       lati.setArt("Elefant");
-      lati.setName("Blümchen");
+      lati.setName("BlÃ¼mchen");
       lati.setAuslauf(1000.0);
 
       wati.setArt("Hai");

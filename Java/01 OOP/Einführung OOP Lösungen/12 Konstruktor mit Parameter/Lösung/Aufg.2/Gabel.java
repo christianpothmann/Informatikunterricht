@@ -1,19 +1,19 @@
 class Gabel
 {
-    int höhe, maxHöhe;
+    int hÃ¶he, maxHÃ¶he;
     
     Gabel(int pmax)
     {
-        maxHöhe = pmax;
+        maxHÃ¶he = pmax;
     }
     
     void heben(int ph)
     {
-        höhe = höhe + ph;
+        hÃ¶he = hÃ¶he + ph;
     }
     
     void senken(int ph)
     {
-        höhe = höhe - ph;
+        hÃ¶he = hÃ¶he - ph;
     }
 }

@@ -13,13 +13,13 @@ public class Fuhrpark
       f1.fahren(450.0);
       f2.fahren(550.0);
 
-      if (f1.getFüllstand() < 10.0)
+      if (f1.getFÃ¼llstand() < 10.0)
       {
-         f1.tanken(f1.getTankGröße() - f1.getFüllstand());
+         f1.tanken(f1.getTankGrÃ¶ÃŸe() - f1.getFÃ¼llstand());
       }
-      if (f2.getFüllstand() < 10.0)
+      if (f2.getFÃ¼llstand() < 10.0)
       {
-         f2.tanken(f2.getTankGröße() - f2.getFüllstand());
+         f2.tanken(f2.getTankGrÃ¶ÃŸe() - f2.getFÃ¼llstand());
       }
    }
 }

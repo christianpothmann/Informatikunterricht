@@ -74,7 +74,7 @@ public class Bank
         int wahl;
         double betrag;
 
-        // Sonderfälle zur Sicherheit abfragen
+        // SonderfÃ¤lle zur Sicherheit abfragen
         if (kd == null)
         {
             return;
@@ -93,7 +93,7 @@ public class Bank
         Console.println("Kontonummer: " + kto.getNummer() + " Kontostand: "  + kto.getStand());
         
         // Einzahlen oder Abheben
-        Console.print("Möchten Sie einzahlen (1) oder abheben (2)? ");
+        Console.print("MÃ¶chten Sie einzahlen (1) oder abheben (2)? ");
         wahl = Console.readInt();
         if (wahl == 1)
         {
@@ -101,7 +101,7 @@ public class Bank
             betrag = Console.readDouble();
             if (betrag <= 0.0)
             {
-                Console.println("Kein negativer Betrag möglich.");
+                Console.println("Kein negativer Betrag mÃ¶glich.");
             }
             else
             {
@@ -134,7 +134,7 @@ public class Bank
     {
         int wahl, anzahl;
 
-        // Sonderfälle abfragen
+        // SonderfÃ¤lle abfragen
         if (kd == null)
         {
             return;
@@ -156,7 +156,7 @@ public class Bank
         Console.println("Aktie: " + dep.getAktie() + " Anzahl: " + dep.getAnzahl() + " Kurs: " + dep.getKurs());
         
         // Kaufen oder verkaufen
-        Console.print("Möchten Sie kaufen (1) oder verkaufen (2)? ");
+        Console.print("MÃ¶chten Sie kaufen (1) oder verkaufen (2)? ");
         wahl = Console.readInt();
         if (wahl == 1)
         {

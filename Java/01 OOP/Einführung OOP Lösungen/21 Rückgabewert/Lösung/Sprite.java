@@ -13,7 +13,7 @@ class Sprite
     GameImage image;  // das dem Sprite zugeordnete Bild
 
     /**
-     * Lädt bei Erzeugung des Sprites das zugeordnete GameImage aus einer Bilddatei,
+     * LÃ¤dt bei Erzeugung des Sprites das zugeordnete GameImage aus einer Bilddatei,
      * die durch pdatei angegeben wird.
      */
     Sprite(String pdatei)
@@ -48,7 +48,7 @@ class Sprite
     }
 
     /**
-     * Gibt die x-Koordinate des Sprites zurück
+     * Gibt die x-Koordinate des Sprites zurÃ¼ck
      */
     double getX()
     {
@@ -56,7 +56,7 @@ class Sprite
     }
 
     /**
-     * Gibt die y-Koordinate des Sprites zurück
+     * Gibt die y-Koordinate des Sprites zurÃ¼ck
      */
     double getY()
     {
@@ -64,7 +64,7 @@ class Sprite
     }
 
     /**
-     * Gibt die Breite des GameImages des Sprites zurück
+     * Gibt die Breite des GameImages des Sprites zurÃ¼ck
      */
     int getWidth()
     {
@@ -72,7 +72,7 @@ class Sprite
     }
 
     /**
-     * Gibt die Höhe des GameImages des Sprites zurück
+     * Gibt die HÃ¶he des GameImages des Sprites zurÃ¼ck
      */
     int getHeight()
     {
@@ -89,7 +89,7 @@ class Sprite
     }
 
     /**
-     * Erhöht "speed" um "ps"
+     * ErhÃ¶ht "speed" um "ps"
      */
     void schneller(double ps)
     {
@@ -97,7 +97,7 @@ class Sprite
     }
     
     /**
-     * Senkt "speed" um "ps" (negativer Wert möglich)
+     * Senkt "speed" um "ps" (negativer Wert mÃ¶glich)
      */
     void langsamer(double ps)
     {
@@ -106,7 +106,7 @@ class Sprite
     
     /**
      * Setzt die Richtung, in die sich der Sprite bewegt (in Grad).
-     * 0° entspricht der x-Achse, von dort weiter im Uhrzeigersinn.
+     * 0Â° entspricht der x-Achse, von dort weiter im Uhrzeigersinn.
      */
     void setRichtung(double pr)
     {

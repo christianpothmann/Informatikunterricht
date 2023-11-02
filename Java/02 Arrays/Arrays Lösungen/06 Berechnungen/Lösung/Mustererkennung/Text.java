@@ -87,17 +87,17 @@ public class Text
         // Beginne bei jedem Buchstaben der Liste von neuem
         for (i = 0; i < liste.length - muster.length + 1; i++)
         {
-            // Vom aktuellen Buchstaben der Liste überprüfe so viele Buchstaben, wie das Muster hat
+            // Vom aktuellen Buchstaben der Liste Ã¼berprÃ¼fe so viele Buchstaben, wie das Muster hat
             for (j = 0; j < muster.length; j++)
             {
-                // falls der Buchstabe nicht übereinstimmt, breche die Musterprüfung ab 
+                // falls der Buchstabe nicht Ã¼bereinstimmt, breche die MusterprÃ¼fung ab 
                 // und gehe zum naechsten Buchstaben der Liste
                 if (liste[i+j] != muster[j])
                 {
                     break;
                 }
             }
-            // falls der Vergleich das Ende des Musters erreicht hat, ist das Muster vollständig in der Liste enthalten
+            // falls der Vergleich das Ende des Musters erreicht hat, ist das Muster vollstÃ¤ndig in der Liste enthalten
             if (j == muster.length)
             {
                 anzahl = anzahl + 1;

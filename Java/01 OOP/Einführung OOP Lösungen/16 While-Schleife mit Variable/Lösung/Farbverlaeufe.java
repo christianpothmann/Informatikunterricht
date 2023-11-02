@@ -2,7 +2,7 @@ import pm.gamewindow.*;
 import java.awt.*;
 
 /**
- * Verschiedene Farbverl‰ufe mit while-Schleife
+ * Verschiedene Farbverl√§ufe mit while-Schleife
  * C. Pothmann, 03.02.2020
  */
 class Farbverlaeufe
@@ -15,7 +15,7 @@ class Farbverlaeufe
     }
 
     /**
-     * ƒndert flieﬂend die Hintergrundfarbe
+     * √Ñndert flie√üend die Hintergrundfarbe
      */
     void aufgabe1()
     {
@@ -42,7 +42,7 @@ class Farbverlaeufe
     }
 
     /**
-     * Zeichnet einen flieﬂenden ‹bergang
+     * Zeichnet einen flie√üenden √úbergang
      */
     void aufgabe2()
     {
@@ -69,7 +69,7 @@ class Farbverlaeufe
     }      
 
     /**
-     * Zeichnet zwei flieﬂende ‹berg‰nge
+     * Zeichnet zwei flie√üende √úberg√§nge
      */
     void aufgabe3()
     {
@@ -101,7 +101,7 @@ class Farbverlaeufe
     }
     
     /**
-     * Zeichnet ineinander geschachtelte ‹berg‰nge
+     * Zeichnet ineinander geschachtelte √úberg√§nge
      */
     void aufgabe4()
     {
@@ -109,7 +109,7 @@ class Farbverlaeufe
         Color farbe;
         float r, g, b;
         
-        // Farbe 1 von Schwarz nach Magenta und zur¸ck
+        // Farbe 1 von Schwarz nach Magenta und zur√ºck
         r = 0.0f;
         g = 0.0f;
         b = 0.0f;
@@ -134,7 +134,7 @@ class Farbverlaeufe
             zaehler++;
         }
 
-        // Farbe 2 von Gelb nach Schwarz und zur¸ck
+        // Farbe 2 von Gelb nach Schwarz und zur√ºck
         r = 1.0f;
         g = 1.0f;
         b = 0.0f;
@@ -159,7 +159,7 @@ class Farbverlaeufe
             zaehler++;
         }
 
-        // Farbe 3 von Schwarz nach Blau und zur¸ck
+        // Farbe 3 von Schwarz nach Blau und zur√ºck
         r = 0.0f;
         g = 0.0f;
         b = 0.0f;

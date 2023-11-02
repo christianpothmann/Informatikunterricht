@@ -2,7 +2,7 @@ import pm.gamewindow.*;
 
 /**
  * Hauptklasse des Projekts
- * Grundgerüst für ein 2D-Spiel mit Sprites
+ * GrundgerÃ¼st fÃ¼r ein 2D-Spiel mit Sprites
  * C. Pothmann, 16.01.2020
  */
 class Game

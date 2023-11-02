@@ -14,7 +14,7 @@ class Mitarbeiter
         monGehalt = pg;
     }
 
-    void erhöheMonGehalt(double pg)
+    void erhÃ¶heMonGehalt(double pg)
     {
         monGehalt = monGehalt + pg;
     }

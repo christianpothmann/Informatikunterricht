@@ -1,3 +1,7 @@
+02.11.2023
+- Alle BlueJ-Projekte und Java-Dateien in UTF-8 umgewandelt
+- AB 2D-Array: Fehler korrigiert
+
 13.07.2023
 - AB Array Fehler korrigiert
 - PR Algorithmus Fehler korrigiert
@@ -21,7 +25,7 @@
 - 2D-Array Lösung hinzugefügt
 
 16.01.2022
-- 2D-Array: AB korrigiert
+- AB 2D-Array: Fehler korrigiert
 - Laufzeitmessung: Lösung erweitert um Beispieldaten
 - Laufzeitabschätzung: AB Quellcode leicht geändert, Lösung als PDF
 

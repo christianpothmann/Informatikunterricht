@@ -2,10 +2,10 @@ import java.nio.file.*;
 import console.*;
 
 /*
- * Beispielprogramm f¸r die Klassen DatabaseConnector und QueryResult
- * f¸r Abfragen an eine SQLite-Datenbankdatei.
+ * Beispielprogramm f√ºr die Klassen DatabaseConnector und QueryResult
+ * f√ºr Abfragen an eine SQLite-Datenbankdatei.
  * C. Pothmann, 02.12.2020
- * ‹berarbeitet 11.07.2021
+ * √úberarbeitet 11.07.2021
  */
 public class DBBeispiel
 {
@@ -17,8 +17,8 @@ public class DBBeispiel
     }
 
     /*
-     * ÷ffnet eine Verbindung mit der SQLite-Datei
-     * und ruft die Methoden f¸r die Datenbankabfragen auf.
+     * √ñffnet eine Verbindung mit der SQLite-Datei
+     * und ruft die Methoden f√ºr die Datenbankabfragen auf.
      */
     public void main() 
     {
@@ -44,13 +44,13 @@ public class DBBeispiel
     }
 
     /* 
-     * Ermittelt die L‰nder Europas und gibt sie auf der Konsole aus
+     * Ermittelt die L√§nder Europas und gibt sie auf der Konsole aus
      */
     public void europa() 
     {
         QueryResult result;
 
-        // Sucht Namen und Fl‰che der Kontinente
+        // Sucht Namen und Fl√§che der Kontinente
         dbCon.executeStatement(
             "SELECT Land.Name, Land.Einwohner, Land.Flaeche, Ort.Name " +
             "FROM Land, Kontinent, Ort " +
@@ -58,9 +58,9 @@ public class DBBeispiel
             "AND Kontinent.Name = 'Europa';");
         result = dbCon.getCurrentQueryResult();
 
-        Console.println("L‰nder Europas");
+        Console.println("L√§nder Europas");
 
-        // Fehler ausschlieﬂen
+        // Fehler ausschlie√üen
         if (dbCon.getErrorMessage() != null)
         {
             Console.println(dbCon.getErrorMessage());
@@ -115,7 +115,7 @@ public class DBBeispiel
                                "AND   gesprochen.Anteil IS NOT NULL;");
         QueryResult result = dbCon.getCurrentQueryResult();
 
-        // Fehler ausschlieﬂen
+        // Fehler ausschlie√üen
         if (dbCon.getErrorMessage() != null)
         {
             Console.println(dbCon.getErrorMessage());

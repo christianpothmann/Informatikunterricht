@@ -58,7 +58,7 @@ public class Autovermietung
             f = fListe.getContent();
             Console.println("Fahrzeug " + i + ":");
             Console.println("Kennzeichen: " + f.getKennzeichen());
-            Console.println("Gemietet für " + f.getTage() + " Tage");
+            Console.println("Gemietet fÃ¼r " + f.getTage() + " Tage");
             Console.println("Gefahrene km: " + f.getKm());
             Console.println("Gesamtpreis: " + f.getGesamtPreis());
             Console.println();

@@ -1,7 +1,7 @@
 import console.*;
 /*
- * Algorithmen f�r Arrays:
- * Summe, Mittelwert, Min/Max, Z�hlen von Werten
+ * Algorithmen für Arrays:
+ * Summe, Mittelwert, Min/Max, Zählen von Werten
  */
 public class Zahlenliste
 {   
@@ -15,35 +15,35 @@ public class Zahlenliste
     // Programmiere die folgenden Methoden: /////////////////////////////////////////////////
     
     /*
-     * Gibt die Summe aller Elemente der Liste zur�ck.
+     * Gibt die Summe aller Elemente der Liste zurück.
      */
     public int summe()
     {
     }
 
     /*
-     * Gibt den Mittelwert aller Elemente der Liste zurück.
+     * Gibt den Mittelwert aller Elemente der Liste zurÃ¼ck.
      */
     public double mittelwert()
     {
     }
 
     /*
-     * Gibt das Minimum aller Werte der Liste zurück.
+     * Gibt das Minimum aller Werte der Liste zurÃ¼ck.
      */
     public int minimum()
     {
     }
 
     /*
-     * Gibt das Maximum aller Werte der Liste zurück.
+     * Gibt das Maximum aller Werte der Liste zurÃ¼ck.
      */
     public int maximum()
     {
     }
    
     /*
-     * Gibt die Anzahl der Elemente zurück, die den Wert 0 haben.
+     * Gibt die Anzahl der Elemente zurÃ¼ck, die den Wert 0 haben.
      */
     public int anzahlNullen()
     {
@@ -65,7 +65,7 @@ public class Zahlenliste
     }
 
     /*
-     * F�llt die Liste mit Zufallszahlen zw. -10 und 10 
+     * Füllt die Liste mit Zufallszahlen zw. -10 und 10 
      */
     public void fuellenZufall()
     {

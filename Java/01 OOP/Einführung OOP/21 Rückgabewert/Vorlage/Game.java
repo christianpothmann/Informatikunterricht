@@ -17,11 +17,11 @@ class Game
         sp2    = new Sprite("./images/ghost cyan 100x100.png");
         sp3    = new Sprite("./images/ghost pink 100x100.png");
         sp4    = new Sprite("./images/ghost yellow 100x100.png");
-        window = new GameWindow(50, 50, 800, 600, "Spiel mit Rückgabewerten");
+        window = new GameWindow(50, 50, 800, 600, "Spiel mit RÃ¼ckgabewerten");
     }
 
     /**
-     * Sprite wird über Tastatur gesteuert, darf das Fenster aber nicht verlassen
+     * Sprite wird Ã¼ber Tastatur gesteuert, darf das Fenster aber nicht verlassen
      */
     void aufgabe1()
     {

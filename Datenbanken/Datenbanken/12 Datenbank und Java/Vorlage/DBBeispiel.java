@@ -2,8 +2,8 @@ import java.nio.file.*;
 import console.*;
 
 /*
- * Beispielprogramm für die Klassen DatabaseConnector und QueryResult
- * für Abfragen an eine SQLite-Datenbankdatei.
+ * Beispielprogramm fÃ¼r die Klassen DatabaseConnector und QueryResult
+ * fÃ¼r Abfragen an eine SQLite-Datenbankdatei.
  * (Name, Datum)
  */
 public class DBBeispiel
@@ -16,8 +16,8 @@ public class DBBeispiel
     }
 
     /*
-     * Öffnet eine Verbindung mit der SQLite-Datei
-     * und ruft die Methoden für die Datenbankabfragen auf.
+     * Ã–ffnet eine Verbindung mit der SQLite-Datei
+     * und ruft die Methoden fÃ¼r die Datenbankabfragen auf.
      */
     public void main() 
     {
@@ -32,7 +32,7 @@ public class DBBeispiel
     }
 
     /* 
-     * Ermittelt die Länder Europas und gibt sie auf der Konsole aus
+     * Ermittelt die LÃ¤nder Europas und gibt sie auf der Konsole aus
      */
     public void europa() 
     {

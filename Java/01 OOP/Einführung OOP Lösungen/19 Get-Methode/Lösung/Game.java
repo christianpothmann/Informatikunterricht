@@ -2,7 +2,7 @@ import pm.gamewindow.*;
 import java.awt.*;
 
 /*
- * Verwendet get-Methoden zur Lösung der Aufgaben
+ * Verwendet get-Methoden zur LÃ¶sung der Aufgaben
  * C. Pothmann, 08.03.2021
  */
 class Game

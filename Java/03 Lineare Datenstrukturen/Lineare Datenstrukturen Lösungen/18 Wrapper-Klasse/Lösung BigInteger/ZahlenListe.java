@@ -11,7 +11,7 @@ public class ZahlenListe
     }
 
     /*
-     * Füllt die Liste mit den Werten der Fibonacci-Folge.
+     * FÃ¼llt die Liste mit den Werten der Fibonacci-Folge.
      */
     public void fibonacci(int laenge)
     {
@@ -33,7 +33,7 @@ public class ZahlenListe
     public void ausgabe()
     {
         int i = 1;
-        int bits, bytes, total = 0;  // benötigter Speicherplatz
+        int bits, bytes, total = 0;  // benÃ¶tigter Speicherplatz
         BigInteger num;
         zlist.toFirst();
         while (zlist.hasAccess())
@@ -42,12 +42,12 @@ public class ZahlenListe
             bits  = num.bitLength();
             bytes = num.bitLength() / 8 + 1;
             total += bytes;
-            Console.println(i + ": " + zlist.getContent() + "; " + zlist.getContent().bitLength() + " Bits");
+            Console.println(i + ": " + num + "; " + bits + " Bits");
             zlist.next();
             i++;
         }
         
-        // Jedes Listenobjekt benötigt nach meiner Rechnung 88 Bytes Overhead:
+        // Jedes Listenobjekt benÃ¶tigt nach meiner Rechnung 88 Bytes Overhead:
         // 64 Bytes pro BigInteger, 24 Bytes pro ListNode.
         // Vgl. https://stackoverflow.com/questions/15301249/how-much-space-does-biginteger-use
         Console.println("Total: " + total + " bytes of data + " + (i-1) * 88 + " overhead");

@@ -10,7 +10,7 @@ class MAVerwaltung
 
     void main()
     {
-        m1.setName("Müller");
+        m1.setName("MÃ¼ller");
         m1.setMonGehalt(2000);
         m2.setName("Schmidt");
         m2.setMonGehalt(3000);
@@ -21,9 +21,9 @@ class MAVerwaltung
         m1.zahleGehalt();
         m2.zahleGehalt();
 
-        m1.erhöheMonGehalt(1000);
+        m1.erhÃ¶heMonGehalt(1000);
         m1.zahleGehalt();        
-        m2.erhöheMonGehalt(1000);
+        m2.erhÃ¶heMonGehalt(1000);
         m2.zahleGehalt();
     }
 }

@@ -5,7 +5,12 @@ Binärzahlen
 
 1. UG
 Begriff "Digitalisierung" wiederholen (siehe AB)
-Darstellung von Zahlen im Binärsystem begründen
+Darstellung von Zahlen im Binärsystem begründen:
+Computer arbeiten mit elektr. Spannung. Die winzigen
+"Schalter" (Transistoren), aus denen Computer aufgebaut sind,
+können nur zwei Zustände unterscheiden: "an" und "aus",
+bzw. Strom fließt bzw. fließt nicht. Damit können sie die
+0 und die 1 darstellen.
 
 2. UG/EA (Beamer)
 AB austeilen, aber gemeinsamm durcharbeiten

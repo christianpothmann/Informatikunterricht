@@ -10,7 +10,7 @@ class MAVerwaltung
 
     void main()
     {
-        m1.setName("Müller");
+        m1.setName("MÃ¼ller");
         m1.setMonGehalt(2000);
         m1.setSteuersatz(10);
 
@@ -24,7 +24,7 @@ class MAVerwaltung
         m1.zahleGehalt();
         m2.zahleGehalt();
 
-        m1.erhöheMonGehalt(1000);
+        m1.erhÃ¶heMonGehalt(1000);
         m1.setSteuersatz(11);
         m1.zahleGehalt();        
         m2.zahleGehalt();

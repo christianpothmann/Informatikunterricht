@@ -16,9 +16,9 @@ public class Laufzeitmessung
     }
 
     /*
-     * Ruft die drei Sortierverfahren auf und misst die Zeit, die die Verfahren jeweils benötigen.
-     * Das Array wird vor jedem Sortieren mit neuen Zufallszahlen gefüllt.
-     * Die benötigte Zeit wird jeweils auf der Konsole ausgegeben.
+     * Ruft die drei Sortierverfahren auf und misst die Zeit, die die Verfahren jeweils benÃ¶tigen.
+     * Das Array wird vor jedem Sortieren mit neuen Zufallszahlen gefÃ¼llt.
+     * Die benÃ¶tigte Zeit wird jeweils auf der Konsole ausgegeben.
      */
     public void main()
     {

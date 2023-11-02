@@ -5,7 +5,7 @@ class LagerSim
     LagerSim()
     {
         stp1 = new Stapler("Linde", "Meier", 250);
-        stp2 = new Stapler("Caterpillar", "Müller", 350);
+        stp2 = new Stapler("Caterpillar", "MÃ¼ller", 350);
     }
     
     void main()

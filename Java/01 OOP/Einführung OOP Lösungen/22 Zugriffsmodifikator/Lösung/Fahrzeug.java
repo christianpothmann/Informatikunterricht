@@ -1,40 +1,40 @@
 public class Fahrzeug
 {
-    private double tankGröße, füllstand, kmStand;
+    private double tankGrÃ¶ÃŸe, fÃ¼llstand, kmStand;
 
     public Fahrzeug(double pt)
     {
         if (pt >= 0)
         {
-            tankGröße = pt;
+            tankGrÃ¶ÃŸe = pt;
         }
     }
 
     public void tanken(double pt)
     {
-        if (pt > 0 && füllstand + pt <= tankGröße)
+        if (pt > 0 && fÃ¼llstand + pt <= tankGrÃ¶ÃŸe)
         {
-            füllstand += pt;
+            fÃ¼llstand += pt;
         }
     }
 
     public void fahren(double pkm)
     {
-        if (pkm > 0 && füllstand - pkm * 0.1 >= 0)
+        if (pkm > 0 && fÃ¼llstand - pkm * 0.1 >= 0)
         {
             kmStand += pkm;
-            füllstand -= pkm * 0.1;
+            fÃ¼llstand -= pkm * 0.1;
         }
     }
 
-    public double getTankGröße()
+    public double getTankGrÃ¶ÃŸe()
     {
-        return tankGröße;
+        return tankGrÃ¶ÃŸe;
     }
 
-    public double getFüllstand()
+    public double getFÃ¼llstand()
     {
-        return füllstand;
+        return fÃ¼llstand;
     }
 
     public double getkmStand()

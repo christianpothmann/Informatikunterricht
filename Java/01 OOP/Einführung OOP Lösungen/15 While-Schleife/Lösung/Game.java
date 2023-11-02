@@ -17,11 +17,11 @@ class Game
     }
 
     /**
-     * Sprites bewegen sich von links nach rechts (bzw. umgekehrt) über das Fenster.
+     * Sprites bewegen sich von links nach rechts (bzw. umgekehrt) Ã¼ber das Fenster.
      */
     void aufgabe1()
     {
-        int zähler;
+        int zÃ¤hler;
         
         sp1.setPosition(0, 150);
         sp2.setPosition(800, 350);
@@ -31,8 +31,8 @@ class Game
         sp1.setRichtung(0);
         sp2.setRichtung(180);
 
-        zähler = 0;
-        while (zähler < 80)
+        zÃ¤hler = 0;
+        while (zÃ¤hler < 80)
         {
             sp1.bewege();
             sp2.bewege();
@@ -42,7 +42,7 @@ class Game
             sp2.draw(window);
             window.paintFrame();
 
-            zähler = zähler + 1;
+            zÃ¤hler = zÃ¤hler + 1;
         }
     }
 
@@ -51,7 +51,7 @@ class Game
      */
     void aufgabe2()
     {
-        int zähler;
+        int zÃ¤hler;
         
         sp1.setPosition(100, 250);
         sp2.setPosition(700, 250);
@@ -61,8 +61,8 @@ class Game
         sp1.setRichtung(-90);
         sp2.setRichtung(-90);
 
-        zähler = 0;
-        while (zähler < 120)
+        zÃ¤hler = 0;
+        while (zÃ¤hler < 120)
         {
             sp1.dreheRechts(3);
             sp2.dreheLinks(3);
@@ -74,7 +74,7 @@ class Game
             sp2.draw(window);
             window.paintFrame();
 
-            zähler = zähler + 1;
+            zÃ¤hler = zÃ¤hler + 1;
         }
     }
 
@@ -83,7 +83,7 @@ class Game
      */
     void aufgabe3()
     {
-        int zähler;
+        int zÃ¤hler;
         
         sp1.setPosition(100, 250);
         sp2.setPosition(100, 250);
@@ -93,9 +93,9 @@ class Game
         sp1.setSpeed(10);
         sp2.setSpeed(10);
 
-        // erster Halbkreis für beide Sprites
-        zähler = 0;
-        while (zähler < 29)
+        // erster Halbkreis fÃ¼r beide Sprites
+        zÃ¤hler = 0;
+        while (zÃ¤hler < 29)
         {
             sp1.dreheRechts(6);
             sp2.dreheLinks(6);
@@ -107,15 +107,15 @@ class Game
             sp2.draw(window);
             window.paintFrame();
 
-            zähler = zähler + 1;
+            zÃ¤hler = zÃ¤hler + 1;
         }
 
         sp1.setRichtung(90);
         sp2.setRichtung(-90);
 
         // zweiter Halbkreis
-        zähler = 0;
-        while (zähler < 29)
+        zÃ¤hler = 0;
+        while (zÃ¤hler < 29)
         {
             sp1.dreheLinks(6);
             sp2.dreheRechts(6);
@@ -127,15 +127,15 @@ class Game
             sp2.draw(window);
             window.paintFrame();
 
-            zähler = zähler + 1;
+            zÃ¤hler = zÃ¤hler + 1;
         }
 
         sp1.setRichtung(-90);
         sp2.setRichtung(90);
 
         // dritter Halbkreis
-        zähler = 0;
-        while (zähler < 29)
+        zÃ¤hler = 0;
+        while (zÃ¤hler < 29)
         {
             sp1.dreheRechts(6);
             sp2.dreheLinks(6);
@@ -147,7 +147,7 @@ class Game
             sp2.draw(window);
             window.paintFrame();
 
-            zähler = zähler + 1;
+            zÃ¤hler = zÃ¤hler + 1;
         }
     }
 }

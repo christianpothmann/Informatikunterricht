@@ -13,7 +13,7 @@ class Konto
         stand = stand - 100;
     }
 
-    void zinsErhöhen()
+    void zinsErhÃ¶hen()
     {
         zinssatz = zinssatz + 0.01;
     }

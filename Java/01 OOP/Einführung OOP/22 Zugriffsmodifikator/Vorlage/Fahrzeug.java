@@ -1,4 +1,4 @@
 class Fahrzeug
 {
-    double tankGröße, füllstand, kmStand;
+    double tankGrÃ¶ÃŸe, fÃ¼llstand, kmStand;
 }

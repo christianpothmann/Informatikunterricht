@@ -1,17 +1,17 @@
 public class Bus extends Fahrzeug
 {
-    private int pl‰tze;
+    private int pl√§tze;
     private boolean gereinigt;
     
     public Bus(String pk, int pp)
     {
         super(pk);
-        pl‰tze = pp;
+        pl√§tze = pp;
     }
     
-    public int getPl‰tze()
+    public int getPl√§tze()
     {
-        return pl‰tze;
+        return pl√§tze;
     }
     
     public void setGereinigt(boolean pr)
@@ -32,7 +32,7 @@ public class Bus extends Fahrzeug
         
         if (gereinigt == false)
         {
-            gesamt += pl‰tze * 1.5;
+            gesamt += pl√§tze * 1.5;
         }
         
         return gesamt;

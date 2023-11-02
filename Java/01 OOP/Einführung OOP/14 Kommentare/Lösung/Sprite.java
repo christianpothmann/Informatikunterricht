@@ -13,7 +13,7 @@ class Sprite
     GameImage image;  // das dem Sprite zugeordnete Bild
 
     /**
-     * Lädt bei Erzeugung des Sprites das zugeordnete GameImage aus einer Bilddatei,
+     * LÃ¤dt bei Erzeugung des Sprites das zugeordnete GameImage aus einer Bilddatei,
      * die durch pdatei angegeben wird.
      */
     Sprite(String pdatei)
@@ -42,7 +42,7 @@ class Sprite
 
     /**
      * Setzt die Richtung, in die sich der Sprite bewegt (in Grad).
-     * 0° entspricht der x-Achse, von dort weiter im Uhrzeigersinn.
+     * 0Â° entspricht der x-Achse, von dort weiter im Uhrzeigersinn.
      */
     void setRichtung(double pr)
     {

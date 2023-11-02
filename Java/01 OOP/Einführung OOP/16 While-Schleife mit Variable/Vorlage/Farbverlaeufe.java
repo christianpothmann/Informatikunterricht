@@ -10,7 +10,7 @@ class Farbverlaeufe
     
     Farbverlaeufe()
     {
-        window = new GameWindow(100, 100, 1200, 800, "Farbverl‰ufe");
+        window = new GameWindow(100, 100, 1200, 800, "Farbverl√§ufe");
     }
 
     /*

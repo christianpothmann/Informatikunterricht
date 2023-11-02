@@ -7,7 +7,7 @@
  *     uhr.start();
  *     algorithmus();
  *     uhr.stopp();
- *     Console.println("Die Zeit betr‰gt " + uhr.gestoppteZeit() + " Sekunden.");
+ *     Console.println("Die Zeit betr√§gt " + uhr.gestoppteZeit() + " Sekunden.");
  * }
  * Christian Pothmann, 2.6.2013
  */
@@ -24,7 +24,7 @@ public class Stoppuhr
     }
 
     /*
-     * Die Stoppuhr l‰uft los
+     * Die Stoppuhr l√§uft los
      */
     public void start()
     {
@@ -40,7 +40,7 @@ public class Stoppuhr
     }
 
     /*
-     * Gibt die gestoppte Zeit in Sekunden zur¸ck
+     * Gibt die gestoppte Zeit in Sekunden zur√ºck
      */
     public double gestoppteZeit()
     {

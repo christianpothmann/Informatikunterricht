@@ -1,7 +1,7 @@
 import console.*;
 
 /*
- * Hauptklasse für die Mustererkennung
+ * Hauptklasse fÃ¼r die Mustererkennung
  * (Name, Datum)
  */
 public class SuchApp
@@ -15,7 +15,7 @@ public class SuchApp
 
     /*
      * Bittet den Benutzer, ein Textmuster einzutippen.
-     * Rückgabewert: das Muster als Array von Buchstaben
+     * RÃ¼ckgabewert: das Muster als Array von Buchstaben
      */
     public char[] musterEinlesen()
     {
@@ -35,7 +35,7 @@ public class SuchApp
     }
 
     /*
-     * Gibt einen zufällig generierter Text aus.
+     * Gibt einen zufÃ¤llig generierter Text aus.
      * Der Benutzer kann wiederholt Textmuster eingeben, die dann gesucht werden.
      */
     public void main()

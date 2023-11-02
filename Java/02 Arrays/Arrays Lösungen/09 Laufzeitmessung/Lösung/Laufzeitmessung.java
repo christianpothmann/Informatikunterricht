@@ -29,7 +29,7 @@ public class Laufzeitmessung
         
         zl  = new Zahlenliste(laenge);
 
-        Console.println("Sortiere Listen der Länge " + laenge);
+        Console.println("Sortiere Listen der LÃ¤nge " + laenge);
 
         zl.fuellen();
         uhr.start();

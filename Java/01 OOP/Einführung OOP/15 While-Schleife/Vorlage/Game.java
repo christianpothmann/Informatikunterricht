@@ -12,8 +12,8 @@ class Game
         window = new GameWindow(100, 100, 900, 600, "Schleifen");
     }
     
-	// Statt der main-Methode gibt es für jede Aufgabe eine Methode.
-	// Nach dem Übersetzen erzeuge ein Game-Objekt und führe
+	// Statt der main-Methode gibt es fÃ¼r jede Aufgabe eine Methode.
+	// Nach dem Ãœbersetzen erzeuge ein Game-Objekt und fÃ¼hre
     // jeweils eine dieser Methoden aus.
 
     void aufgabe1()

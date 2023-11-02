@@ -1,9 +1,9 @@
 1. zum 2. gehen, Inhalt speichern
-2. 2. löschen
+2. 2. lÃ¶schen
 3. zum 4. gehen, Inhalt speichern
-4. 4. löschen
-5. neu einfügen mit Inhalt vom 2.
-6. Anfang, zum 2., Inhalt vom 4. einfügen
+4. 4. lÃ¶schen
+5. neu einfÃ¼gen mit Inhalt vom 2.
+6. Anfang, zum 2., Inhalt vom 4. einfÃ¼gen
 
-Sonderfälle
+SonderfÃ¤lle
 nicht genug Elemente da (0 - 3) -> nichts machen

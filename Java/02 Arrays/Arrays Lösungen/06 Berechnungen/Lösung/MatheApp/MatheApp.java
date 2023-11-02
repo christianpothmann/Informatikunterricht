@@ -1,7 +1,7 @@
 import console.*;
 
 /*
- * Hauptklasse für die Zahlenliste
+ * Hauptklasse fÃ¼r die Zahlenliste
  * C. Pothmann, 28.01.2022
  */
 public class MatheApp
@@ -15,15 +15,15 @@ public class MatheApp
     
     public void main()
     {
-        Console.println("\n\n=== Berechnungen für ein Array ===");
-        Console.println("\nDas Array wird mit Zufallszahlen gefüllt.");        
+        Console.println("\n\n=== Berechnungen fÃ¼r ein Array ===");
+        Console.println("\nDas Array wird mit Zufallszahlen gefÃ¼llt.");        
         zl.fuellenZufall();
         zl.ausgeben();
 
         Console.println("\nDie Summe ist " + zl.summe() + ".");
         Console.println("Der Mittelwert ist " + zl.mittelwert() + ".");
         Console.println("Das Minimum ist " + zl.minimum() + " und das Maximum ist " + zl.maximum() + ".");
-        Console.println("Die zweitgrößte Zahl ist " + zl.zweitgroesste() + ".");
-        Console.println("Das Array enthält " + zl.anzahlNullen() + " mal den Wert 0.");        
+        Console.println("Die zweitgrÃ¶ÃŸte Zahl ist " + zl.zweitgroesste() + ".");
+        Console.println("Das Array enthÃ¤lt " + zl.anzahlNullen() + " mal den Wert 0.");        
     }
 }

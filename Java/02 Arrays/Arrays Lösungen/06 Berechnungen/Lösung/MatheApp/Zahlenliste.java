@@ -1,8 +1,8 @@
 import console.*;
 
 /*
- * Algorithmen für Arrays:
- * Summe, Mittelwert, Min/Max, Zählen von Werten
+ * Algorithmen fÃ¼r Arrays:
+ * Summe, Mittelwert, Min/Max, ZÃ¤hlen von Werten
  * Christian Pothmann, 28.01.2022
  */
 public class Zahlenliste
@@ -28,7 +28,7 @@ public class Zahlenliste
     }
 
     /*
-     * Füllt die Liste mit Zufallszahlen zw. -10 und 10 
+     * FÃ¼llt die Liste mit Zufallszahlen zw. -10 und 10 
      */
     public void fuellenZufall()
     {
@@ -40,7 +40,7 @@ public class Zahlenliste
     }
 
     /*
-     * Gibt die Summe aller Elemente der Liste zurück.
+     * Gibt die Summe aller Elemente der Liste zurÃ¼ck.
      */
     public int summe()
     {
@@ -54,7 +54,7 @@ public class Zahlenliste
     }
 
     /*
-     * Gibt den Mittelwert aller Elemente der Liste zurück.
+     * Gibt den Mittelwert aller Elemente der Liste zurÃ¼ck.
      */
     public double mittelwert()
     {
@@ -64,7 +64,7 @@ public class Zahlenliste
     }
 
     /*
-     * Gibt das Minimum aller Werte der Liste zurück.
+     * Gibt das Minimum aller Werte der Liste zurÃ¼ck.
      */
     public int minimum()
     {
@@ -81,7 +81,7 @@ public class Zahlenliste
     }
 
     /*
-     * Gibt das Maximum aller Werte der Liste zurück.
+     * Gibt das Maximum aller Werte der Liste zurÃ¼ck.
      */
     public int maximum()
     {
@@ -98,7 +98,7 @@ public class Zahlenliste
     }
    
     /*
-     * Gibt die Anzahl der Elemente zurück, die den Wert 0 haben.
+     * Gibt die Anzahl der Elemente zurÃ¼ck, die den Wert 0 haben.
      */
     public int anzahlNullen()
     {
@@ -115,7 +115,7 @@ public class Zahlenliste
     }
 
     /*
-     * Gibt die (echt) zweitgrößte Zahl der Liste zurück.
+     * Gibt die (echt) zweitgrÃ¶ÃŸte Zahl der Liste zurÃ¼ck.
      * Im Sonderfall, dass alle Elemente des Arrays den gleichen Wert haben, wird eine Mitteilung auf der Konsole gemacht.
      */
     public int zweitgroesste()
@@ -123,7 +123,7 @@ public class Zahlenliste
         int i;
         int max1, max2;
 
-        // Anfangswerte für max1 und max2:
+        // Anfangswerte fÃ¼r max1 und max2:
         // Die ersten beiden unterschiedlichen Zahlen der Liste
         // (beachtet den Sonderfall, dass das Maximum am Anfang steht, auch ggf. mehrmals)
         max1 = liste[0];
@@ -135,10 +135,10 @@ public class Zahlenliste
         // Sonderfall: alle Zahlen gleich
         if (i == liste.length)
         {
-            Console.println("Es gibt keine zweitgrößte Zahl.");
+            Console.println("Es gibt keine zweitgrÃ¶ÃŸte Zahl.");
             return max1;
         }
-        // setze max1 auf die größere, max2 auf die kleinere der beiden Zahlen
+        // setze max1 auf die grÃ¶ÃŸere, max2 auf die kleinere der beiden Zahlen
         if (liste[i] < max1)
         {
             max2 = liste[i];
@@ -151,16 +151,16 @@ public class Zahlenliste
         // Fahre mit der restlichen Liste fort
         for (; i < liste.length; i++)
         {
-            // Jedesmal wenn eine neue größte Zahl gefunden wird, 
-            // wandert die bisherige größte zur zweitgrößten.
+            // Jedesmal wenn eine neue grÃ¶ÃŸte Zahl gefunden wird, 
+            // wandert die bisherige grÃ¶ÃŸte zur zweitgrÃ¶ÃŸten.
             if (liste[i] > max1)
             {
                 max2 = max1;
                 max1 = liste[i];
             }
             
-            // Falls eine Zahl zwischen aktueller zweitgrößter und größter gefunden wird,
-            // ersetze die aktuelle zweitgrößte
+            // Falls eine Zahl zwischen aktueller zweitgrÃ¶ÃŸter und grÃ¶ÃŸter gefunden wird,
+            // ersetze die aktuelle zweitgrÃ¶ÃŸte
             if (liste[i] > max2 && liste[i] < max1)
             {
                 max2 = liste[i];

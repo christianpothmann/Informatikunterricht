@@ -1,7 +1,7 @@
 import pm.gamewindow.*;
 /**
  * Ist die Hauptklasse 
- * Führt die anderen Klassen aus
+ * FÃ¼hrt die anderen Klassen aus
  * (Name) , 23.11.2020
  */
 

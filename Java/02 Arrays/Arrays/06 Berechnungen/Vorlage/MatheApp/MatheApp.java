@@ -1,7 +1,7 @@
 import console.*;
 
 /*
- * Hauptklasse für die Zahlenliste
+ * Hauptklasse fÃ¼r die Zahlenliste
  * (Name, Datum)
  */
 public class MatheApp

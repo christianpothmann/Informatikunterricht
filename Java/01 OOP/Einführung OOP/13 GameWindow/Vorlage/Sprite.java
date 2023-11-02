@@ -14,9 +14,9 @@ class Sprite
 
     void draw(GameWindow gwin)
     {
-        // x und y sind double-Werte (weil man für flüssige Bewegungen Nachkommastellen braucht).
+        // x und y sind double-Werte (weil man fÃ¼r flÃ¼ssige Bewegungen Nachkommastellen braucht).
         // drawImage erwartet jedoch int-Parameter, da die GameWindow-Koordinaten Pixeln entsprechen.
-        // x und y müssen daher in ganze Zahlen umgewandelt werden mittels (int)x 
+        // x und y mÃ¼ssen daher in ganze Zahlen umgewandelt werden mittels (int)x 
         // Dabei werden die Nachkommastellen einfach abgeschnitten.
         gwin.drawImage(image, (int)x, (int)y);
     }

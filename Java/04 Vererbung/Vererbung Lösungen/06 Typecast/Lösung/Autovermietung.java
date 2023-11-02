@@ -63,7 +63,7 @@ public class Autovermietung
             if (f.getClass() == Bus.class) { Console.println("Bus)"); }
             
             Console.println("Kennzeichen: " + f.getKennzeichen());
-            Console.println("Gemietet f¸r " + f.getTage() + " Tage");
+            Console.println("Gemietet f√ºr " + f.getTage() + " Tage");
             Console.println("Gefahrene km: " + f.getKm());
             
             if (f.getClass() == PKW.class)
@@ -84,7 +84,7 @@ public class Autovermietung
             else if (f.getClass() == Bus.class)
             {
                 Bus b = (Bus)f;
-                Console.println("Pl‰tze: " + b.getPl‰tze());
+                Console.println("Pl√§tze: " + b.getPl√§tze());
                 Console.print("Fahrzeug wurde ");
                 if (b.getGereinigt() == false)
                 {

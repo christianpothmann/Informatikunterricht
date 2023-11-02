@@ -10,8 +10,8 @@ public class ZahlenListe
     }
 
     /*
-     * Füllt die Liste mit den Werten der Fibonacci-Folge.
-     * laenge <= 46 (da Integer keine größeren Werte speichern kann).
+     * FÃ¼llt die Liste mit den Werten der Fibonacci-Folge.
+     * laenge <= 46 (da Integer keine grÃ¶ÃŸeren Werte speichern kann).
      */
     public void fibonacci(int laenge)
     {

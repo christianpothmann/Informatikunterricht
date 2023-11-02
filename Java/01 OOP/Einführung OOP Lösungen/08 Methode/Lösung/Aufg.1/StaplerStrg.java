@@ -1,25 +1,25 @@
 class StaplerStrg
 {
-    double höhe, winkel;
+    double hÃ¶he, winkel;
 
     void heben()
     {
-        höhe = höhe + 10;
+        hÃ¶he = hÃ¶he + 10;
     }
 
     void senken()
     {
-        höhe = höhe - 10;
+        hÃ¶he = hÃ¶he - 10;
     }
 
     void oben()
     {
-        höhe = 0;
+        hÃ¶he = 0;
     }
 
     void unten()
     {
-        höhe = 200;
+        hÃ¶he = 200;
     }
 
     void neigenVor()
@@ -27,7 +27,7 @@ class StaplerStrg
         winkel = winkel + 5;
     }
 
-    void neigenZurück()
+    void neigenZurÃ¼ck()
     {
         winkel = winkel - 5;
     }

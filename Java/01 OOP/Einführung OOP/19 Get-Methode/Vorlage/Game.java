@@ -16,7 +16,7 @@ class Game
     }
 
     /**
-     * Farbverlauf -> soll unabh‰ngig von der Voreingestellten Grˆﬂe des Fensters sein
+     * Farbverlauf -> soll unabh√§ngig von der Voreingestellten Gr√∂√üe des Fensters sein
      */
     void aufgabe1()
     {
