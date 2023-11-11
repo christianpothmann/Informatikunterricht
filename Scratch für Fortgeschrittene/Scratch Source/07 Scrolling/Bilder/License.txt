@@ -1,0 +1,16 @@
+Roof 1
+https://openclipart.org/detail/264827/roof-tiles
+gemeinfrei
+
+Stone 1
+https://openclipart.org/detail/264839/irregular-stone-blocks
+gemeinfrei
+
+Treasure Chest
+https://openclipart.org/detail/171507/money-pot
+gemeinfrei
+
+Wesnoth (Screenshot)
+https://www.wesnoth.org
+http://www.gnu.org/licenses/gpl.html
+

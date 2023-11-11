@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>481</x>
+      <y>234</y>
+      <w>78</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>104</y>
+      <w>260</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+r2=[getroffen und leben &gt; 0]
+</panel_attributes>
+    <additional_attributes>180.0;70.0;180.0;20.0;10.0;20.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>676</x>
+      <y>221</y>
+      <w>208</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+[getroffen 
+und leben = 0]</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>338</x>
+      <y>195</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Spiel
+-
+- Ship
+- Asteroid
+- Laser, Missile
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>286</x>
+      <y>234</y>
+      <w>78</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>858</x>
+      <y>195</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Ende
+-
+- Standbild
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>143</x>
+      <y>195</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Anfang
+-
+- Standbild
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>533</x>
+      <y>195</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Leben verloren
+-
+- Ship
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>338</x>
+      <y>364</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Shop
+-
+- Standbild
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>364</x>
+      <y>286</y>
+      <w>52</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+[s]</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>442</x>
+      <y>286</y>
+      <w>52</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+[e]</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+</diagram>

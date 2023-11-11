@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>52</x>
+      <y>182</y>
+      <w>208</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+r2=[Bedingung]
+</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>65</x>
+      <y>273</y>
+      <w>156</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Zustand
+-
+- Figur
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>52</x>
+      <y>39</y>
+      <w>507</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Erzeuge weitere Zustände / Pfeile 
+durch Doppelklick auf die schon bestehenden
+Bewege / knicke Pfeile, indem du sie anklickst und ziehst
+Beschriftungen editiere unten rechts</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

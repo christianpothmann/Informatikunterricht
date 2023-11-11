@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>403</x>
+      <y>169</y>
+      <w>156</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>338</x>
+      <y>39</y>
+      <w>312</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+r2=[Ziel erreicht UND level &lt; 3]
+</panel_attributes>
+    <additional_attributes>220.0;70.0;220.0;20.0;10.0;20.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>156</y>
+      <w>195</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+[Ziel erreicht 
+UND level=3
+ODER
+Tunnel berührt 
+UND leben=0]</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>286</x>
+      <y>130</y>
+      <w>130</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Levelstart
+-
+- Standbild
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>234</x>
+      <y>169</y>
+      <w>78</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>819</x>
+      <y>130</y>
+      <w>130</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Ende
+-
+- Standbild
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>117</x>
+      <y>130</y>
+      <w>130</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Anfang
+-
+- Standbild
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>533</x>
+      <y>130</y>
+      <w>130</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Flug
+-
+- Flieger
+- Tunnel
+- Ziel
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>286</x>
+      <y>273</y>
+      <w>130</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Crash
+-
+- Standbild
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>338</x>
+      <y>221</y>
+      <w>312</w>
+      <h>247</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+r2=[Tunnel berührt UND leben &gt; 0]
+</panel_attributes>
+    <additional_attributes>220.0;10.0;220.0;170.0;10.0;170.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>338</x>
+      <y>221</y>
+      <w>39</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>728</x>
+      <y>572</y>
+      <w>117</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Levelstart
+-
+- Standbild
+
+valign=top
+lw=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>364</x>
+      <y>611</y>
+      <w>78</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>260</x>
+      <y>572</y>
+      <w>117</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Anfang
+-
+- Standbild
+valign=top
+lw=3
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>117</x>
+      <y>572</y>
+      <w>117</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Einblenden
+-
+- Schwarz
+- Standbild
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>221</x>
+      <y>611</y>
+      <w>65</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>416</x>
+      <y>572</y>
+      <w>117</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Ausblenden
+-
+- Schwarz
+- Standbild
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>611</y>
+      <w>78</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>572</x>
+      <y>572</y>
+      <w>117</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Einblenden
+-
+- Schwarz
+- Standbild
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>676</x>
+      <y>611</y>
+      <w>78</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>884</x>
+      <y>572</y>
+      <w>117</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Ausblenden
+-
+- Schwarz
+- Standbild
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>611</y>
+      <w>78</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+</diagram>
