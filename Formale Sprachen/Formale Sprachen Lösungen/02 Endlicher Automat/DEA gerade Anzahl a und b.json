@@ -1,0 +1,146 @@
+﻿{
+  "name": "Gerade Anzahl a's und b's",
+  "description": "",
+  "type": "DEA",
+  "automaton": {
+    "acceptCache": [],
+    "simulationInput": [],
+    "Alphabet": [
+      "a",
+      "b"
+    ],
+    "StackAlphabet": [
+      "|"
+    ],
+    "States": [
+      {
+        "ID": 1,
+        "Name": "q0",
+        "x": 610,
+        "y": 100,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 1,
+            "Target": 2,
+            "x": 50,
+            "y": 0,
+            "Labels": [
+              "a"
+            ]
+          },
+          {
+            "Source": 1,
+            "Target": 3,
+            "x": 50,
+            "y": 0,
+            "Labels": [
+              "b"
+            ]
+          }
+        ],
+        "Start": true
+      },
+      {
+        "ID": 2,
+        "Name": "q1",
+        "x": 610,
+        "y": 280,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 2,
+            "Target": 1,
+            "x": 50,
+            "y": 0,
+            "Labels": [
+              "a"
+            ]
+          },
+          {
+            "Source": 2,
+            "Target": 16,
+            "x": 50,
+            "y": 0,
+            "Labels": [
+              "b"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 3,
+        "Name": "q2",
+        "x": 790,
+        "y": 100,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 3,
+            "Target": 1,
+            "x": 50,
+            "y": 0,
+            "Labels": [
+              "b"
+            ]
+          },
+          {
+            "Source": 3,
+            "Target": 16,
+            "x": 50,
+            "y": 0,
+            "Labels": [
+              "a"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 15,
+        "Name": "q14",
+        "x": 1220,
+        "y": 340,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [],
+        "Start": false
+      },
+      {
+        "ID": 16,
+        "Name": "q3",
+        "x": 790,
+        "y": 280,
+        "Final": true,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 16,
+            "Target": 3,
+            "x": 50,
+            "y": 0,
+            "Labels": [
+              "a"
+            ]
+          },
+          {
+            "Source": 16,
+            "Target": 2,
+            "x": 50,
+            "y": 0,
+            "Labels": [
+              "b"
+            ]
+          }
+        ],
+        "Start": false
+      }
+    ],
+    "lastInputs": []
+  },
+  "GUID": "ronj9ukah"
+}

@@ -1,0 +1,110 @@
+﻿{
+  "name": "Potenzmengenautomat",
+  "description": "",
+  "type": "DEA",
+  "automaton": {
+    "acceptCache": [],
+    "simulationInput": [],
+    "Alphabet": [
+      "a",
+      "b"
+    ],
+    "StackAlphabet": [
+      "|"
+    ],
+    "States": [
+      {
+        "ID": 1,
+        "Name": "{ A }",
+        "x": 170,
+        "y": 150,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 1,
+            "Target": 2,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "a"
+            ]
+          }
+        ],
+        "Start": true
+      },
+      {
+        "ID": 2,
+        "Name": "{B,C}",
+        "x": 290,
+        "y": 150,
+        "Final": true,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 2,
+            "Target": 3,
+            "x": 0,
+            "y": 10,
+            "Labels": [
+              "a"
+            ]
+          },
+          {
+            "Source": 2,
+            "Target": 4,
+            "x": 0,
+            "y": -10,
+            "Labels": [
+              "b"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 3,
+        "Name": "{ B }",
+        "x": 400,
+        "y": 90,
+        "Final": true,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 3,
+            "Target": 3,
+            "x": 80,
+            "y": 0,
+            "Labels": [
+              "a"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 4,
+        "Name": "{ C }",
+        "x": 400,
+        "y": 210,
+        "Final": true,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 4,
+            "Target": 4,
+            "x": 100,
+            "y": 0,
+            "Labels": [
+              "b"
+            ]
+          }
+        ],
+        "Start": false
+      }
+    ],
+    "lastInputs": [],
+    "allowPartial": true
+  },
+  "GUID": "fvjtuu8rr"
+}

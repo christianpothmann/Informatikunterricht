@@ -1,0 +1,252 @@
+﻿{
+  "name": "NEA - DEA Lösung 2",
+  "description": "",
+  "type": "DEA",
+  "automaton": {
+    "acceptCache": [],
+    "simulationInput": [],
+    "Alphabet": [
+      "a",
+      "b"
+    ],
+    "StackAlphabet": [
+      "|"
+    ],
+    "States": [
+      {
+        "ID": 1,
+        "Name": "A",
+        "x": 220,
+        "y": 500,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 1,
+            "Target": 2,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "a"
+            ]
+          },
+          {
+            "Source": 1,
+            "Target": 1,
+            "x": -90,
+            "y": -110,
+            "Labels": [
+              "b"
+            ]
+          }
+        ],
+        "Start": true
+      },
+      {
+        "ID": 2,
+        "Name": "AB",
+        "x": 360,
+        "y": 500,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 2,
+            "Target": 3,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "a"
+            ]
+          },
+          {
+            "Source": 2,
+            "Target": 7,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "b"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 3,
+        "Name": "ABC",
+        "x": 500,
+        "y": 500,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 3,
+            "Target": 4,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "a"
+            ]
+          },
+          {
+            "Source": 3,
+            "Target": 5,
+            "x": -80,
+            "y": 0,
+            "Labels": [
+              "b"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 4,
+        "Name": "ABCD",
+        "x": 640,
+        "y": 500,
+        "Final": true,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 4,
+            "Target": 4,
+            "x": 80,
+            "y": -70,
+            "Labels": [
+              "a"
+            ]
+          },
+          {
+            "Source": 4,
+            "Target": 5,
+            "x": -60,
+            "y": 0,
+            "Labels": [
+              "b"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 5,
+        "Name": "ACD",
+        "x": 500,
+        "y": 220,
+        "Final": true,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 5,
+            "Target": 8,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "a"
+            ]
+          },
+          {
+            "Source": 5,
+            "Target": 9,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "b"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 7,
+        "Name": "AC",
+        "x": 360,
+        "y": 360,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 7,
+            "Target": 8,
+            "x": 50,
+            "y": -10,
+            "Labels": [
+              "a"
+            ]
+          },
+          {
+            "Source": 7,
+            "Target": 9,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "b"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 8,
+        "Name": "ABD",
+        "x": 500,
+        "y": 360,
+        "Final": true,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 8,
+            "Target": 3,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "a"
+            ]
+          },
+          {
+            "Source": 8,
+            "Target": 7,
+            "x": 50,
+            "y": -10,
+            "Labels": [
+              "b"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 9,
+        "Name": "AD",
+        "x": 360,
+        "y": 220,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 9,
+            "Target": 1,
+            "x": -50,
+            "y": 10,
+            "Labels": [
+              "b"
+            ]
+          },
+          {
+            "Source": 9,
+            "Target": 2,
+            "x": -90,
+            "y": 20,
+            "Labels": [
+              "a"
+            ]
+          }
+        ],
+        "Start": false
+      }
+    ],
+    "lastInputs": []
+  },
+  "GUID": "hfqmy19cb"
+}

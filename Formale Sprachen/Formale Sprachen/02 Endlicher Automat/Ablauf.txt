@@ -1,0 +1,55 @@
+Endlicher Automat
+
+EA
+
+1. SuS lesen Text zu DEAs
+   Ggf. schon Aufgabe 1 (vollständige Angabe des Automaten)
+
+UG (Tafel)
+
+2. Aufgabe zum Textverständnis
+   L(A) = { (ab)^mb^n | m, n aus N } → was bedeutet das?
+   A = endl. Automat, L = language
+   Exponenten?  (SuS geben Beispiele für Wörter der Sprache)
+   N enthält nicht die 0, d.h. m und n mindestens 1
+
+   SuS konstruieren den Automat zu L(A)
+   Alphabet (einfach)
+   Zustände, Start-/Endzustände: erst nach Übergangsfunkion
+   Beachten: s0 Element von S, F Teilmenge
+   Übergangsfunktion:  R : S x Σ → S
+   als Graph gemeinsam entwickeln (nicht so einfach!)
+   Dann Darstellung mit Funktionswerten / als Tabelle
+   Zum Schluss zusammenfassen zu A = (Σ, S, s0, F, R)
+   Begriff „Tupel“
+
+EA
+
+3. Automaten (Aufg. 1) auf Papier
+
+UG
+
+4. Sichern
+
+5. JFLAP oder flaci.com vorstellen
+
+EA (PC)
+
+6. Aufgabe 2 am PC
+   Zwischendurch besprechen / Hilfen geben
+   Zuständen „Sinn“ geben: bis jetzt 1 a und 1 b gelesen (für min 3a oder 2 b)
+
+7. Sichern / Grenzen von DEAs
+   Automat zu a^nb^n mit n < 10: 2 Lösungen von SuS 
+   (eine mit vielen, eine mit zusammengefassten Zuständen) → nicht immer eine Lsg.
+   Wie kann man den DEA erweitern für n unbeschränkt? → immer weitere Zustände
+   Genügen z.B. 1000 Zuständen? -> nein, ein Wort mit n = 1001 wird nicht erkannt.
+
+8. Tafelanschrieb
+   Frage: Gibt es einen DEA, der die Sprache L(A) = { anbn | n aus N } erkennt?
+   Antwort: Nein. Ein DEA bräuchte zum Zählen der a‘s für jeden Zählschritt einen Zustand. 
+   Wenn der DEA eine endliche Anzahl von Zuständen (z.B. 1000) hat, kann man leicht ein Wort 
+   konstruieren (z.B. mit 2000 a‘s), das der DEA dann nicht erkennt. Da die Anzahl der a‘s 
+   nicht beschränkt ist, müsste der DEA also unendliche viele Zustände haben, was für 
+   endliche Automaten nicht zulässig ist.
+

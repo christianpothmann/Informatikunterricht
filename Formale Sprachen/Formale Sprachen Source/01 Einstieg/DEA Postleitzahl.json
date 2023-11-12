@@ -1,0 +1,207 @@
+﻿{
+  "name": "Postleitzahl",
+  "description": "",
+  "type": "DEA",
+  "automaton": {
+    "acceptCache": [],
+    "simulationInput": [],
+    "Alphabet": [
+      "A-Z",
+      "0-9"
+    ],
+    "StackAlphabet": [
+      "|"
+    ],
+    "States": [
+      {
+        "ID": 1,
+        "Name": "q0",
+        "x": 160,
+        "y": 150,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 1,
+            "Target": 2,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "0-9"
+            ]
+          },
+          {
+            "Source": 1,
+            "Target": 7,
+            "x": -50,
+            "y": -50,
+            "Labels": [
+              "A-Z"
+            ]
+          }
+        ],
+        "Start": true
+      },
+      {
+        "ID": 2,
+        "Name": "q1",
+        "x": 280,
+        "y": 150,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 2,
+            "Target": 3,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "0-9"
+            ]
+          },
+          {
+            "Source": 2,
+            "Target": 7,
+            "x": -40,
+            "y": -20,
+            "Labels": [
+              "A-Z"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 3,
+        "Name": "q2",
+        "x": 400,
+        "y": 150,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 3,
+            "Target": 4,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "0-9"
+            ]
+          },
+          {
+            "Source": 3,
+            "Target": 7,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "A-Z"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 4,
+        "Name": "q3",
+        "x": 520,
+        "y": 150,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 4,
+            "Target": 5,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "0-9"
+            ]
+          },
+          {
+            "Source": 4,
+            "Target": 7,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "A-Z"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 5,
+        "Name": "q4",
+        "x": 640,
+        "y": 150,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 5,
+            "Target": 6,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "0-9"
+            ]
+          },
+          {
+            "Source": 5,
+            "Target": 7,
+            "x": 40,
+            "y": 20,
+            "Labels": [
+              "A-Z"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 6,
+        "Name": "q5",
+        "x": 760,
+        "y": 150,
+        "Final": true,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 6,
+            "Target": 7,
+            "x": 40,
+            "y": 60,
+            "Labels": [
+              "0-9",
+              "A-Z"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 7,
+        "Name": "q6",
+        "x": 470,
+        "y": 380,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 7,
+            "Target": 7,
+            "x": 0,
+            "y": 60,
+            "Labels": [
+              "0-9",
+              "A-Z"
+            ]
+          }
+        ],
+        "Start": false
+      }
+    ],
+    "lastInputs": []
+  },
+  "GUID": "5391947fp"
+}
