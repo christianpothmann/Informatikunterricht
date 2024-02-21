@@ -13,7 +13,7 @@ public class ZahlenListe
     /*
      * Füllt die Liste mit den Werten der Fibonacci-Folge.
      */
-    public void fibonacci(int laenge)
+    public void fibonacci(int pLänge)
     {
         int i;
         BigInteger a1, a2, a3;
@@ -21,7 +21,7 @@ public class ZahlenListe
         a2 = new BigInteger("1");
         zlist.append(a1);
         zlist.append(a2);
-        for (i = 2; i < laenge; i++)
+        for (i = 2; i < pLänge; i++)
         {
             a3 = a1.add(a2);
             zlist.append(a3);

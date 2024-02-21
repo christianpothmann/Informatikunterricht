@@ -11,9 +11,9 @@ public class ZahlenListe
 
     /*
      * Füllt die Liste mit den Werten der Fibonacci-Folge.
-     * laenge <= 92 (da Long keine größeren Werte speichern kann).
+     * pLänge <= 92 (da Long keine größeren Werte speichern kann).
      */
-    public void fibonacci(int laenge)
+    public void fibonacci(int pLänge)
     {
         int i;
         long a1, a2, a3;
@@ -21,7 +21,7 @@ public class ZahlenListe
         a2 = 1;
         zl.append(a1);
         zl.append(a2);
-        for (i = 2; i < laenge; i++)
+        for (i = 2; i < pLänge; i++)
         {
             a3 = a1 + a2;
             zl.append(a3);

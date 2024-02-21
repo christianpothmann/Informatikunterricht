@@ -1,5 +1,16 @@
-Zunächst nur S.1 austeilen
-SuS lösen das Damenproblem und formulieren einen Algorithmus
+Backtracking Ablauf
 
-Dann die restlichen Seiten (mit der Lösung des Damenproblems)
-SuS lösen Aufg. 2 und 3
+1. Am Beamer ein Schachbrett zeigen
+SuS erläutern die Nummerierung der Felder und die Bewegung der Dame.
+
+2. Am Beamer Aufgabe 1 zeigen
+SuS lösen das Damenproblem auf Papier und formulieren einen Algorithmus.
+
+3. Gemeinsam einen Algorithmus mit Backtracking entwickeln
+Am Ende fragen: was hat das mit einem Stack zu tun?
+
+4. Arbeitsblätter auf Papier austeilen.
+SuS lösen Aufgaben 2 und 3.
+
+Die Zusatzaufgabe mit Scratch ggf. guten SuS anbieten (ist ziemlich schwierig).
+

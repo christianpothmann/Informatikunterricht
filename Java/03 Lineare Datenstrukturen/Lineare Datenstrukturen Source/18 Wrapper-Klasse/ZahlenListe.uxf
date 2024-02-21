@@ -4,9 +4,9 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>52</x>
+      <x>39</x>
       <y>78</y>
-      <w>234</w>
+      <w>247</w>
       <h>156</h>
     </coordinates>
     <panel_attributes>ZahlenListe
@@ -14,7 +14,7 @@
 
 -
 + ZahlenListe()
-+ fülleFibonacci(länge: int)
++ fülleFibonacci(pLänge: int)
 + ausgeben()
 + main()</panel_attributes>
     <additional_attributes/>
