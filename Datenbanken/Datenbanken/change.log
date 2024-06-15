@@ -1,8 +1,13 @@
+15.06.2024
+- Normalisierung: Text ergänzt (funktionale Abhängigkeit)
+- SQL Unterabfrage: Text überarbeitet, zus. Aufgabe
+- Einige Rechschreibfehler in mehreren ABs korrigiert
+
 23.11.2023
 - AB Entität und Beziehung, AB ER-Modell: Text überarbeitet
 - Primär- und Fremdschlüssel: Lösung korrigiert
   Sicherungsaufgabe hinzugefügt
-- Text SQL Einstieg korrigiert
+- SQL Einstieg: Text korrigiert
 
 02.11.2023
 - BlueJ-Projekt (DatabaseConnector) in UTF-8 umgewandelt

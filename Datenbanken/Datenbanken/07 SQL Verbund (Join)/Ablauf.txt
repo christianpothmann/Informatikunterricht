@@ -1,5 +1,5 @@
 1. Präsentation: Join schrittweise erarbeiten
-   Wie würdest du den Dozent des Kurses Java finden?
+   Wie würdest du den Dozent des Kurses "Java" finden?
    So wird es mit SQL gemacht.
 
 2. SuS lesen Text und bearbeiten Aufgabe 1
