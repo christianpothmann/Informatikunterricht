@@ -17,10 +17,17 @@ public class ZahlenListe
     {
         int i;
         long a1, a2, a3;
+        if (pLänge <= 0) 
+        { 
+            return; 
+        }
         a1 = 1;
         a2 = 1;
         zl.append(a1);
-        zl.append(a2);
+        if (pLänge > 1) 
+        { 
+            zl.append(a2); 
+        }
         for (i = 2; i < pLänge; i++)
         {
             a3 = a1 + a2;

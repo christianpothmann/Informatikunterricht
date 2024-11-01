@@ -3,7 +3,7 @@ import console.*;
 /*
  * Adressbuch (Musterlösung)
  * C. Pothmann, 06.03.2017
- * überarbeitet 29.06.2021
+ * überarbeitet 29.06.2021, 31.10.2024
  */
 public class Adressbuch
 {
@@ -26,7 +26,7 @@ public class Adressbuch
      * Sucht einen Kontakt anhand des Nachnames aus der Liste.
      * Falls der Kontakt existiert, wird er zurückgegeben, sonst null.
      */
-    public Kontakt suchen(String pname)
+    public Kontakt suchen(String pName)
     {
         Kontakt kAkt;
         // gehe die Liste von Anfang bis Ende durch
@@ -35,7 +35,7 @@ public class Adressbuch
         {
             kAkt = aListe.getContent();
             // vergleiche den aktuellen Namen der Liste mit dem gesuchten Namen
-            if (pname.equals(kAkt.getNachname()))
+            if (pName.equals(kAkt.getNachname()))
             {
                 // Name gefunden -> gib Kontakt zurück und beende die Methode
                 return kAkt;
@@ -44,6 +44,31 @@ public class Adressbuch
         }
         // wenn die Schleife endet, wurde der Name nicht gefunden
         return null;
+    }
+
+    /*
+     * Sucht einen Kontakt anhand des Nachnames aus der Liste.
+     * Falls der Kontakt existiert, wird er zurückgegeben, sonst null.
+     */
+    public boolean löschen(String pName)
+    {
+        Kontakt kAkt;
+        // gehe die Liste von Anfang bis Ende durch
+        aListe.toFirst();
+        while (aListe.hasAccess() == true)
+        {
+            kAkt = aListe.getContent();
+            // vergleiche den aktuellen Namen der Liste mit dem gesuchten Namen
+            if (pName.equals(kAkt.getNachname()))
+            {
+                // Name gefunden -> löschen den Kontakt und beende die Methode
+                aListe.remove();
+                return true;
+            }
+            aListe.next();
+        }
+        // wenn die Schleife endet, wurde der Name nicht gefunden
+        return false;
     }
 
     /*

@@ -16,16 +16,52 @@ public class ZahlenListe
     public void fibonacci(int pLänge)
     {
         int i, a1, a2, a3;
+
+        if (pLänge <= 0) 
+        { 
+            return; 
+        }
         a1 = 1;
         a2 = 1;
         zl.append(a1);
-        zl.append(a2);
+        if (pLänge > 1) 
+        { 
+            zl.append(a2); 
+        }
+
         for (i = 2; i < pLänge; i++)
         {
             a3 = a1 + a2;
             zl.append(a3);
             a1 = a2;
             a2 = a3;
+        }
+    }
+
+    /*
+     * Alternative, die die Listenelemente benutzt
+     */
+    public void fibonacciAlt(int pLänge)
+    {
+        int i, a1, a2;
+
+        if (pLänge <= 0) 
+        { 
+            return; 
+        }
+        zl.append(1);
+        if (pLänge > 1)  
+        { 
+            zl.append(1); 
+        }
+        
+        zl.toFirst();
+        for (i = 2; i < pLänge; i++)
+        {
+            a1 = zl.getContent();
+            zl.next();
+            a2 = zl.getContent();
+            zl.append(a1 + a2);
         }
     }
 
@@ -40,7 +76,7 @@ public class ZahlenListe
             i++;
         }
     }
-    
+
     public void main()
     {
         Console.clear();

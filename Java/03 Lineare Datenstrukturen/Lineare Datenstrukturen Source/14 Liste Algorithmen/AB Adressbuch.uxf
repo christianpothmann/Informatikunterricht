@@ -4,9 +4,9 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>351</x>
-      <y>78</y>
-      <w>208</w>
+      <x>455</x>
+      <y>156</y>
+      <w>247</w>
       <h>286</h>
     </coordinates>
     <panel_attributes>Adressbuch
@@ -16,20 +16,20 @@
 + Adressbuch()
 + einfügen(
       pKontakt: Kontakt)
-+ suchen(
-      pName: String): 
++ einfügenAlph(
+      pKontakt: Kontakt)
++ suchen(pName: String): 
       Kontakt
-+ namenAusgeben()
-+ löschen(
-      pName: String):
-      boolean</panel_attributes>
++ löschen(pName: String):
+      boolean
++ namenAusgeben()</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>663</x>
-      <y>65</y>
+      <x>806</x>
+      <y>143</y>
       <w>195</w>
       <h>117</h>
     </coordinates>
@@ -44,8 +44,8 @@ List
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>546</x>
-      <y>104</y>
+      <x>689</x>
+      <y>182</y>
       <w>143</w>
       <h>52</h>
     </coordinates>
@@ -56,10 +56,10 @@ List
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>624</x>
-      <y>234</y>
+      <x>767</x>
+      <y>299</y>
       <w>234</w>
-      <h>286</h>
+      <h>156</h>
     </coordinates>
     <panel_attributes>Kontakt
 -
@@ -68,20 +68,14 @@ List
 - telefon: String
 - email: String
 -
-+ Kontakt()
-+ Kontakt(
-      pn, pv, pt, pe: String)
-+ getNachname(): String
-+ setNachname(
-      pName: String)
 ...</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>52</x>
-      <y>78</y>
+      <x>156</x>
+      <y>156</y>
       <w>195</w>
       <h>182</h>
     </coordinates>
@@ -99,8 +93,8 @@ List
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>234</x>
-      <y>104</y>
+      <x>338</x>
+      <y>182</y>
       <w>143</w>
       <h>52</h>
     </coordinates>

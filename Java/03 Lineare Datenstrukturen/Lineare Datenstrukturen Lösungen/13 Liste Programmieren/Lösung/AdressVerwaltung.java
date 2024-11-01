@@ -68,6 +68,29 @@ public class AdressVerwaltung
     }
 
     /*
+     * Der Benutzer wird nach einem Namen gefragt.
+     * Falls vorhanden, wird der entsprechende Kontakt aus dem Adressbuch gelöscht.
+     */
+    public void kontaktLöschen()
+    {
+        String name;
+
+        Console.println("\n== Kontakt löschen ==");
+        Console.print("Nachname: ");
+        name = Console.readln();
+
+        if (aBuch.löschen(name) == true)
+        {
+            Console.println("Kontakt " + name + " gelöscht.");
+        }
+        else
+        {
+            Console.println("Es gibt keinen Kontakt mit diesem Namen.");
+        }
+        Console.readln();
+    }
+
+    /*
      * Gibt das Hauptmenü aus
      */
     public void main()
@@ -81,7 +104,8 @@ public class AdressVerwaltung
             Console.println("1. Neuer Kontakt");
             Console.println("2. Kontakte auflisten");
             Console.println("3. Kontaktdetails");
-            Console.println("4. Programm beenden");
+            Console.println("4. Kontakt löschen");            
+            Console.println("5. Programm beenden");
             wahl = Console.readInt();
             
             if (wahl == 1)
@@ -96,11 +120,15 @@ public class AdressVerwaltung
             {
                 kontaktDetails();
             }
-            else if (wahl != 4)
+            else if (wahl == 4)
+            {
+                kontaktLöschen();
+            }
+            else if (wahl != 5)
             {
                 Console.println("Falsche Eingabe"); 
             }
-        } while (wahl != 4);
+        } while (wahl != 5);
 
         Console.println("Auf Wiedersehen!");
     }

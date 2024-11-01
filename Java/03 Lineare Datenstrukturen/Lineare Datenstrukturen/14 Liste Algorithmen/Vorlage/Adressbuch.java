@@ -1,9 +1,8 @@
 import console.*;
 
 /*
- * Adressbuch (Musterlösung)
- * C. Pothmann, 06.03.2017
- * überarbeitet 29.06.2021
+ * Adressbuch
+ * (Name, Datum)
  */
 public class Adressbuch
 {
@@ -19,52 +18,66 @@ public class Adressbuch
      */
     public void einfügen(Kontakt pk)
     {
-        Kontakt kAkt;
-        aListe.toFirst();
-        while (aListe.hasAccess())
-        {
-            kAkt = aListe.getContent();
-            // falls der neue Name alphabetisch VOR dem aktuellen liegt, füge ein und beende die Methode
-            if (pk.getNachname().compareTo(kAkt.getNachname()) < 0)
-            {
-                aListe.insert(pk);
-                return;
-            }
-            aListe.next();
-        }
-        // falls der neue Name noch nicht eingefügt wurde, wird er ans Ende gehängt
         aListe.append(pk);
     }
 
     /*
+     * Der Kontakt pk wird alphabetisch sortiert eingefügt.
+     */
+    public void einfügenAlph(Kontakt pk)
+    {
+        // ... hier implementieren ...
+    }
+
+    /*
+     * ... Diese Methode verändern ...
+     * 
      * Sucht einen Kontakt anhand des Nachnames aus der Liste.
      * Falls der Kontakt existiert, wird er zurückgegeben, sonst null.
      */
-    public Kontakt suchen(String pname)
+    public Kontakt suchen(String pName)
     {
         Kontakt kAkt;
-
         // gehe die Liste von Anfang bis Ende durch
         aListe.toFirst();
         while (aListe.hasAccess() == true)
         {
             kAkt = aListe.getContent();
             // vergleiche den aktuellen Namen der Liste mit dem gesuchten Namen
-            if (pname.equals(kAkt.getNachname()))
+            if (pName.equals(kAkt.getNachname()))
             {
                 // Name gefunden -> gib Kontakt zurück und beende die Methode
                 return kAkt;
-            }
-            // falls der gesuchte Name alphabetisch VOR dem aktuellen liegt,
-            // ist die Schleife "vorbeigelaufen", d.h. der Name ist nicht in der Liste.
-            if (pname.compareTo(kAkt.getNachname()) < 0)
-            { 
-                return null;
             }
             aListe.next();
         }
         // wenn die Schleife endet, wurde der Name nicht gefunden
         return null;
+    }
+
+    /*
+     * Sucht einen Kontakt anhand des Nachnames aus der Liste.
+     * Falls der Kontakt existiert, wird er zurückgegeben, sonst null.
+     */
+    public boolean löschen(String pName)
+    {
+        Kontakt kAkt;
+        // gehe die Liste von Anfang bis Ende durch
+        aListe.toFirst();
+        while (aListe.hasAccess() == true)
+        {
+            kAkt = aListe.getContent();
+            // vergleiche den aktuellen Namen der Liste mit dem gesuchten Namen
+            if (pName.equals(kAkt.getNachname()))
+            {
+                // Name gefunden -> löschen den Kontakt und beende die Methode
+                aListe.remove();
+                return true;
+            }
+            aListe.next();
+        }
+        // wenn die Schleife endet, wurde der Name nicht gefunden
+        return false;
     }
 
     /*
@@ -87,4 +100,4 @@ public class Adressbuch
         Console.println("(" + anzahl + " Kontakte im Adressbuch.)");
         Console.readln();
     }     
-}   
+}

@@ -17,10 +17,18 @@ public class ZahlenListe
     {
         int i;
         BigInteger a1, a2, a3;
+
+		if (pLänge <= 0)
+		{ 
+            return; 
+        }
         a1 = new BigInteger("1");
         a2 = new BigInteger("1");
-        zlist.append(a1);
-        zlist.append(a2);
+        zl.append(a1);
+        if (pLänge > 1) 
+        { 
+            zl.append(a2); 
+        }
         for (i = 2; i < pLänge; i++)
         {
             a3 = a1.add(a2);

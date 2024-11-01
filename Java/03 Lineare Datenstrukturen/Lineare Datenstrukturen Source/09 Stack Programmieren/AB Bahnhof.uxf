@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.2">
-  <zoom_level>12</zoom_level>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>13</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>444</x>
-      <y>36</y>
-      <w>288</w>
-      <h>180</h>
+      <x>546</x>
+      <y>117</y>
+      <w>299</w>
+      <h>208</h>
     </coordinates>
     <panel_attributes>Stack
 template=Waggon
@@ -22,31 +22,18 @@ template=Waggon
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>552</x>
-      <y>204</y>
-      <w>84</w>
-      <h>108</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-/enthält/
-</panel_attributes>
-    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>444</x>
-      <y>288</y>
-      <w>240</w>
-      <h>108</h>
+      <x>871</x>
+      <y>130</y>
+      <w>234</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>Waggon
 --
 - farbe: String
 --
-+ Waggon(pfarbe: String)
++ Waggon(pFarbe: String)
 + getFarbe(): String
 
 
@@ -56,29 +43,30 @@ template=Waggon
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>36</x>
-      <y>48</y>
-      <w>288</w>
-      <h>144</h>
+      <x>169</x>
+      <y>130</y>
+      <w>247</w>
+      <h>182</h>
     </coordinates>
     <panel_attributes>Bahnhof
 --
 
 --
 + Bahnhof()
-+ fuellen()
++ füllen()
 + sortieren()
-+ ausgeben(gleis: Stack&lt;Waggon&gt;)
++ ausgeben(
+      pGleis: Stack&lt;Waggon&gt;)
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>312</x>
-      <y>72</y>
-      <w>156</w>
-      <h>72</h>
+      <x>403</x>
+      <y>156</y>
+      <w>169</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 - gleis1

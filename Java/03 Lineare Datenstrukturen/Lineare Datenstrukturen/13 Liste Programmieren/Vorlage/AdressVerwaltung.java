@@ -32,6 +32,15 @@ public class AdressVerwaltung
     }
 
     /*
+     * Der Benutzer wird nach einem Namen gefragt.
+     * Falls vorhanden, wird der zugehörige Kontakt gelöscht.
+     */
+    public void kontaktLöschen()
+    {
+        // ...
+    }
+
+    /*
      * Gibt das Hauptmenü aus
      */
     public void main()

@@ -1,39 +1,64 @@
+import console.*;
+
+/*
+ * Benutzerschnittstelle für das Adressbuch mit der Konsole
+ * C. Pothmann, 31.10.2024
+ */
 public class AdressVerwaltung
 {
-    // ...
+    private Adressbuch aBuch;
 
+    public AdressVerwaltung()
+    {
+        aBuch = new Adressbuch();
+    }
+
+    /*
+     * Der Benutzer gibt die Daten für einen neuen Kontakt ein. 
+     * Dieser wird am Ende der Liste eingefügt.
+     */
     public void kontaktAnlegen()
     {
         String n, v, t, e;
         Kontakt k;
 
-        Console.println("== Neuen Kontakt hinzufügen ==");
+        Console.println("\n== Neuen Kontakt hinzufügen ==");
         Console.print("Nachname: ");
         n = Console.readln();
-
-        // ... Weitere Daten analog
+        Console.print("Vorname:  ");
+        v = Console.readln();
+        Console.print("Telefon:  ");
+        t = Console.readln();
+        Console.print("Email:    ");
+        e = Console.readln();
         
-        // ... Kontakt erzeugen
-        // ... Kontakt ins Adressbuch einfügen
+        k = new Kontakt(n, v, t, e);
+        aBuch.einfügen(k);
 
         Console.println("Kontakt hinzugefügt.");
         Console.readln();
     }
 
+    /*
+     * Der Benutzer wird nach einem Namen gefragt.
+     * Falls vorhanden, werden die Kontaktdaten zu diesem Namen ausgegeben.
+     */
     public void kontaktDetails()
     {
         String name;
         Kontakt k;
 
-        Console.println("== Kontaktdetails ==");
+        Console.println("\n== Kontaktdetails ==");
         Console.print("Nachname: ");
         name = Console.readln();
 
-        // ... Kontakt im Adressbuch suchen
-
+        k = aBuch.suchen(name);
+        
         if (k != null)
         {
-            // ... Daten von k ausgeben
+            Console.println(k.getNachname() + ", " + k.getVorname());
+            Console.println("Telefon: " + k.getTelefon());
+            Console.println("Email:   " + k.getEmail());
         }
         else
         {
@@ -42,6 +67,10 @@ public class AdressVerwaltung
         Console.readln();
     }
 
+        /*
+     * Der Benutzer wird nach einem Namen gefragt.
+     * Falls vorhanden, wird der entsprechende Kontakt aus dem Adressbuch gelöscht.
+     */
     public void kontaktLöschen()
     {
         String name;
@@ -50,8 +79,7 @@ public class AdressVerwaltung
         Console.print("Nachname: ");
         name = Console.readln();
 
-		// Kontakt löschen, falls vorhanden
-        if ( ... )
+        if (aBuch.löschen(name) == true)
         {
             Console.println("Kontakt " + name + " gelöscht.");
         }
@@ -62,7 +90,20 @@ public class AdressVerwaltung
         Console.readln();
     }
 
-
+    /*
+     * Bringt die Kontakte in alphabetische Reihenfolge.
+     */
+    public void kontakteSortieren()
+    {
+        Console.println("\n== Kontakte sortieren ==");
+        aBuch.sortieren();
+        Console.println("Liste wurde sortiert.");
+        Console.readln();
+    }
+    
+    /*
+     * Gibt das Hauptmenü aus
+     */
     public void main()
     {
         int wahl;
@@ -75,7 +116,8 @@ public class AdressVerwaltung
             Console.println("2. Kontakte auflisten");
             Console.println("3. Kontaktdetails");
             Console.println("4. Kontakt löschen");            
-            Console.println("5. Programm beenden");
+            Console.println("5. Kontakte sortieren");
+            Console.println("6. Programm beenden");
             wahl = Console.readInt();
             
             if (wahl == 1)
@@ -94,11 +136,15 @@ public class AdressVerwaltung
             {
                 kontaktLöschen();
             }
-            else if (wahl != 5)
+            else if (wahl == 5)
+            {
+                kontakteSortieren();
+            }
+            else if (wahl != 6)
             {
                 Console.println("Falsche Eingabe"); 
             }
-        } while (wahl != 5);
+        } while (wahl != 6);
 
         Console.println("Auf Wiedersehen!");
     }
