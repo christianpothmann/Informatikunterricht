@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>78</y>
+      <w>156</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>valign=center
+ET</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>143</x>
+      <y>156</y>
+      <w>130</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>_Atr_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>117</y>
+      <w>39</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>338</x>
+      <y>91</y>
+      <w>91</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>m1=n
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <type>CustomElementImpl</type>
+    <coordinates>
+      <x>403</x>
+      <y>65</y>
+      <w>117</w>
+      <h>79</h>
+    </coordinates>
+    <panel_attributes>BT</panel_attributes>
+    <additional_attributes/>
+    <custom_code>int y = height/2 + 12 - textHeight()*textlines.size()/2;
+
+for(String textline : textlines) {
+	y += printCenter(textline,y);
+}
+
+Polygon p = new Polygon();
+p.addPoint(width/2, 0);
+p.addPoint(width, height/2);
+p.addPoint(width/2, height);
+p.addPoint(0, height/2);
+drawPolygon(p);</custom_code>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>507</x>
+      <y>91</y>
+      <w>91</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>m1=m
+fontsize=18</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0</additional_attributes>
+  </element>
+</diagram>

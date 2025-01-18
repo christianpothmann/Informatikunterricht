@@ -1,3 +1,10 @@
+18.01.2025
+- Fehler korrigiert: AB Primär- und Fremdschlüssel, AB SQL Rechnen, Text Normalisierung
+- PR ER-Modell: Folie hinzugefügt
+- AB Normalisierung 2NF: neue Teilaufgabe zu Kardinalitäten
+- AB DB und Java: kleinere Überarbeitung
+- Datenschutz überarbeitet
+
 15.06.2024
 - Normalisierung: Text ergänzt (funktionale Abhängigkeit)
 - SQL Unterabfrage: Text überarbeitet, zus. Aufgabe
