@@ -1,0 +1,9 @@
+Das Zusammenspiel von get-Methoden, Rückgabewert und Aufruf in der 
+main-Methode ist komplex.
+
+Daher empfiehlt sich, nach der Präsentation erst die Übung auf Papier 
+durchzuführen, bei der die Schüler*innen vom Beispiel auf die Aufgabe
+übertragen können. Dies ist auch eine gute Vorbereitung auf (handschriftliche)
+Klausuren.
+
+Anschließend wird die Programmieraufgabe leichter fallen.

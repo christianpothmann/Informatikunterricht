@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.3.0">
+<diagram program="umlet" version="15.0.0">
   <zoom_level>13</zoom_level>
   <element>
     <id>Relation</id>
@@ -540,7 +540,7 @@ fg=red</panel_attributes>
       <h>52</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-r1=h=800
+r1=h=600
 fg=red
 </panel_attributes>
     <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>

@@ -1,0 +1,11 @@
+Zugriffsmodifikator
+
+- PR Zugriffsmodifikator
+- Aufg. a) (Fehler im Code) in EA, Sichern
+- Aufg. b) i) und ii) im UG erörtern (für EA zu schwierig; get-Methoden noch weglassen)
+- Aufg. b) iii) (Methodenköpfe und Beschreibung)in EA, Sichern
+- PR Softwarefehler
+  public/private nur ein Mechanismus zur Fehlervermeidung
+- Aufg. c), d), e) am PC
+- SuS werden dabei Fehler machen -> nach einiger Zeit PR Modellierung von Klassen
+- Sichern: SuS vergleichen mit Musterlösung

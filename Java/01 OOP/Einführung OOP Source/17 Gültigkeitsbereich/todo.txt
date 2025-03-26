@@ -1,3 +1,0 @@
-Einfache Aufgabe zum Einstieg / zur Übung in der nächsten Std.
-Gültigkeitsbereich markieren
-Begriffe Attribut, Variable, Parameter benennen

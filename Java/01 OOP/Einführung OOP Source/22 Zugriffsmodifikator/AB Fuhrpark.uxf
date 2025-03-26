@@ -1,13 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.3.0">
-  <zoom_level>13</zoom_level>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>16</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>78</x>
-      <y>104</y>
-      <w>130</w>
-      <h>117</h>
+      <x>448</x>
+      <y>304</y>
+      <w>160</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Fuhrpark
+-
+
+-
+
+*         ?*
+
+fontsize=16
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>816</x>
+      <y>304</y>
+      <w>288</w>
+      <h>304</h>
+    </coordinates>
+    <panel_attributes>Fahrzeug
+-
+- tankGröße: double
+- füllstand: double
+- kmStand: double
+-
+
+
+*                 ?*
+
+fontsize=16
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>336</y>
+      <w>256</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>140.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1232</x>
+      <y>304</y>
+      <w>160</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>Fuhrpark
 -
@@ -21,10 +76,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>325</x>
-      <y>104</y>
-      <w>234</w>
-      <h>247</h>
+      <x>1536</x>
+      <y>304</y>
+      <w>288</w>
+      <h>304</h>
     </coordinates>
     <panel_attributes>Fahrzeug
 -
@@ -44,13 +99,126 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>195</x>
-      <y>130</y>
-      <w>156</w>
-      <h>52</h>
+      <x>1376</x>
+      <y>336</y>
+      <w>192</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 - f1, - f2</panel_attributes>
     <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>768</x>
+      <y>176</y>
+      <w>384</w>
+      <h>480</h>
+    </coordinates>
+    <panel_attributes>*Programmierer Bob*
+Datenmodell
+lt=.
+fontsize=18
+fg=#008E0E</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>336</x>
+      <y>176</y>
+      <w>384</w>
+      <h>480</h>
+    </coordinates>
+    <panel_attributes>*Programmiererin Alice*
+Hauptklasse
+lt=.
+fg=blue
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>752</y>
+      <w>320</w>
+      <h>304</h>
+    </coordinates>
+    <panel_attributes>Fahrzeug
+-
+- tankGröße: double
+- füllstand: double
+- kmStand: double
+-
++ Fahrzeug()
++ setTankGröße(pt: double)
++ setFüllstand(pt: double)
++ setKmStand(pkm: double)
++ volltanken()
++ fahren(pkm: double)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1200</x>
+      <y>752</y>
+      <w>320</w>
+      <h>304</h>
+    </coordinates>
+    <panel_attributes>Fahrzeug
+-
+- tankGröße: double
+- füllstand: double
+- kmStand: double
+-
++ Fahrzeug(pt: double)
++ tanken(pt: double)
++ fahren(pkm: double)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1616</x>
+      <y>752</y>
+      <w>320</w>
+      <h>304</h>
+    </coordinates>
+    <panel_attributes>Fahrzeug
+-
+- tankGröße: double
+- füllstand: double
+- kmStand: double
+-
++ Fahrzeug(pt: double)
++ tanken(pt: double)
++ fahren(pkm: double)
+*+ getTankGröße(): double*
+*+ getFüllstand(): double*
+*+ getKmStand(): double*
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>496</x>
+      <y>752</y>
+      <w>160</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>Fuhrpark
+-
+
+-
++ Fuhrpark()
++ main()
+</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>

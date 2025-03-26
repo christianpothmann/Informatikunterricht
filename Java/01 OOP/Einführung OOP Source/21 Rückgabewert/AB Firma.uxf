@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>26</y>
+      <w>156</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Firma
+-
+
+-
+Firma()
+main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>611</x>
+      <y>26</y>
+      <w>312</w>
+      <h>247</h>
+    </coordinates>
+    <panel_attributes>Mitarbeiter
+-
+name: String
+brutto: double
+-
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>455</x>
+      <y>52</y>
+      <w>182</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m1, m2</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1001</x>
+      <y>26</y>
+      <w>117</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Firma
+-
+
+-
+Firma()
+main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1235</x>
+      <y>26</y>
+      <w>234</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>Mitarbeiter
+-
+name: String
+brutto: double
+-
+Mitarbeiter(pn: String)
+setBrutto(pb: double)
+erhöheBrutto(pb: double)
+getName(): String
+getBrutto(): double
+getNetto(): double
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1105</x>
+      <y>52</y>
+      <w>156</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m1, m2</panel_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1027</x>
+      <y>351</y>
+      <w>117</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>: Firma
+-
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1235</x>
+      <y>299</y>
+      <w>143</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>: Mitarbeiter
+-
+name = "Meier"
+brutto = 2300.0
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1235</x>
+      <y>403</y>
+      <w>143</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>: Mitarbeiter
+-
+name = "Müller"
+brutto = 5500.0
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1131</x>
+      <y>325</y>
+      <w>130</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m1</panel_attributes>
+    <additional_attributes>10.0;40.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1131</x>
+      <y>390</y>
+      <w>130</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m2</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>13</x>
+      <y>26</y>
+      <w>221</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Sprite
+-
+speed: double
+...
+-
+...
+setSpeed(ps: double)
+
+getSpeed(): double
+...
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
