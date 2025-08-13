@@ -80,7 +80,7 @@ public class Zahlenliste
         i = 0;
         while (i < liste.length)
         {
-            liste[i] = i * i;
+            liste[i] = (i+1) * (i+1);
             i++;
         }
     }

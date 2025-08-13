@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.3.0">
+<diagram program="umlet" version="15.0.0">
   <zoom_level>13</zoom_level>
   <element>
     <id>UMLClass</id>
@@ -76,7 +76,7 @@
       <h>65</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-lt
+- lt
 </panel_attributes>
     <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -105,7 +105,7 @@ lt
       <h>52</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-zl</panel_attributes>
+- zl</panel_attributes>
     <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
@@ -133,7 +133,7 @@ zl</panel_attributes>
       <h>65</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-tl
+- tl
 </panel_attributes>
     <additional_attributes>70.0;20.0;10.0;20.0</additional_attributes>
   </element>

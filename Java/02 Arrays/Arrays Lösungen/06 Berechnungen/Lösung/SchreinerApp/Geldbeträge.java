@@ -5,13 +5,13 @@ import console.*;
  * Summe, Mittelwert, Min/Max, Zählen von Werten
  * Christian Pothmann, 28.01.2022
  */
-public class Zahlenliste
+public class Geldbeträge
 {   
-    private int[] liste;
+    private double[] liste;
 
-    public Zahlenliste()
+    public Geldbeträge()
     {
-        liste = new int[20];
+        liste = new double[20];
     }
 
     /*
@@ -35,17 +35,25 @@ public class Zahlenliste
         int i;
         for (i = 0; i < liste.length; i++)
         {
-            liste[i] = (int)(Math.random() * 21);
+            if (Math.random() < 0.9)
+            {
+                liste[i] = Math.random() * 201.0;
+            }
+            else
+            {
+                liste[i] = 0.0;
+            }
         }
     }
 
     /*
      * Gibt die Summe aller Elemente der Liste zurück.
      */
-    public int summe()
+    public double summe()
     {
-        int i, s;
-        s = 0;
+        int i;
+        double s;
+        s = 0.0;
         for (i = 0; i < liste.length; i++)
         {
             s = s + liste[i];
@@ -59,16 +67,17 @@ public class Zahlenliste
     public double mittelwert()
     {
         double m;
-        m = (double)summe() / liste.length;
+        m = summe() / liste.length;
         return m;
     }
 
     /*
      * Gibt das Minimum aller Werte der Liste zurück.
      */
-    public int minimum()
+    public double minimum()
     {
-        int i, min;
+        int i;
+        double min;
         min = liste[0];
         for (i = 1; i < liste.length; i++)
         {
@@ -83,9 +92,10 @@ public class Zahlenliste
     /*
      * Gibt das Maximum aller Werte der Liste zurück.
      */
-    public int maximum()
+    public double maximum()
     {
-        int i, max;
+        int i;
+        double max;
         max = liste[0];
         for (i = 1; i < liste.length; i++)
         {
@@ -106,7 +116,7 @@ public class Zahlenliste
         a = 0;
         for (i = 0; i < liste.length; i++)
         {
-            if (liste[i] == 0)
+            if (liste[i] == 0.0)
             {
                 a = a + 1;
             }
@@ -118,10 +128,10 @@ public class Zahlenliste
      * Gibt die (echt) zweitgrößte Zahl der Liste zurück.
      * Im Sonderfall, dass alle Elemente des Arrays den gleichen Wert haben, wird eine Mitteilung auf der Konsole gemacht.
      */
-    public int zweitgroesste()
+    public double zweitgroesste()
     {
         int i;
-        int max1, max2;
+        double max1, max2;
 
         // Anfangswerte für max1 und max2:
         // Die ersten beiden unterschiedlichen Zahlen der Liste

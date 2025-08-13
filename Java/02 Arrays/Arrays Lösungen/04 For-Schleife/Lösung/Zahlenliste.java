@@ -2,13 +2,13 @@ import console.*;
 
 /*
  * Verschiedene Methoden, ein Array mit der for-Schleife zu füllen.
- * C. Pothmann, 17.06.2019
+ * C. Pothmann, 25.08.2020
  */
-public class ArrayForSchleife
+public class Zahlenliste
 {
     private int[] liste;
     
-    public ArrayForSchleife()
+    public Zahlenliste()
     {
         liste = new int[10];
     }
@@ -141,46 +141,5 @@ public class ArrayForSchleife
         {
             liste[i] = liste[i-1] + liste[i-2];
         }
-    }
-
-    public void main()
-    {
-        Console.clear();
-        Console.println("=== Verschiedene Füllmethoden für ein Array ===");
-        eingeben();
-        Console.println("Sie haben folgende Zahlen eingegeben:");
-        ausgeben();
-        
-        Console.println("\nDas Array wird mit Zufallszahlen gefüllt.");        
-        füllenZufall();
-        ausgeben();
-        
-        Console.println("\nDas Array wird linear von 0 bis 90 gefüllt.");
-        füllenLinear10();
-        ausgeben();
-
-        Console.println("\nDas Array wird mit den Quadratzahlen gefüllt.");
-        füllenQuadrat();
-        ausgeben();
-
-        Console.println("\nDas Array wird linear von 100 bis 900 gefüllt.");
-        füllenLinear100();
-        ausgeben();
-
-        Console.println("\nDas Array wird linear von -75 bis 150 gefüllt.");        
-        füllenLinear25();
-        ausgeben();
-
-        Console.println("\nDas Array wird mit wachsenden Werten gefüllt.");
-        füllenWachsend();
-        ausgeben();
-
-        Console.println("\nDas Array wird mit den 2er-Potenzen gefüllt.");
-        füllenPotenzen();
-        ausgeben();
-
-        Console.println("\nDas Array wird mit den Fibonacci-Zahlen gefüllt.");
-        füllenFibonacci();
-        ausgeben();
     }
 }

@@ -1,0 +1,27 @@
+Array - Berechnungen
+
+Einstieg
+- bisher: Arrays mit Zahlen gefüllt
+- in der Realität werden in der Informatik oft gesammelte Daten ausgewertet
+- Bsp.-Liste vom AB zeigen (Umsätze Handwerksaufträge)
+  Was könnte eine Firma interessieren?
+	- Gewinn für Eigentümer / Finanzamt
+	- Durchschnittl. Umsatz pro Auftrag
+	- Anzahl Ausfälle
+	- Steigerung gegenüber Vorjahr (usw.)
+- Relevanz: Welches ist die größte europ. Firma (Börsenwert)? -> SAP
+	- Produktionsplanung
+	- Zahlungsströme in großen Firmen
+
+Erarbeiten
+- Wdh.: was sind Grundbestandteile von Algorithmen?
+	- Variablen, Zuweisungen
+	- Rechnungen
+	- Schleifen
+	- Verzweigungen
+- Jeden Algorithmus einzeln durcharbeiten
+  umganssprachlich, Diagramm, Java
+
+Abschluss
+- Relevanz Schulinformatik:
+	- Summe, Min/Max, Zählen nach Kriterium in vielen Abituraufgaben

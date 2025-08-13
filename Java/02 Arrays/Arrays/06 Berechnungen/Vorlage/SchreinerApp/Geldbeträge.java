@@ -3,13 +3,13 @@ import console.*;
  * Algorithmen für Arrays:
  * Summe, Mittelwert, Min/Max, Zählen von Werten
  */
-public class Zahlenliste
+public class Geldbeträge
 {   
-    private int[] liste;
+    private double[] liste;
 
-    public Zahlenliste()
+    public Geldbeträge()
     {
-        liste = new int[20];
+        liste = new double[20];
     }
 
     // Programmiere die folgenden Methoden: /////////////////////////////////////////////////
@@ -17,7 +17,7 @@ public class Zahlenliste
     /*
      * Gibt die Summe aller Elemente der Liste zurück.
      */
-    public int summe()
+    public double summe()
     {
     }
 
@@ -31,19 +31,19 @@ public class Zahlenliste
     /*
      * Gibt das Minimum aller Werte der Liste zurÃ¼ck.
      */
-    public int minimum()
+    public double minimum()
     {
     }
 
     /*
-     * Gibt das Maximum aller Werte der Liste zurÃ¼ck.
+     * Gibt das Maximum aller Werte der Liste zurück.
      */
-    public int maximum()
+    public double maximum()
     {
     }
    
     /*
-     * Gibt die Anzahl der Elemente zurÃ¼ck, die den Wert 0 haben.
+     * Gibt die Anzahl der Elemente zurück, die den Wert 0 haben.
      */
     public int anzahlNullen()
     {
@@ -65,14 +65,14 @@ public class Zahlenliste
     }
 
     /*
-     * Füllt die Liste mit Zufallszahlen zw. -10 und 10 
+     * Füllt die Liste mit Zufallszahlen zw. -100 und 100
      */
     public void fuellenZufall()
     {
         int i;
         for (i = 0; i < liste.length; i++)
         {
-            liste[i] = (int)(Math.random() * 21);
+            liste[i] = Math.random() * 201.0;
         }
     }
 }

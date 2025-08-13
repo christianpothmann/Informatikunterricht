@@ -1,5 +1,13 @@
 Algorithmen
 
+- Plenum, Vorwissen abrufen
+  Begriff Algorithmus schon mal gehört? Beispiele?
+	- Google-Suche
+	- Vorschläge bei Youtube / personalisierte Werbung
+	- Navigationssystem
+	- Bewegung von Robotern
+	- Schufa-Score (etc.) 
+
 - Präsentation
   Hinweis: Bisher Algorithmen nur in Java formuliert
   Neue Darstellung in Umgangsprache / Diagramm, unabh. von Programmiersprache
@@ -10,7 +18,7 @@ Algorithmen
   Formulierungen erarbeiten, wie man eine for-Schleife beschreiben kann,
   ohne die Variable i zu erwähnen
   Ziel: Algorithmus so einfach wie möglich zu beschreiben, aber mit
-  allen nötigen Details -> ein Programmierer könnte das dan ohne Nachdenken umsetzen
+  allen nötigen Details -> ein Programmierer könnte das dann ohne Nachdenken umsetzen.
   Diagramme verwenden die umgangsprachlichen Formulierungen
   
 - Abschluss:
